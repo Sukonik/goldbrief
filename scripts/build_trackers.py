@@ -56,7 +56,7 @@ def visuals(s):
                 f'<p class="last-review">Listing status is from the Markets page watchlist ({len(markets_doc["markets"])} entries), checked {markets_doc["updated"]}. Verify against exchanges and SEC filings.</p></div></section>'
                 f'<section><div class="container"><p class="eyebrow">News coverage</p><h2 class="section-title">Curated stories by month and label.</h2><div class="surface-panel">{bars(by_month)}</div><div class="surface-panel">{bars(by_type)}</div>'
                 f'<p class="last-review">Counts of curated stories only, not of all AI news. Planned: usage, funding and valuation charts once reliable, dated datasets exist.</p></div></section>')
-    return re.sub(r'<section><div class="container"><p class="eyebrow">Coverage breakdown</p>.*?</section>', lambda m: sections, s, count=1, flags=re.S)
+    return re.sub(r'<section><div class="container"><p class="eyebrow">Coverage breakdown</p>.*?(?=</main>)', lambda m: sections, s, count=1, flags=re.S)
 
 grid("usa"); grid("international"); patch("visuals.html", visuals)
 print(f"Rebuilt trackers: {len(companies)} organizations, {len(news_doc['news'])} stories")
