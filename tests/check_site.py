@@ -25,7 +25,7 @@ for p in ["companies","news","apps","markets","glossary","encyclopedia","daily",
         if not isinstance(x,dict):errors.append(f"Bad dataset type: {p}")
     except Exception as e:errors.append(f"Cannot load data/{p}.json: {e}")
 style=(root/"css/goldbrief.css").read_text()
-if "@media(max-width:1199px)" not in style:errors.append("Missing mobile single-nav breakpoint")
+if "@media(max-width:1023px)" not in style:errors.append("Missing mobile single-nav breakpoint")
 if "nav-drawer" not in (root/"js/main.js").read_text():errors.append("No mobile navigation controller")
 print(json.dumps({"result":"FAIL" if errors else "PASS","pages":len(pages),"checked_files":len(files)+len(assets)+9,"errors":errors},indent=2))
 sys.exit(1 if errors else 0)

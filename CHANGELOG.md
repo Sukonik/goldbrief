@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+- Desktop header is now six grouped dropdown menus (hover, click, keyboard); Resources page renamed **Tools**, Trust labeled **Editorial policy**; hamburger breakpoint lowered to 1024px.
+- Apps directory expanded from 20 to 112 apps in 17 categories with location filter, per-category cautions and a six-question checklist.
+- UI/UX page no longer lists the project's own repositories.
+- Daily workflow: browser-tooling failures no longer block the headline edition.
+
 ## 1.0.0 — 2026-10-27 (Build 1)
 Live: https://sukonik.github.io/goldbrief/
 

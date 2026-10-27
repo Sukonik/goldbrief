@@ -1,146 +1,1014 @@
 {
   "updated": "2026-10-27",
-  "note": "Directory, not endorsement; product access and policy may change.",
+  "note": "Directory, not endorsement. Descriptions are GoldBrief's summaries of what each product is for. Pricing, free tiers, account requirements, usage limits and privacy terms change often and are deliberately not stated here: check the official site before you sign up. Listing order is alphabetical, not a ranking.",
   "apps": [
+    {
+      "name": "Adobe Firefly",
+      "company": "Adobe",
+      "country": "United States",
+      "category": "Images",
+      "description": "Image generation and editing inside Adobe's tools.",
+      "best_for": "Designers already using Adobe",
+      "url": "https://firefly.adobe.com/"
+    },
+    {
+      "name": "Adobe Podcast",
+      "company": "Adobe",
+      "country": "United States",
+      "category": "Audio",
+      "description": "Speech cleanup and enhancement.",
+      "best_for": "Improving recorded voice",
+      "url": "https://podcast.adobe.com/"
+    },
+    {
+      "name": "Aider",
+      "company": "Aider (open source)",
+      "country": "Open source",
+      "category": "Coding",
+      "description": "Open-source terminal pair-programming tool.",
+      "best_for": "Developers who like the command line",
+      "url": "https://aider.chat/"
+    },
+    {
+      "name": "AIVA",
+      "company": "AIVA Technologies",
+      "country": "Luxembourg",
+      "category": "Music",
+      "description": "AI composer for instrumental and soundtrack music.",
+      "best_for": "Background and soundtrack music",
+      "url": "https://www.aiva.ai/"
+    },
+    {
+      "name": "Amazon Q Developer",
+      "company": "Amazon",
+      "country": "United States",
+      "category": "Coding",
+      "description": "AI coding assistant tied to AWS tooling.",
+      "best_for": "AWS developers",
+      "url": "https://aws.amazon.com/q/developer/"
+    },
+    {
+      "name": "Be My Eyes",
+      "company": "Be My Eyes",
+      "country": "Denmark",
+      "category": "Accessibility",
+      "description": "Visual assistance app with an AI describer for blind and low-vision users.",
+      "best_for": "Describing photos and surroundings",
+      "url": "https://www.bemyeyes.com/"
+    },
+    {
+      "name": "Black Forest Labs",
+      "company": "Black Forest Labs",
+      "country": "Germany",
+      "category": "Images",
+      "description": "Developer of the FLUX image models.",
+      "best_for": "Developers and enthusiasts using open image models",
+      "url": "https://blackforestlabs.ai/"
+    },
+    {
+      "name": "Bolt.new",
+      "company": "StackBlitz",
+      "country": "United States",
+      "category": "Coding",
+      "description": "Describe an app and get a working prototype in the browser.",
+      "best_for": "Prototypes without local setup",
+      "url": "https://bolt.new/"
+    },
+    {
+      "name": "Canva",
+      "company": "Canva",
+      "country": "Australia",
+      "category": "Design",
+      "description": "AI-assisted graphics, presentations and editing.",
+      "best_for": "Non-designers making graphics",
+      "url": "https://www.canva.com/"
+    },
+    {
+      "name": "CapCut",
+      "company": "ByteDance",
+      "country": "China",
+      "category": "Video",
+      "description": "Video editor with AI captions and effects.",
+      "best_for": "Social video editing",
+      "url": "https://www.capcut.com/"
+    },
+    {
+      "name": "Character.AI",
+      "company": "Character Technologies",
+      "country": "United States",
+      "category": "Characters",
+      "description": "Chat with AI characters made by the community.",
+      "best_for": "Entertainment and role-play; supervise young users",
+      "url": "https://character.ai/"
+    },
     {
       "name": "ChatGPT",
       "company": "OpenAI",
+      "country": "United States",
       "category": "Assistant",
-      "description": "Writing, coding, planning and explaining",
+      "description": "General assistant for writing, coding, analysis and planning.",
+      "best_for": "Everyday questions, drafting, brainstorming",
       "url": "https://chatgpt.com/"
     },
     {
       "name": "Claude",
       "company": "Anthropic",
+      "country": "United States",
       "category": "Assistant",
-      "description": "Documents, writing, coding and analysis",
+      "description": "Assistant for documents, writing, coding and analysis.",
+      "best_for": "Long documents, careful writing, coding help",
       "url": "https://claude.ai/"
     },
     {
-      "name": "Gemini",
-      "company": "Google",
-      "category": "Assistant",
-      "description": "Multimodal assistance and Google-connected tools",
-      "url": "https://gemini.google.com/"
+      "name": "Claude Code",
+      "company": "Anthropic",
+      "country": "United States",
+      "category": "Coding",
+      "description": "Command-line coding agent that works in your repository.",
+      "best_for": "Developers comfortable reviewing agent changes",
+      "url": "https://docs.claude.com/en/docs/claude-code/overview"
     },
     {
-      "name": "Meta AI",
-      "company": "Meta",
-      "category": "Assistant",
-      "description": "AI-powered assistance and tools in Meta services",
-      "url": "https://www.meta.ai/"
+      "name": "Cline",
+      "company": "Cline",
+      "country": "United States",
+      "category": "Coding",
+      "description": "Open-source coding agent for VS Code.",
+      "best_for": "Developers who want to approve each step",
+      "url": "https://cline.bot/"
     },
     {
-      "name": "Perplexity",
-      "company": "Perplexity",
+      "name": "ComfyUI",
+      "company": "Comfy",
+      "country": "Open source",
+      "category": "Developer",
+      "description": "Node-based tool for image and video model workflows.",
+      "best_for": "Advanced image-generation users",
+      "url": "https://www.comfy.org/"
+    },
+    {
+      "name": "Consensus",
+      "company": "Consensus",
+      "country": "United States",
       "category": "Research",
-      "description": "Find answers with references that still need checking",
-      "url": "https://www.perplexity.ai/"
+      "description": "Search engine for findings in scientific papers.",
+      "best_for": "Checking what research says on a question",
+      "url": "https://consensus.app/"
     },
     {
-      "name": "Le Chat",
-      "company": "Mistral AI",
-      "category": "Assistant",
-      "description": "Multilingual assistant from France-based Mistral",
-      "url": "https://chat.mistral.ai/"
-    },
-    {
-      "name": "MiniMax",
-      "company": "MiniMax",
-      "category": "Creative",
-      "description": "AI models and multimodal generation",
-      "url": "https://www.minimax.io/"
-    },
-    {
-      "name": "Suno",
-      "company": "Suno",
-      "category": "Music",
-      "description": "Music creation and audio experimentation; check rights",
-      "url": "https://suno.com/"
-    },
-    {
-      "name": "PixAI",
-      "company": "PixAI",
-      "category": "Images",
-      "description": "Illustration and character creation; check policies",
-      "url": "https://pixai.art/"
-    },
-    {
-      "name": "Talkie",
-      "company": "Talkie",
-      "category": "Characters",
-      "description": "Interactive AI character and story experiences; check privacy",
-      "url": "https://www.talkie-ai.com/"
-    },
-    {
-      "name": "Hailuo AI",
-      "company": "MiniMax",
-      "category": "Video",
-      "description": "AI video generation and creative storytelling",
-      "url": "https://hailuoai.video/"
-    },
-    {
-      "name": "Hugging Face",
-      "company": "Hugging Face",
-      "category": "Developer",
-      "description": "Community models, datasets and open tools",
-      "url": "https://huggingface.co/"
-    },
-    {
-      "name": "ElevenLabs",
-      "company": "ElevenLabs",
-      "category": "Audio",
-      "description": "Voice and audio tools with consent requirements",
-      "url": "https://elevenlabs.io/"
-    },
-    {
-      "name": "Canva",
-      "company": "Canva",
-      "category": "Design",
-      "description": "AI-assisted graphics, presentations and editing",
-      "url": "https://www.canva.com/"
-    },
-    {
-      "name": "Adobe Firefly",
-      "company": "Adobe",
-      "category": "Images",
-      "description": "Image generation and design editing",
-      "url": "https://firefly.adobe.com/"
-    },
-    {
-      "name": "NotebookLM",
-      "company": "Google",
-      "category": "Learning",
-      "description": "Research and study using documents you provide",
-      "url": "https://notebooklm.google.com/"
-    },
-    {
-      "name": "Ollama",
-      "company": "Ollama",
-      "category": "Developer",
-      "description": "Run supported AI models locally",
-      "url": "https://ollama.com/"
-    },
-    {
-      "name": "Qwen",
-      "company": "Alibaba Cloud",
-      "category": "Developer",
-      "description": "Multilingual open and hosted AI models",
-      "url": "https://qwenlm.github.io/"
-    },
-    {
-      "name": "DeepSeek",
-      "company": "DeepSeek",
-      "category": "Assistant",
-      "description": "AI assistant and reasoning models",
-      "url": "https://www.deepseek.com/"
+      "name": "Continue",
+      "company": "Continue",
+      "country": "United States",
+      "category": "Coding",
+      "description": "Open-source AI coding assistant for VS Code and JetBrains.",
+      "best_for": "Developers who want to choose their own model",
+      "url": "https://www.continue.dev/"
     },
     {
       "name": "Cursor",
       "company": "Anysphere",
+      "country": "United States",
       "category": "Coding",
-      "description": "AI-assisted code editor and development workflow",
+      "description": "AI-first code editor.",
+      "best_for": "Developers who want AI in the editor",
       "url": "https://cursor.com/"
+    },
+    {
+      "name": "DeepL",
+      "company": "DeepL",
+      "country": "Germany",
+      "category": "Writing",
+      "description": "Translation and writing improvement.",
+      "best_for": "Translating and polishing text",
+      "url": "https://www.deepl.com/"
+    },
+    {
+      "name": "DeepSeek",
+      "company": "DeepSeek",
+      "country": "China",
+      "category": "Assistant",
+      "description": "Assistant from the Chinese lab behind open-weight DeepSeek models.",
+      "best_for": "Reasoning-style questions; users comfortable with data-location questions",
+      "url": "https://www.deepseek.com/"
+    },
+    {
+      "name": "Descript",
+      "company": "Descript",
+      "country": "United States",
+      "category": "Video",
+      "description": "Edit audio and video by editing a transcript.",
+      "best_for": "Podcasters and video editors",
+      "url": "https://www.descript.com/"
+    },
+    {
+      "name": "Doubao",
+      "company": "ByteDance",
+      "country": "China",
+      "category": "Assistant",
+      "description": "Consumer assistant from ByteDance, mainly for Chinese-language users.",
+      "best_for": "Chinese-language chat",
+      "url": "https://www.doubao.com/"
+    },
+    {
+      "name": "Duolingo",
+      "company": "Duolingo",
+      "country": "United States",
+      "category": "Learning",
+      "description": "Language learning with AI-powered practice features.",
+      "best_for": "Language learners",
+      "url": "https://www.duolingo.com/"
+    },
+    {
+      "name": "ElevenLabs",
+      "company": "ElevenLabs",
+      "country": "United States",
+      "category": "Audio",
+      "description": "Realistic text-to-speech, dubbing and voice tools.",
+      "best_for": "Narration and audiobooks; use only voices you have rights to",
+      "url": "https://elevenlabs.io/"
+    },
+    {
+      "name": "Elicit",
+      "company": "Elicit",
+      "country": "United States",
+      "category": "Research",
+      "description": "Search and summarize academic papers.",
+      "best_for": "Literature reviews",
+      "url": "https://elicit.com/"
+    },
+    {
+      "name": "Fireflies",
+      "company": "Fireflies.ai",
+      "country": "United States",
+      "category": "Meetings",
+      "description": "Meeting recorder and summaries.",
+      "best_for": "Teams that need meeting records",
+      "url": "https://fireflies.ai/"
+    },
+    {
+      "name": "Gamma",
+      "company": "Gamma",
+      "country": "United States",
+      "category": "Productivity",
+      "description": "Generates presentations and documents from prompts.",
+      "best_for": "Quick slide drafts",
+      "url": "https://gamma.app/"
+    },
+    {
+      "name": "Gemini",
+      "company": "Google",
+      "country": "United States",
+      "category": "Assistant",
+      "description": "Multimodal assistant connected to Google services.",
+      "best_for": "People who already use Google Workspace",
+      "url": "https://gemini.google.com/"
+    },
+    {
+      "name": "Gemini for Workspace",
+      "company": "Google",
+      "country": "United States",
+      "category": "Productivity",
+      "description": "AI in Gmail, Docs, Sheets and Meet.",
+      "best_for": "Organizations on Google Workspace",
+      "url": "https://workspace.google.com/solutions/ai/"
+    },
+    {
+      "name": "GitHub Copilot",
+      "company": "GitHub (Microsoft)",
+      "country": "United States",
+      "category": "Coding",
+      "description": "Code suggestions and chat inside popular editors.",
+      "best_for": "Developers in VS Code, JetBrains and GitHub",
+      "url": "https://github.com/features/copilot"
+    },
+    {
+      "name": "Grammarly",
+      "company": "Grammarly",
+      "country": "United States",
+      "category": "Writing",
+      "description": "Grammar, tone and rewriting suggestions.",
+      "best_for": "Polishing emails and documents",
+      "url": "https://www.grammarly.com/"
+    },
+    {
+      "name": "Granola",
+      "company": "Granola",
+      "country": "Varies",
+      "category": "Meetings",
+      "description": "Notes app that combines your notes with a meeting transcript.",
+      "best_for": "Professionals who take meeting notes",
+      "url": "https://www.granola.ai/"
+    },
+    {
+      "name": "Grok",
+      "company": "xAI",
+      "country": "United States",
+      "category": "Assistant",
+      "description": "Assistant from xAI, also available inside X.",
+      "best_for": "People who want a different assistant style, with live posts from X",
+      "url": "https://grok.com/"
+    },
+    {
+      "name": "Groq",
+      "company": "Groq",
+      "country": "United States",
+      "category": "Developer",
+      "description": "Fast inference for hosted models.",
+      "best_for": "Developers who need low latency",
+      "url": "https://groq.com/"
+    },
+    {
+      "name": "Hailuo AI",
+      "company": "MiniMax",
+      "country": "China",
+      "category": "Video",
+      "description": "Video generator from MiniMax.",
+      "best_for": "Short generated video",
+      "url": "https://hailuoai.video/"
+    },
+    {
+      "name": "HeyGen",
+      "company": "HeyGen",
+      "country": "United States",
+      "category": "Video",
+      "description": "AI presenter videos and translation.",
+      "best_for": "Training and marketing videos",
+      "url": "https://www.heygen.com/"
+    },
+    {
+      "name": "Hugging Face",
+      "company": "Hugging Face",
+      "country": "United States",
+      "category": "Developer",
+      "description": "Hub for open models, datasets and demos.",
+      "best_for": "Finding and trying open models",
+      "url": "https://huggingface.co/"
+    },
+    {
+      "name": "HuggingChat",
+      "company": "Hugging Face",
+      "country": "United States",
+      "category": "Assistant",
+      "description": "Open-model chat interface from Hugging Face.",
+      "best_for": "Trying open models without installing anything",
+      "url": "https://huggingface.co/chat/"
+    },
+    {
+      "name": "Ideogram",
+      "company": "Ideogram",
+      "country": "Canada",
+      "category": "Images",
+      "description": "Image generator that handles text in images well.",
+      "best_for": "Posters, logos and text-heavy images",
+      "url": "https://ideogram.ai/"
+    },
+    {
+      "name": "Jan",
+      "company": "Jan",
+      "country": "Varies",
+      "category": "Developer",
+      "description": "Open-source local AI assistant app.",
+      "best_for": "Offline chat with open models",
+      "url": "https://jan.ai/"
+    },
+    {
+      "name": "Jasper",
+      "company": "Jasper",
+      "country": "United States",
+      "category": "Writing",
+      "description": "Marketing copy and content platform.",
+      "best_for": "Marketing teams",
+      "url": "https://www.jasper.ai/"
+    },
+    {
+      "name": "JetBrains AI Assistant",
+      "company": "JetBrains",
+      "country": "Czech Republic",
+      "category": "Coding",
+      "description": "AI features inside JetBrains IDEs.",
+      "best_for": "Existing JetBrains users",
+      "url": "https://www.jetbrains.com/ai/"
+    },
+    {
+      "name": "Julius AI",
+      "company": "Julius",
+      "country": "United States",
+      "category": "Data",
+      "description": "Ask questions of spreadsheets and data and get charts.",
+      "best_for": "Quick data exploration; check the results",
+      "url": "https://julius.ai/"
+    },
+    {
+      "name": "Khanmigo",
+      "company": "Khan Academy",
+      "country": "United States",
+      "category": "Learning",
+      "description": "AI tutor and teaching assistant from Khan Academy.",
+      "best_for": "Students and teachers",
+      "url": "https://www.khanacademy.org/khan-labs"
+    },
+    {
+      "name": "Kimi",
+      "company": "Moonshot AI",
+      "country": "China",
+      "category": "Assistant",
+      "description": "Assistant from Moonshot AI, known for long-document handling.",
+      "best_for": "Reading and summarizing long texts",
+      "url": "https://www.kimi.com/"
+    },
+    {
+      "name": "Kling",
+      "company": "Kuaishou",
+      "country": "China",
+      "category": "Video",
+      "description": "Video generation from Kuaishou.",
+      "best_for": "Short generated video",
+      "url": "https://klingai.com/"
+    },
+    {
+      "name": "Krea",
+      "company": "Krea",
+      "country": "United States",
+      "category": "Images",
+      "description": "Real-time image generation and enhancement.",
+      "best_for": "Experimenting with visuals interactively",
+      "url": "https://www.krea.ai/"
+    },
+    {
+      "name": "LALAL.AI",
+      "company": "LALAL.AI",
+      "country": "Switzerland",
+      "category": "Music",
+      "description": "Stem splitting and audio cleanup.",
+      "best_for": "Isolating vocals or instruments",
+      "url": "https://www.lalal.ai/"
+    },
+    {
+      "name": "LangChain",
+      "company": "LangChain",
+      "country": "United States",
+      "category": "Developer",
+      "description": "Framework for building LLM applications.",
+      "best_for": "Developers building AI features",
+      "url": "https://www.langchain.com/"
+    },
+    {
+      "name": "Le Chat",
+      "company": "Mistral AI",
+      "country": "France",
+      "category": "Assistant",
+      "description": "Multilingual assistant from France-based Mistral.",
+      "best_for": "European and multilingual users",
+      "url": "https://chat.mistral.ai/"
+    },
+    {
+      "name": "Leonardo.Ai",
+      "company": "Leonardo.Ai",
+      "country": "Australia",
+      "category": "Images",
+      "description": "Image generation for game assets, art and design.",
+      "best_for": "Game and concept artists",
+      "url": "https://leonardo.ai/"
+    },
+    {
+      "name": "LlamaIndex",
+      "company": "LlamaIndex",
+      "country": "United States",
+      "category": "Developer",
+      "description": "Framework for connecting LLMs to your data.",
+      "best_for": "Developers building document search",
+      "url": "https://www.llamaindex.ai/"
+    },
+    {
+      "name": "LM Studio",
+      "company": "Element Labs",
+      "country": "United States",
+      "category": "Developer",
+      "description": "Desktop app to download and run models locally.",
+      "best_for": "Local models with a friendly interface",
+      "url": "https://lmstudio.ai/"
+    },
+    {
+      "name": "Lovable",
+      "company": "Lovable",
+      "country": "Sweden",
+      "category": "Coding",
+      "description": "Builds web apps from plain-language descriptions.",
+      "best_for": "Non-programmers prototyping an app",
+      "url": "https://lovable.dev/"
+    },
+    {
+      "name": "Luma Dream Machine",
+      "company": "Luma AI",
+      "country": "United States",
+      "category": "Video",
+      "description": "Video generation from text and images.",
+      "best_for": "Short clips and concept visuals",
+      "url": "https://lumalabs.ai/dream-machine"
+    },
+    {
+      "name": "Magnific",
+      "company": "Magnific",
+      "country": "Spain",
+      "category": "Images",
+      "description": "AI image upscaler and enhancer.",
+      "best_for": "Improving image resolution and detail",
+      "url": "https://magnific.ai/"
+    },
+    {
+      "name": "Meta AI",
+      "company": "Meta",
+      "country": "United States",
+      "category": "Assistant",
+      "description": "Assistant inside Meta's apps and on the web.",
+      "best_for": "Casual use inside WhatsApp, Instagram and Facebook",
+      "url": "https://www.meta.ai/"
+    },
+    {
+      "name": "Microsoft 365 Copilot",
+      "company": "Microsoft",
+      "country": "United States",
+      "category": "Productivity",
+      "description": "AI in Word, Excel, PowerPoint, Outlook and Teams.",
+      "best_for": "Organizations on Microsoft 365",
+      "url": "https://www.microsoft.com/microsoft-365/copilot"
+    },
+    {
+      "name": "Microsoft Copilot",
+      "company": "Microsoft",
+      "country": "United States",
+      "category": "Assistant",
+      "description": "Assistant built into Windows, Edge and Microsoft services.",
+      "best_for": "Windows and Microsoft 365 users",
+      "url": "https://copilot.microsoft.com/"
+    },
+    {
+      "name": "Midjourney",
+      "company": "Midjourney",
+      "country": "United States",
+      "category": "Images",
+      "description": "Image generator known for stylized art.",
+      "best_for": "Concept art and visual exploration",
+      "url": "https://www.midjourney.com/"
+    },
+    {
+      "name": "MiniMax",
+      "company": "MiniMax",
+      "country": "China",
+      "category": "Creative",
+      "description": "Models and apps for text, speech, image and video generation.",
+      "best_for": "Exploring multimodal generation",
+      "url": "https://www.minimax.io/"
+    },
+    {
+      "name": "Moises",
+      "company": "Moises",
+      "country": "United States",
+      "category": "Music",
+      "description": "Separates vocals and instruments from songs.",
+      "best_for": "Musicians practicing along with tracks",
+      "url": "https://moises.ai/"
+    },
+    {
+      "name": "Murf",
+      "company": "Murf",
+      "country": "Varies",
+      "category": "Audio",
+      "description": "Text-to-speech voiceovers.",
+      "best_for": "Presentations and explainers",
+      "url": "https://murf.ai/"
+    },
+    {
+      "name": "n8n",
+      "company": "n8n",
+      "country": "Germany",
+      "category": "Productivity",
+      "description": "Workflow automation that can be self-hosted.",
+      "best_for": "Technical users automating workflows",
+      "url": "https://n8n.io/"
+    },
+    {
+      "name": "NightCafe",
+      "company": "NightCafe",
+      "country": "Australia",
+      "category": "Images",
+      "description": "Community image-generation site using several models.",
+      "best_for": "Hobbyists and community challenges",
+      "url": "https://creator.nightcafe.studio/"
+    },
+    {
+      "name": "NotebookLM",
+      "company": "Google",
+      "country": "United States",
+      "category": "Research",
+      "description": "Upload your own documents and ask questions about them.",
+      "best_for": "Studying and summarizing your own material",
+      "url": "https://notebooklm.google.com/"
+    },
+    {
+      "name": "Notion AI",
+      "company": "Notion",
+      "country": "United States",
+      "category": "Productivity",
+      "description": "AI inside the Notion workspace.",
+      "best_for": "Notion users summarizing and drafting notes",
+      "url": "https://www.notion.com/product/ai"
+    },
+    {
+      "name": "Ollama",
+      "company": "Ollama",
+      "country": "United States",
+      "category": "Developer",
+      "description": "Run open models locally on your computer.",
+      "best_for": "Privacy-minded local experimentation",
+      "url": "https://ollama.com/"
+    },
+    {
+      "name": "Open WebUI",
+      "company": "Open WebUI",
+      "country": "Open source",
+      "category": "Developer",
+      "description": "Self-hosted web interface for local and remote models.",
+      "best_for": "Running your own chat interface",
+      "url": "https://openwebui.com/"
+    },
+    {
+      "name": "OpenAI Codex",
+      "company": "OpenAI",
+      "country": "United States",
+      "category": "Coding",
+      "description": "Coding agent from OpenAI for tasks in a repository.",
+      "best_for": "Delegating well-defined coding tasks",
+      "url": "https://openai.com/codex/"
+    },
+    {
+      "name": "OpenRouter",
+      "company": "OpenRouter",
+      "country": "United States",
+      "category": "Developer",
+      "description": "One API for many AI models.",
+      "best_for": "Developers comparing providers",
+      "url": "https://openrouter.ai/"
+    },
+    {
+      "name": "Opus Clip",
+      "company": "Opus Clip",
+      "country": "United States",
+      "category": "Video",
+      "description": "Turns long videos into short clips.",
+      "best_for": "Repurposing long recordings",
+      "url": "https://www.opus.pro/"
+    },
+    {
+      "name": "Otter",
+      "company": "Otter.ai",
+      "country": "United States",
+      "category": "Meetings",
+      "description": "Meeting transcription and notes.",
+      "best_for": "Meeting notes; get consent before recording",
+      "url": "https://otter.ai/"
+    },
+    {
+      "name": "Perplexity",
+      "company": "Perplexity",
+      "country": "United States",
+      "category": "Research",
+      "description": "Answer engine that shows the sources it used.",
+      "best_for": "Quick research with links you can check",
+      "url": "https://www.perplexity.ai/"
+    },
+    {
+      "name": "Phind",
+      "company": "Phind",
+      "country": "United States",
+      "category": "Research",
+      "description": "AI search tuned for programming questions.",
+      "best_for": "Developers looking up how to do things",
+      "url": "https://www.phind.com/"
+    },
+    {
+      "name": "Photoroom",
+      "company": "Photoroom",
+      "country": "France",
+      "category": "Images",
+      "description": "Background removal and product photo editing.",
+      "best_for": "Online sellers",
+      "url": "https://www.photoroom.com/"
+    },
+    {
+      "name": "Pi",
+      "company": "Inflection AI",
+      "country": "United States",
+      "category": "Assistant",
+      "description": "Conversational assistant designed for supportive, personal chat.",
+      "best_for": "Talking things through",
+      "url": "https://pi.ai/"
+    },
+    {
+      "name": "Pika",
+      "company": "Pika",
+      "country": "United States",
+      "category": "Video",
+      "description": "Text- and image-to-video generator.",
+      "best_for": "Short creative clips",
+      "url": "https://pika.art/"
+    },
+    {
+      "name": "PixAI",
+      "company": "PixAI",
+      "country": "Singapore",
+      "category": "Images",
+      "description": "Illustration and character creation.",
+      "best_for": "Anime-style art; read its content policies",
+      "url": "https://pixai.art/"
+    },
+    {
+      "name": "Playground",
+      "company": "Playground",
+      "country": "United States",
+      "category": "Images",
+      "description": "Image creation and editing in the browser.",
+      "best_for": "Quick social graphics",
+      "url": "https://playground.com/"
+    },
+    {
+      "name": "Poe",
+      "company": "Quora",
+      "country": "United States",
+      "category": "Assistant",
+      "description": "One place to chat with many different AI models and bots.",
+      "best_for": "Comparing models side by side",
+      "url": "https://poe.com/"
+    },
+    {
+      "name": "QuillBot",
+      "company": "QuillBot",
+      "country": "United States",
+      "category": "Writing",
+      "description": "Paraphrasing and grammar tools.",
+      "best_for": "Rewording and editing",
+      "url": "https://quillbot.com/"
+    },
+    {
+      "name": "Quizlet",
+      "company": "Quizlet",
+      "country": "United States",
+      "category": "Learning",
+      "description": "Study sets and AI study tools.",
+      "best_for": "Exam preparation",
+      "url": "https://quizlet.com/"
+    },
+    {
+      "name": "Qwen",
+      "company": "Alibaba",
+      "country": "China",
+      "category": "Developer",
+      "description": "Open-weight Qwen model family and resources.",
+      "best_for": "Developers using open models",
+      "url": "https://qwenlm.github.io/"
+    },
+    {
+      "name": "Qwen Chat",
+      "company": "Alibaba",
+      "country": "China",
+      "category": "Assistant",
+      "description": "Chat interface for Alibaba's Qwen models.",
+      "best_for": "Multilingual use, comparing Qwen models",
+      "url": "https://chat.qwen.ai/"
+    },
+    {
+      "name": "Reclaim",
+      "company": "Reclaim.ai",
+      "country": "United States",
+      "category": "Productivity",
+      "description": "AI calendar scheduling.",
+      "best_for": "Busy calendars",
+      "url": "https://reclaim.ai/"
+    },
+    {
+      "name": "Recraft",
+      "company": "Recraft",
+      "country": "United Kingdom",
+      "category": "Images",
+      "description": "Image and vector-style design generation.",
+      "best_for": "Icons, illustration and brand visuals",
+      "url": "https://www.recraft.ai/"
+    },
+    {
+      "name": "remove.bg",
+      "company": "Canva",
+      "country": "Australia",
+      "category": "Images",
+      "description": "Removes image backgrounds.",
+      "best_for": "Quick cutouts",
+      "url": "https://www.remove.bg/"
+    },
+    {
+      "name": "Replicate",
+      "company": "Replicate",
+      "country": "United States",
+      "category": "Developer",
+      "description": "Run open models through an API.",
+      "best_for": "Developers trying many models",
+      "url": "https://replicate.com/"
+    },
+    {
+      "name": "Replika",
+      "company": "Luka",
+      "country": "United States",
+      "category": "Characters",
+      "description": "AI companion chat app.",
+      "best_for": "Companionship; mind the emotional dependence risk",
+      "url": "https://replika.com/"
+    },
+    {
+      "name": "Replit",
+      "company": "Replit",
+      "country": "United States",
+      "category": "Coding",
+      "description": "Browser-based coding environment with an AI agent.",
+      "best_for": "Beginners and quick prototypes",
+      "url": "https://replit.com/"
+    },
+    {
+      "name": "Runway",
+      "company": "Runway",
+      "country": "United States",
+      "category": "Video",
+      "description": "Video generation and editing tools.",
+      "best_for": "Filmmakers and creators",
+      "url": "https://runwayml.com/"
+    },
+    {
+      "name": "Scite",
+      "company": "Scite",
+      "country": "United States",
+      "category": "Research",
+      "description": "Shows how later papers cite a study, supporting or contrasting it.",
+      "best_for": "Checking whether a study has been challenged",
+      "url": "https://scite.ai/"
+    },
+    {
+      "name": "Seeing AI",
+      "company": "Microsoft",
+      "country": "United States",
+      "category": "Accessibility",
+      "description": "Describes text, people and objects for blind and low-vision users.",
+      "best_for": "Reading text and identifying objects",
+      "url": "https://www.seeingai.com/"
+    },
+    {
+      "name": "Semantic Scholar",
+      "company": "Allen Institute for AI",
+      "country": "United States",
+      "category": "Research",
+      "description": "Free academic search with AI-generated paper summaries.",
+      "best_for": "Finding and skimming papers",
+      "url": "https://www.semanticscholar.org/"
+    },
+    {
+      "name": "Sora",
+      "company": "OpenAI",
+      "country": "United States",
+      "category": "Video",
+      "description": "OpenAI's video generation app.",
+      "best_for": "Short generated video; read its rules on likeness",
+      "url": "https://sora.com/"
+    },
+    {
+      "name": "Speak",
+      "company": "Speak",
+      "country": "United States",
+      "category": "Learning",
+      "description": "Spoken-language practice with an AI tutor.",
+      "best_for": "Practicing speaking",
+      "url": "https://www.speak.com/"
+    },
+    {
+      "name": "Stability AI",
+      "company": "Stability AI",
+      "country": "United Kingdom",
+      "category": "Images",
+      "description": "Maker of Stable Diffusion image models.",
+      "best_for": "Open-model image generation",
+      "url": "https://stability.ai/"
+    },
+    {
+      "name": "Sudowrite",
+      "company": "Sudowrite",
+      "country": "United States",
+      "category": "Writing",
+      "description": "Creative writing assistant for fiction authors.",
+      "best_for": "Novelists seeking drafting help",
+      "url": "https://www.sudowrite.com/"
+    },
+    {
+      "name": "Suno",
+      "company": "Suno",
+      "country": "United States",
+      "category": "Music",
+      "description": "Generates songs with vocals from text prompts.",
+      "best_for": "Experimenting with music; check usage rights",
+      "url": "https://suno.com/"
+    },
+    {
+      "name": "Synthesia",
+      "company": "Synthesia",
+      "country": "United Kingdom",
+      "category": "Video",
+      "description": "AI avatar videos from scripts.",
+      "best_for": "Corporate training videos",
+      "url": "https://www.synthesia.io/"
+    },
+    {
+      "name": "Tabnine",
+      "company": "Tabnine",
+      "country": "Israel",
+      "category": "Coding",
+      "description": "Code completion with options aimed at company privacy needs.",
+      "best_for": "Teams with strict code-handling rules",
+      "url": "https://www.tabnine.com/"
+    },
+    {
+      "name": "Talkie",
+      "company": "MiniMax",
+      "country": "China",
+      "category": "Characters",
+      "description": "Conversational AI characters.",
+      "best_for": "Entertainment; read privacy terms first",
+      "url": "https://www.talkie-ai.com/"
+    },
+    {
+      "name": "Together AI",
+      "company": "Together AI",
+      "country": "United States",
+      "category": "Developer",
+      "description": "Hosted inference and training for open models.",
+      "best_for": "Developers using open models",
+      "url": "https://www.together.ai/"
+    },
+    {
+      "name": "Udio",
+      "company": "Udio",
+      "country": "United States",
+      "category": "Music",
+      "description": "Text-to-music generator.",
+      "best_for": "Experimenting with music; check usage rights",
+      "url": "https://www.udio.com/"
+    },
+    {
+      "name": "v0",
+      "company": "Vercel",
+      "country": "United States",
+      "category": "Coding",
+      "description": "Generates web interface code from prompts.",
+      "best_for": "Front-end mockups and components",
+      "url": "https://v0.dev/"
+    },
+    {
+      "name": "Whisper",
+      "company": "OpenAI",
+      "country": "United States",
+      "category": "Audio",
+      "description": "Open-source speech-to-text model.",
+      "best_for": "Developers transcribing audio",
+      "url": "https://github.com/openai/whisper"
+    },
+    {
+      "name": "Windsurf",
+      "company": "Windsurf",
+      "country": "United States",
+      "category": "Coding",
+      "description": "AI-assisted code editor.",
+      "best_for": "Developers comparing AI editors",
+      "url": "https://windsurf.com/"
+    },
+    {
+      "name": "Writer",
+      "company": "Writer",
+      "country": "United States",
+      "category": "Writing",
+      "description": "Enterprise writing assistant with style guides.",
+      "best_for": "Company-wide consistent writing",
+      "url": "https://writer.com/"
+    },
+    {
+      "name": "You.com",
+      "company": "You.com",
+      "country": "United States",
+      "category": "Research",
+      "description": "AI search and assistant with cited answers.",
+      "best_for": "Search with follow-up questions",
+      "url": "https://you.com/"
+    },
+    {
+      "name": "Zapier",
+      "company": "Zapier",
+      "country": "United States",
+      "category": "Productivity",
+      "description": "Connects apps and builds automations with AI help.",
+      "best_for": "Automating repetitive work",
+      "url": "https://zapier.com/"
     }
   ]
 }

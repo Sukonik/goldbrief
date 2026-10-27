@@ -5,7 +5,7 @@ const http = require("http"), fs = require("fs"), path = require("path");
 const { chromium } = require("playwright");
 const root = path.resolve(__dirname, "..");
 const pages = ["index","resources","ui-ux","news","lake","leaderboards","usa","international","visuals","markets","apps","index-directory","glossary","encyclopedia","trust","about"];
-const widths = [320, 375, 390, 430, 768, 1024, 1440, 1920];
+const widths = [320, 375, 390, 430, 768, 1023, 1024, 1280, 1440, 1920];
 const types = { ".html":"text/html", ".css":"text/css", ".js":"text/javascript", ".json":"application/json", ".svg":"image/svg+xml" };
 const server = http.createServer((req, res) => {
   const p = path.join(root, decodeURIComponent(req.url.split("?")[0]).replace(/^\/+$/, "/index.html"));
@@ -34,7 +34,21 @@ const server = http.createServer((req, res) => {
         return null;
       });
       if (over) fail("horizontal-overflow", `${name}@${w}`, JSON.stringify(over));
-      if (w < 1200 && name === "index") {
+      if (w >= 1024) {
+        const h = await page.evaluate(() => { const l = document.querySelector(".site-header .nav__list"); return l ? { h: l.getBoundingClientRect().height, over: document.querySelector(".site-header__inner").scrollWidth - document.querySelector(".site-header__inner").clientWidth } : null; });
+        if (!h || h.h > 50 || h.over > 0) fail("header-fit", `${name}@${w}`, JSON.stringify(h));
+      }
+      if (w >= 1024 && name === "index") {
+        const btns = page.locator(".nav-group__btn");
+        for (let i = 0; i < await btns.count(); i++) {
+          await btns.nth(i).click();
+          const box = await page.locator(".nav-group").nth(i).locator(".nav-panel").boundingBox();
+          if (!box || box.x < 0 || box.x + box.width > w + 1) fail("menu-panel", `${name}@${w}`, `group ${i} panel ${JSON.stringify(box)}`);
+          await page.keyboard.press("Escape");
+          if (await page.locator(".nav-group").nth(i).locator(".nav-panel").isVisible()) fail("menu-panel", `${name}@${w}`, `group ${i} Escape did not close`);
+        }
+      }
+      if (w < 1024 && name === "index") {
         const toggle = page.locator(".nav-toggle");
         await toggle.click();
         if (await page.locator("#nav-drawer").isHidden()) fail("drawer", `${name}@${w}`, "did not open");

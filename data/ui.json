@@ -3,22 +3,6 @@
   "note": "Public repositories we study or draw on for interface patterns. Listing is not an endorsement. Always read each repository's own LICENSE before reusing code, and prefer reusing patterns over copying source. Links were not fetchable from GoldBrief's build environment; verify them in your browser.",
   "groups": [
     {
-      "name": "GoldBrief family (our own)",
-      "items": [
-        {
-          "name": "GoldRang3r",
-          "url": "https://github.com/Sukonik/goldrang3r",
-          "what": "Design source for GoldBrief: matte black, gold accent, token / base / components / responsive CSS layers, accessible drawer menu."
-        },
-        {
-          "name": "GoldSea",
-          "url": "https://github.com/Sukonik/goldsea",
-          "what": "Sibling project used as a design reference.",
-          "note": "Private repository; access is limited."
-        }
-      ]
-    },
-    {
       "name": "Full component libraries",
       "items": [
         {
