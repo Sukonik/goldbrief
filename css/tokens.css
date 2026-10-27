@@ -52,10 +52,10 @@
   --b3-focus: var(--b3-yellow-bright);
 
   /* -- Typography ---------------------------------------------------------*/
-  --b3-font-sans: "Helvetica Neue", Helvetica, Arial, "Nimbus Sans L",
-    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  --b3-font-mono: ui-monospace, "SF Mono", "Cascadia Code", "Roboto Mono",
-    Consolas, monospace;
+  --b3-font-display: Outfit, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --b3-font-sans: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* Labels share the reading family: two font families across the site. */
+  --b3-font-mono: var(--b3-font-sans);
 
   --b3-fs-xs: 0.75rem;
   --b3-fs-sm: 0.875rem;

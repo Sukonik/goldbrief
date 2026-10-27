@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1040">
+<defs>
+ <linearGradient id="obsidian" x2="1" y2="1"><stop offset="0" stop-color="#30343A"/><stop offset=".48" stop-color="#191C20"/><stop offset="1" stop-color="#080A0D"/></linearGradient>
+ <linearGradient id="gold" x2="1" y2="0"><stop offset="0" stop-color="#FFF2C4"/><stop offset=".5" stop-color="#D4A017"/><stop offset="1" stop-color="#8B5C18"/></linearGradient>
+ <linearGradient id="platinum" x2="1" y2="0"><stop offset="0" stop-color="#F2F4F5"/><stop offset=".55" stop-color="#BBC0C5"/><stop offset="1" stop-color="#717981"/></linearGradient>
+</defs>
+<rect width="1600" height="1040" fill="#F7F6F2"/>
+<g font-family="Outfit, Arial, sans-serif" fill="#111314">
+ <text x="90" y="92" font-weight="700" font-size="45">GoldBrief / gradient schematics</text>
+ <text x="90" y="135" font-weight="400" font-size="23" fill="#5B6062">Optional surface treatments for the left-facing briefcase mark</text>
+</g>
+<path d="M90 166h1420" stroke="#C9C9C2"/>
+<g font-family="Outfit, Arial, sans-serif">
+ <text x="90" y="235" font-weight="700" font-size="28" fill="#111314">01  Obsidian</text>
+ <text x="90" y="268" font-size="20" fill="#5B6062">Recommended base / quiet material depth</text>
+ <rect x="90" y="298" width="900" height="105" rx="14" fill="url(#obsidian)"/>
+ <text x="1040" y="340" font-size="20" fill="#111314">#30343A  →  #191C20  →  #080A0D</text>
+ <text x="1040" y="376" font-size="18" fill="#5B6062">Body and top planes; seam #F3F4F4</text>
+ <path d="M90 445h1420" stroke="#D8D8D1"/>
+ <text x="90" y="508" font-weight="700" font-size="28" fill="#111314">02  Gold signal</text>
+ <text x="90" y="541" font-size="20" fill="#5B6062">Optional accent / seam or editorial highlight only</text>
+ <rect x="90" y="571" width="900" height="105" rx="14" fill="url(#gold)"/>
+ <text x="1040" y="612" font-size="20" fill="#111314">#FFF2C4  →  #D4A017  →  #8B5C18</text>
+ <text x="1040" y="648" font-size="18" fill="#5B6062">Keep case body Obsidian</text>
+ <path d="M90 718h1420" stroke="#D8D8D1"/>
+ <text x="90" y="780" font-weight="700" font-size="28" fill="#111314">03  Platinum</text>
+ <text x="90" y="813" font-size="20" fill="#5B6062">Optional cool edition / one restrained seam</text>
+ <rect x="90" y="843" width="900" height="105" rx="14" fill="url(#platinum)"/>
+ <text x="1040" y="884" font-size="20" fill="#111314">#F2F4F5  →  #BBC0C5  →  #717981</text>
+ <text x="1040" y="920" font-size="18" fill="#5B6062">Keep case body Obsidian</text>
+</g>
+</svg>

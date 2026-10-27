@@ -1,3 +1,5 @@
+<img src="assets/favicon.svg" width="72" height="72" alt="GoldBrief briefcase logo">
+
 # ☀️ GoldBrief — AI Explained
 
 Free, open-source AI news, education and company tracking. **Understand AI. Question claims. Discover what works.**
@@ -39,7 +41,7 @@ See [trust.html](https://sukonik.github.io/goldbrief/trust.html). Report errors 
 `.github/workflows/daily.yml` runs at 12:30 and 13:30 UTC; `scripts/daily_update.py` publishes only inside the 8–9 AM America/New_York window and once per ET day, so it handles daylight saving time. GitHub scheduled runs can start late, so the actual run time is stored in `data/daily.json` (`actual_run_et`). The script collects US and international RSS headlines, timestamps, de-duplicates and clusters them, validates the result, and keeps the last good edition if feeds fail or validation fails. It then runs QA, writes `reports/daily-site-check.json`, and triggers a Pages deploy. Details: `docs/DAILY_OPERATIONS.md`.
 
 ## 🎨 UI/UX architecture
-Matte black with gold accents, Helvetica-first, text-first, no frameworks. CSS layers: `tokens` → `base` → `components` → `responsive` → `goldbrief`. Designed from GoldRang3r. Keyboard-accessible drawer (Escape, focus trap), skip link, reduced-motion support.
+Matte black with gold accents, text-first, no frameworks. An angled, black Piano briefcase serves as the favicon and header mark. Outfit sets the masthead and headlines; Inter carries articles and interface text, with Helvetica fallbacks. See [brand and typography](docs/BRAND.md). CSS layers: `tokens` → `base` → `components` → `responsive` → `goldbrief`. Designed from GoldRang3r. Keyboard-accessible drawer (Escape, focus trap), skip link, reduced-motion support.
 
 ## 🧪 Testing
 ```bash

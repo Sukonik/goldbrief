@@ -33,6 +33,7 @@ h1, h2, h3, h4 {
   line-height: var(--b3-lh-tight);
   font-weight: 600;
   letter-spacing: -0.01em;
+  font-family: var(--b3-font-display);
 }
 
 p { margin: 0; }
