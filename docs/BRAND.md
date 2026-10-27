@@ -2,15 +2,14 @@
 
 ## Logo
 
-The primary mark is a spare circuit brain: a brain outline, central seam, and six short signal traces. It suggests understanding and connected reporting without imitating the dense circuitry of the reference image. The dark field and restrained outline match the site palette. It is drawn as vector paths and remains legible at favicon size.
+The primary mark is a flat line drawing of a briefcase with **GB** formed by simple strokes on the case front. Its uncluttered outline draws from the supplied reference while the initials give GoldBrief its own identity. The transparent mark sits directly on the dark header; the favicon uses the same drawing on a dark square.
 
-- `assets/goldbrief-mark.svg`: primary icon for the header, sharing, and artwork.
-- `assets/favicon.svg`: compact browser icon using the same geometry.
-- `assets/goldbrief-mark.png`: 512 px export for places that do not support SVG.
-- `assets/goldbrief-briefcase-concept.svg`: alternate literal briefcase concept, retained for comparison.
-- Header lockup: icon followed by the live text **GoldBrief**, with “Brief” in the site accent. Keep this as HTML text so it remains sharp and accessible at any viewport width.
+- `assets/goldbrief-mark.svg`: primary transparent vector icon for the header and artwork.
+- `assets/favicon.svg`: browser icon with a dark backing for contrast.
+- `assets/goldbrief-mark.png`: 512 px transparent export for places that do not support SVG.
+- Header lockup: icon followed by live text **GoldBrief**, with “Brief” in the site accent. Keep this as HTML text so it remains sharp and accessible at any viewport width.
 
-Keep clear space around the mark equal to at least one eighth of its width. Do not add a glow inside the icon, bevel the letters, or use the icon as a source of article imagery. The small mark uses flat color; the site can reserve luminous effects for selected calls to action. Avoid adding more circuit branches, which would blur at favicon scale.
+Keep clear space around the mark equal to at least one eighth of its width. Do not add a glow, bevel, gradients, or extra case details. The mark uses one gold stroke color and a transparent field; the site can reserve luminous effects for selected calls to action.
 
 ## Two font system
 
