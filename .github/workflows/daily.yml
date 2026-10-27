@@ -33,6 +33,7 @@ jobs:
         with:
           node-version: 20
       - name: Browser checks
+        timeout-minutes: 8
         run: |
           npm install --no-save playwright@1.49.1
           npx playwright install --with-deps chromium
@@ -46,7 +47,12 @@ jobs:
           git add data/daily.json reports/daily-site-check.json
           if ! git diff --cached --quiet; then
             git commit -m "chore(daily): update sourced headlines and site review report"
-            git push origin HEAD:main
+            # main may have moved during the run (e.g. a merged PR); rebase and retry.
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push origin HEAD:main && break
+              sleep $((i * 5))
+            done
+            git push --dry-run origin HEAD:main >/dev/null
             # Pushes made with GITHUB_TOKEN do not trigger other workflows, so deploy explicitly.
             gh workflow run pages.yml --ref main
           fi
