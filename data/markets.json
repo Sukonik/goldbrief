@@ -1,0 +1,78 @@
+{
+  "updated": "2026-10-27",
+  "note": "Static reference, not investment advice or live pricing. Listing status must be checked with exchanges and official filings before decisions.",
+  "markets": [
+    {
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "exchange": "NASDAQ",
+      "status": "Public",
+      "focus": "AI hardware and computing infrastructure",
+      "source": "https://investor.nvidia.com/",
+      "checked": "2026-10-27"
+    },
+    {
+      "name": "Microsoft",
+      "ticker": "MSFT",
+      "exchange": "NASDAQ",
+      "status": "Public",
+      "focus": "Cloud AI and productivity applications",
+      "source": "https://www.microsoft.com/en-us/investor",
+      "checked": "2026-10-27"
+    },
+    {
+      "name": "Alphabet",
+      "ticker": "GOOGL / GOOG",
+      "exchange": "NASDAQ",
+      "status": "Public",
+      "focus": "Google, DeepMind and Gemini services",
+      "source": "https://abc.xyz/investor/",
+      "checked": "2026-10-27"
+    },
+    {
+      "name": "Meta Platforms",
+      "ticker": "META",
+      "exchange": "NASDAQ",
+      "status": "Public",
+      "focus": "Consumer AI products and model research",
+      "source": "https://investor.atmeta.com/",
+      "checked": "2026-10-27"
+    },
+    {
+      "name": "Amazon",
+      "ticker": "AMZN",
+      "exchange": "NASDAQ",
+      "status": "Public",
+      "focus": "AWS AI infrastructure and services",
+      "source": "https://ir.aboutamazon.com/",
+      "checked": "2026-10-27"
+    },
+    {
+      "name": "Adobe",
+      "ticker": "ADBE",
+      "exchange": "NASDAQ",
+      "status": "Public",
+      "focus": "Creative technology and Firefly",
+      "source": "https://www.adobe.com/investor-relations.html",
+      "checked": "2026-10-27"
+    },
+    {
+      "name": "OpenAI",
+      "ticker": "—",
+      "exchange": "—",
+      "status": "Private / status review",
+      "focus": "AI research and ChatGPT products",
+      "source": "https://openai.com/",
+      "checked": "2026-10-27"
+    },
+    {
+      "name": "Anthropic",
+      "ticker": "—",
+      "exchange": "—",
+      "status": "IPO reports: verify SEC filings",
+      "focus": "Claude models and enterprise AI",
+      "source": "https://www.sec.gov/edgar/search/",
+      "checked": "2026-10-27"
+    }
+  ]
+}
