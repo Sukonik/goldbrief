@@ -1,9 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="12" fill="#050504"/>
-  <g fill="none" stroke="#FFE81A" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M23 20v-5.5c0-2 1.6-3.5 3.5-3.5h11c1.9 0 3.5 1.5 3.5 3.5V20" stroke-width="3.2"/>
-    <path d="M12.5 20h39c2.2 0 4 1.8 4 4v25c0 2.3-1.8 4.1-4 4.1h-39c-2.2 0-4-1.8-4-4.1V24c0-2.2 1.8-4 4-4Z" stroke-width="3.2"/>
-    <path d="M30 33c-1.4-2-3.3-2.9-5.6-2.9-4 0-6.7 3.6-6.7 8.8s2.7 8.8 6.7 8.8c2.3 0 4.3-.9 5.6-2.8v-5.7h-5" stroke-width="2.8"/>
-    <path d="M36 30.5v17m0-17h5.7c3.2 0 4.8 1.6 4.8 4.2s-1.6 4.3-4.8 4.3H36m0 0h6c3.5 0 5.3 1.7 5.3 4.3s-1.8 4.2-5.3 4.2h-6" stroke-width="2.8"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <rect width="128" height="128" rx="22" fill="#090908"/>
+  <defs>
+    <linearGradient id="face" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFE6A0"/>
+      <stop offset="0.42" stop-color="#E8B74B"/>
+      <stop offset="1" stop-color="#C48A23"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#9A6417"/>
+      <stop offset="1" stop-color="#54360E"/>
+    </linearGradient>
+  </defs>
+  <!-- The rear plane gives the bar structure real depth without a cartoon outline. -->
+  <path d="M27 39 99 33 108 43 108 95 99 103 27 103 18 94 18 48Z" fill="#38260E"/>
+  <path d="M48 37V25c0-6 4-10 10-10h22c6 0 10 4 10 10v10l-9 1V26c0-2-1-3-3-3H60c-2 0-3 1-3 3v10Z" fill="url(#face)"/>
+  <path d="M90 35V25c0-6-4-10-10-10h-3l6 7c2 1 3 3 3 6v8Z" fill="#9B681A"/>
+  <!-- Each horizontal cut has a lit face and a dark receding edge. -->
+  <g fill="url(#edge)">
+    <path d="M24 41 99 36 108 43 32 48Z"/>
+    <path d="M19 53 99 48 108 55 27 60Z"/>
+    <path d="M18 66 99 61 108 68 27 73Z"/>
+    <path d="M18 79 99 74 108 81 27 86Z"/>
+    <path d="M19 92 99 87 108 94 28 99Z"/>
   </g>
+  <g fill="url(#face)">
+    <path d="M27 36 99 33 99 40 24 44Z"/>
+    <path d="M22 48 99 45 99 52 19 56Z"/>
+    <path d="M18 61 99 58 99 65 18 69Z"/>
+    <path d="M18 74 99 71 99 78 18 82Z"/>
+    <path d="M19 87 99 84 99 91 23 95Z"/>
+  </g>
+  <path d="M30 97 98 94 105 98 98 103 30 103 23 99Z" fill="#A36B19"/>
 </svg>
