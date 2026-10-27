@@ -1,0 +1,93 @@
+{
+  "updated": "2026-10-27",
+  "terms": [
+    {
+      "term": "Agent",
+      "definition": "An AI system able to follow multiple steps and sometimes use tools. Give it limited permissions."
+    },
+    {
+      "term": "AGI",
+      "definition": "Artificial general intelligence: a disputed goal without one universally accepted definition."
+    },
+    {
+      "term": "Alignment",
+      "definition": "Trying to make AI systems behave consistently with human intentions and limits."
+    },
+    {
+      "term": "API",
+      "definition": "An interface through which software can request another service's functionality."
+    },
+    {
+      "term": "Benchmark",
+      "definition": "A task-based test; performance on it does not prove usefulness in all situations."
+    },
+    {
+      "term": "Context window",
+      "definition": "The amount of material a model can consider at one time."
+    },
+    {
+      "term": "Deepfake",
+      "definition": "Synthetic media that convincingly misrepresents a real person or event."
+    },
+    {
+      "term": "Fine-tuning",
+      "definition": "Training an existing model further on selected examples for a purpose."
+    },
+    {
+      "term": "Generative AI",
+      "definition": "AI that creates text, images, audio, code or video."
+    },
+    {
+      "term": "GPU",
+      "definition": "A chip suited to parallel calculations and often used for running AI."
+    },
+    {
+      "term": "Hallucination",
+      "definition": "A plausible-sounding AI statement that is false or unsupported."
+    },
+    {
+      "term": "Inference",
+      "definition": "Using a trained model to generate predictions or outputs."
+    },
+    {
+      "term": "LLM",
+      "definition": "Large language model, a model trained on large amounts of language data."
+    },
+    {
+      "term": "Multimodal",
+      "definition": "AI that works with different formats, like text, images and sound."
+    },
+    {
+      "term": "Open source",
+      "definition": "Software whose license permits use, study and modification; AI weights may differ."
+    },
+    {
+      "term": "Open weights",
+      "definition": "Publicly released model parameters. Not necessarily fully open-source."
+    },
+    {
+      "term": "Prompt",
+      "definition": "Text or other instructions given to an AI tool."
+    },
+    {
+      "term": "RAG",
+      "definition": "Retrieval-augmented generation, combining retrieved information with model outputs."
+    },
+    {
+      "term": "Reasoning model",
+      "definition": "A model optimized for multi-step tasks; it may still be mistaken."
+    },
+    {
+      "term": "Tokens",
+      "definition": "Units used in AI input, output and billing."
+    },
+    {
+      "term": "Usage metric",
+      "definition": "Users, visits, revenue, downloads or compute consumed, each measuring a different thing."
+    },
+    {
+      "term": "Verification",
+      "definition": "Checking a claim using traceable, ideally independent evidence."
+    }
+  ]
+}
