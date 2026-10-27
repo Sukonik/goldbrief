@@ -8,7 +8,12 @@ import datetime as dt, json, sys
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 load = lambda p: json.loads(Path(p).read_text())
-struct, browser = load(sys.argv[1]), load(sys.argv[2])
+def safe(path):
+    try: return load(path)
+    except Exception: return None
+struct, browser = load(sys.argv[1]), safe(sys.argv[2])
+browser_ran = isinstance(browser, dict) and "failures" in browser
+browser = browser if browser_ran else {"failures": []}
 prev = {}
 try: prev = json.loads((ROOT / "reports/daily-site-check.json").read_text())
 except Exception: pass
@@ -18,7 +23,8 @@ findings += [{**f, "priority": PRIORITY.get(f["check"], "P3")} for f in browser.
 key = lambda f: (f["check"], f["page"], f["detail"])
 old = {key(f) for f in prev.get("findings", [])}
 for f in findings: f["new_regression"] = key(f) not in old
-report = {"result": "FAIL" if findings else "PASS",
+report = {"result": "FAIL" if findings else ("PASS" if browser_ran else "PARTIAL"),
+          "browser_checks": "ran" if browser_ran else "unavailable (tooling error); structural checks only",
           "checked_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
           "scope": "Structural + headless-browser checks (overflow at 320-1920px, JS errors, mobile drawer). Visual quality is not judged automatically.",
           "pages_checked": browser.get("pages"), "widths": browser.get("widths"),
