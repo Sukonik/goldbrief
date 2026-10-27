@@ -1,0 +1,146 @@
+{
+  "updated": "2026-10-27",
+  "note": "Directory, not endorsement; product access and policy may change.",
+  "apps": [
+    {
+      "name": "ChatGPT",
+      "company": "OpenAI",
+      "category": "Assistant",
+      "description": "Writing, coding, planning and explaining",
+      "url": "https://chatgpt.com/"
+    },
+    {
+      "name": "Claude",
+      "company": "Anthropic",
+      "category": "Assistant",
+      "description": "Documents, writing, coding and analysis",
+      "url": "https://claude.ai/"
+    },
+    {
+      "name": "Gemini",
+      "company": "Google",
+      "category": "Assistant",
+      "description": "Multimodal assistance and Google-connected tools",
+      "url": "https://gemini.google.com/"
+    },
+    {
+      "name": "Meta AI",
+      "company": "Meta",
+      "category": "Assistant",
+      "description": "AI-powered assistance and tools in Meta services",
+      "url": "https://www.meta.ai/"
+    },
+    {
+      "name": "Perplexity",
+      "company": "Perplexity",
+      "category": "Research",
+      "description": "Find answers with references that still need checking",
+      "url": "https://www.perplexity.ai/"
+    },
+    {
+      "name": "Le Chat",
+      "company": "Mistral AI",
+      "category": "Assistant",
+      "description": "Multilingual assistant from France-based Mistral",
+      "url": "https://chat.mistral.ai/"
+    },
+    {
+      "name": "MiniMax",
+      "company": "MiniMax",
+      "category": "Creative",
+      "description": "AI models and multimodal generation",
+      "url": "https://www.minimax.io/"
+    },
+    {
+      "name": "Suno",
+      "company": "Suno",
+      "category": "Music",
+      "description": "Music creation and audio experimentation; check rights",
+      "url": "https://suno.com/"
+    },
+    {
+      "name": "PixAI",
+      "company": "PixAI",
+      "category": "Images",
+      "description": "Illustration and character creation; check policies",
+      "url": "https://pixai.art/"
+    },
+    {
+      "name": "Talkie",
+      "company": "Talkie",
+      "category": "Characters",
+      "description": "Interactive AI character and story experiences; check privacy",
+      "url": "https://www.talkie-ai.com/"
+    },
+    {
+      "name": "Hailuo AI",
+      "company": "MiniMax",
+      "category": "Video",
+      "description": "AI video generation and creative storytelling",
+      "url": "https://hailuoai.video/"
+    },
+    {
+      "name": "Hugging Face",
+      "company": "Hugging Face",
+      "category": "Developer",
+      "description": "Community models, datasets and open tools",
+      "url": "https://huggingface.co/"
+    },
+    {
+      "name": "ElevenLabs",
+      "company": "ElevenLabs",
+      "category": "Audio",
+      "description": "Voice and audio tools with consent requirements",
+      "url": "https://elevenlabs.io/"
+    },
+    {
+      "name": "Canva",
+      "company": "Canva",
+      "category": "Design",
+      "description": "AI-assisted graphics, presentations and editing",
+      "url": "https://www.canva.com/"
+    },
+    {
+      "name": "Adobe Firefly",
+      "company": "Adobe",
+      "category": "Images",
+      "description": "Image generation and design editing",
+      "url": "https://firefly.adobe.com/"
+    },
+    {
+      "name": "NotebookLM",
+      "company": "Google",
+      "category": "Learning",
+      "description": "Research and study using documents you provide",
+      "url": "https://notebooklm.google.com/"
+    },
+    {
+      "name": "Ollama",
+      "company": "Ollama",
+      "category": "Developer",
+      "description": "Run supported AI models locally",
+      "url": "https://ollama.com/"
+    },
+    {
+      "name": "Qwen",
+      "company": "Alibaba Cloud",
+      "category": "Developer",
+      "description": "Multilingual open and hosted AI models",
+      "url": "https://qwenlm.github.io/"
+    },
+    {
+      "name": "DeepSeek",
+      "company": "DeepSeek",
+      "category": "Assistant",
+      "description": "AI assistant and reasoning models",
+      "url": "https://www.deepseek.com/"
+    },
+    {
+      "name": "Cursor",
+      "company": "Anysphere",
+      "category": "Coding",
+      "description": "AI-assisted code editor and development workflow",
+      "url": "https://cursor.com/"
+    }
+  ]
+}
