@@ -1,6 +1,256 @@
 {
-  "generated_at": null,
-  "mode": "not-yet-collected",
-  "stories": [],
-  "note": "The daily automated feed has not published its first edition. No current headline claims are fabricated."
+  "generated_at": "2026-10-27T15:48:04+00:00",
+  "local_date": "2026-10-27",
+  "target_time": "8:30 AM America/New_York; GitHub scheduled runs may start later",
+  "actual_run_et": "2026-10-27T11:48-04:00",
+  "mode": "automatic-source-headlines-only",
+  "source_type": "Google News RSS aggregation",
+  "verification": "unreviewed; titles and links provided by outside publishers",
+  "feeds_failed": [],
+  "stories": [
+    {
+      "title": "AI Disclosure Proposal Targets How Models Help Build Their Successors - PYMNTS.com",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNWEwyZW5DVWtqTlZENFI3TDRjQXFWMmV6alJoZFYtb0NCZXdPblpUSFFndXBvWVJBQjYwTXkySW94YkVsdHZlaG9aZXBnVXVRUFRtV3JIQjVMYngzOGNRTmlfbXN3eTVIblE4bVZpM2p6WDBEZ3NMLVNXQjlvS3J5eTBYMnBFYXJGcEJocFlra2pvRm82UVZ2SXE0SmMzQjlUUlhCMEVpMzR4aXprd3NwZXFnc0JBVWlSSThqdzdnZkhwNllHTXc?oc=5",
+      "source": "PYMNTS.com",
+      "region": "both",
+      "published_at": "2026-10-27T15:41+00:00",
+      "date": "2026-10-27",
+      "classification": "automated_external_unreviewed",
+      "also_reported_by": []
+    },
+    {
+      "title": "KT Unveils Token Factory, 500+ AI Models - 조선일보",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONTNhM1kyZFFrVVJfd3cwdHlxemZHMXRUaktyak9pWnNxUDkzbk5UTDJlOEcxTVI1U0RKWWdkdTk2dkVQTlVCajBqcmxrTGY5OUJDcUJOX1FRRjN2c0p5enBuYjMtOGM2SVpqdGhHSHNVYll1YmFHV3FnNnJOZnVveWpaWk1Xek1s?oc=5",
+      "source": "조선일보",
+      "region": "usa",
+      "published_at": "2026-10-27T15:40+00:00",
+      "date": "2026-10-27",
+      "classification": "automated_external_unreviewed",
+      "also_reported_by": []
+    },
+    {
+      "title": "Fortune India Banking & NBFCs Summit 2026: Fintechs focus on customer journey, AI as digital lending evolves - Fortune India",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOcjRPTWh0bXRFVnFZRnVoTldMWEVGNGIxS2l2QUpHNVQ5b19adi1NUHhMSFNIOXNpVnlzTHFUY1R5M2NDd3FNTHJHZWFlOWkzNWJESW1DOS02WXB2ckt5YzVWbHRXWGUtX3A1Z1hwakYtZTVSUUpTQ1RuenkzbjI0TzRZdThkOFRrWGVXUTJ2eUdTNjNydlBTX3ZIb3dLRzFFU3ozTTMxZ1ZvLWhxQmRYZEx3RHlSc211TTY2ZGJpNlZaMnZhelFnRXNEWWNCby1JTXRRNlpBYUFSQ2F6bmlObFhnMnpvTXpPNkHSAfcBQVVfeXFMTl94dnRVYlMtQXFTc3FENUxQWjFabHdlMTRITGxjUjNVZ0JUMk45OHp2M01zTjFjV2pxbGJ4M2V6cFNXOEhLMjRMc1prNTFmbDVOM2dLRk8tcUFFQmVlU1Z6NjBudkx4YjdsNjVhckFqcGlZZjFvcTBBV2RLQTNTT1ppejd3djdIcTl6UU41YlEwUXNDYll6c09pdE5QRWNUZlU3elVPZ2IwWHc3RHFsU1NZcERPbTlCSEltb09yMk5xYzhBSVRGTXR6NVFZUEh4NmlLSXVUdV94dzk4cmN0emQxLVBDM19xS0Nsa2JZbGdOUkVNZGZrcw?oc=5",
+      "source": "Fortune India",
+      "region": "international",
+      "published_at": "2026-10-27T15:34+00:00",
+      "date": "2026-10-27",
+      "classification": "automated_external_unreviewed",
+      "also_reported_by": []
+    },
+    {
+      "title": "Microsoft unveils new image AI model, MAI Image 2.7 (MSFT:NASDAQ) - Seeking Alpha",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbFpIUnJRQkt2eWdzMHplZERDb0lmSmkwWjQyLTRDamNCNUxiS3pBZ2NxTWlRLVM5Tk1qNlAwa0FDelU3ZzRBSVBZUGFKc3hoX0JnYUg1LWZjakNUYzM0ZlUtZmdiLWxUZnlRUjdJQkp3QVNuVm5kNHFJMWtDQmNyNEtoWGhRVS1YVncyMFFrOTJ4UQ?oc=5",
+      "source": "Seeking Alpha",
+      "region": "usa",
+      "published_at": "2026-10-27T15:30+00:00",
+      "date": "2026-10-27",
+      "classification": "automated_external_unreviewed",
+      "also_reported_by": []
+    },
+    {
+      "title": "The challenges of artificial intelligence in education shaped UNESCO’s participation in the 14th País Digital Summit - UNESCO",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOWlNHa0NhdTR2bWJJdEM4LUFQcWFCQ3VFdl9fUjZQQ2F1NXBZcjhlVVB5bjRXOXRsUDliQzRPSFJLMGhMTFBPNXR5MzlHZU5zbTMwczE4QnY3dVVocEkxSkdUNlBBd1cxUmRpOS1SMjZEdlpJaWNlYXlBSUhNSTQ4NVZ6bzJVcm1jLUw5WGFZRmlWYjlQS1RqV2ZNZmdWMFR5VmNCZnR3SzYtc1N1SEJKU2J5SU9RUUV5ekpPSkJWdk10X1lYZGF4alZoOGdvZw?oc=5",
+      "source": "UNESCO",
+      "region": "international",
+      "published_at": "2026-10-27T15:16+00:00",
+      "date": "2026-10-27",
+      "classification": "automated_external_unreviewed",
+      "also_reported_by": []
+    },
+    {
+      "title": "Google hits out at regulator’s order to show competitor engines - The Times",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNS2w1c29penNIRXNYdkJ3TWxONU1KQU1xV3B3bUdhSWkzV3RmSHN0MFdMdUlmaFBialJJUE4yRlB0clEtaFBidnlZSzh4dFpxZG85azR2blFpRThlQkRib01UT2FZMlVmS3QwdWFBdmw3Y05XakJEaG9EcmQ5ZlNiVHZMdHp6bGhWd3dIY196aEtaZEtPUFJrTlMtaUNkTDVxQlVpQk1sYmViQXRn?oc=5",
+      "source": "The Times",
+      "region": "international",
+      "published_at": "2026-10-27T15:15+00:00",
+      "date": "2026-10-27",
+      "classification": "automated_external_unreviewed",
+      "also_reported_by": []
+    },
+    {
+      "title": "Generative Artificial Intelligence (AI) In Design Market Growth Accelerates As Industry Expected To Reach $4.6 Billion - The National Law Review",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMkhhYy1hQ0dSVUloZEpPQkk0VGt4MEdlWGNIR1RkaWNubnBBYzVVZmoyOVFJekk2RUhUZTItNDduUGpXSk96eUFVcy1OWElZRHFGRFV4RGlwZVdxZ3NlYnpqYkFZcmdZYlFOd2FYeVNhcW5oY1d1Z2dQOGoyYjR1UHN3bjZpWUJRdUktYldlYm9mdmktZVF2cVY3VHdVNlB1QVlnWS01alNlS254OVdJ?oc=5",
+      "source": "The National Law Review",
+      "region": "international",
+      "published_at": "2026-10-27T15:13+00:00",
+      "date": "2026-10-27",
+      "classification": "automated_external_unreviewed",
+      "also_reported_by": []
+    },
+    {
+      "title": "The use of biological age and artificial intelligence in health care - Pension Policy International",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPY1RMNHdvdU1nVGdsM0pFdkV5LWJvdlhMRmhIWU9VeEppcFhxNnFZQ1RsQlI5NDF6aGFfUjBvOVN4cEdiS01jajJ5MWJreWM3NGxmV3FMWTR2UFByMWJxQUwzN1pvVkhCSFhTTENiamxldFJsdFpwUERoU21hODdsUWFhNTFKU1FEX0VsTkRwYVoyZ3FERzRsaDJmMlBNNWwxN1VZREJKY3FrXzNWdWJsSmJR?oc=5",
+      "source": "Pension Policy International",
+      "region": "international",
+      "published_at": "2026-10-27T15:12+00:00",
+      "date": "2026-10-27",
+      "classification": "automated_external_unreviewed",
+      "also_reported_by": []
+    },
+    {
+      "title": "US stocks tick higher as Broadcom and other AI companies lift the market | National News | 2news.com - KTVN",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPUWYtcGxIMHF4ZDBQWUgxVENCMzBhc3BMQTQtakxsandwTzE1R0Q0OEstRE92VlQyN1hKZkxDM21YU0VtVWRhb1NvNU40dlY4MklRZ3lzQjZjVWRpWjBEd0FNdTZDQ0xScmVpM2lEclpDZFQ4S1VKUlZIMWF0blBKTFRpS2d6eXp5VmJXUURQMHJ6MlRCa2lXZWgtMnVPZjlTNWN3ekJ6cFdTb1VRNTVDampESksxNlMxamVTUHlvcWZqMVVnVG12eDBMeGNhM25Jd282LXNuWmtadGdtelpHdXo1cFowUkFteWZoWQ?oc=5",
+      "source": "KTVN",
+      "region": "usa",
+      "published_at": "2026-10-27T15:09+00:00",
+      "date": "2026-10-27",
+      "classification": "automated_external_unreviewed",
+      "also_reported_by": [
+        "The News-Item",
+        "Ottumwa Courier"
+      ]
+    },
+    {
+      "title": "Artificial intelligence in a Jesuit University: A student conversation, Nov. 4 - Marquette Today",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNX3VETmdCQ1JGTUxiOG9jcERaY1lpbFM1RnNxaHJLWVhLaU0wQXJ5cjFMMzA5TGwwWUNhUlNDX3NoVHFXTVNuUjVaWlE2V2x0NDRrZXJWcG5vZVhxRERVN0F4WGY1R1htYWRZcUV1VGRzdDZqd3FNdjUtTUtra3dVd0dNUzZIZ1BiNUg0Zy13QUhyS3ltbTE1bUlQUW8xd1JEUWcxOG1yQ2ZtMkJnZFFBaXJR?oc=5",
+      "source": "Marquette Today",
+      "region": "international",
+      "published_at": "2026-10-27T15:08+00:00",
+      "date": "2026-10-27",
+      "classification": "automated_external_unreviewed",
+      "also_reported_by": []
+    },
+    {
+      "title": "There’s not enough money in the world to pay for the AI boom - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPaDBNTFlUd2ROQU5TWXRELUZnczlQX2pnX0UyMXhOY2J1eXdlUUV5TG5QS2hDZGprTk44U3JyMEhmU0RrY2RrbDZSMzF6UWF2aU45R1h2SzVuNTRncDRMZE54S1BZSHFuVExzUE9vVWtxWWhsSVM2cmV1c1VsaGp6cExLYmtVeWtIRWQydmQyUGlpXzVqVDA1U2w4TkRpNVRQWWRjVE83OGFySXlndVZwTEt3Znc?oc=5",
+      "source": "The Washington Post",
+      "region": "usa",
+      "published_at": "2026-10-27T15:06+00:00",
+      "date": "2026-10-27",
+      "classification": "automated_external_unreviewed",
+      "also_reported_by": []
+    },
+    {
+      "title": "Analysis | How to get started using AI agents even if you never imagined it - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcFgxVlFtWFVRU2JQUW9mT1FqWkRvanBIay10ZkxRWjZoOUF0M2Vna2JtMk5rNngyZjU0WG4wMi1rQlhCOHdMT01va1RBYXE3RTBBeXQ0emZfTXo1bnhlMGdhcXB5WUNhNEk3WHNHeEVzMzJ0TFZlTlRBbWhxUE11dlk1bkhVdVctM1BEeUc1OElUQkZoc0FFTGxMbHBHUlpqNG1Obi1QT01YZDh3Mkh5aWtDNk8zZw?oc=5",
+      "source": "The Washington Post",
+      "region": "usa",
+      "published_at": "2026-10-27T15:06+00:00",
+      "date": "2026-10-27",
+      "classification": "automated_external_unreviewed",
+      "also_reported_by": []
+    },
+    {
+      "title": "Swiss AI drug trial start-up receives funding from Spotify-backer Creandum - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPM3JEdFE3QVVzLUlrYjNDR3drd3pQalFqVTBEWEExQTR0ZTViZ2R6WkZhemR1c2ZtSnl5elh3T2VlX0tyNGpWZGNVNUNvajhrdkNGb1BxVTJEX0JtQ1d6TEE5bzB5TTF2NG9lcnhTcHk0NEV5MjVEZXVZQ2EyY01MT2RWRGF4c2dTRnU0Q1ZHQQ?oc=5",
+      "source": "Yahoo Finance",
+      "region": "usa",
+      "published_at": "2026-10-27T15:04+00:00",
+      "date": "2026-10-27",
+      "classification": "automated_external_unreviewed",
+      "also_reported_by": []
+    },
+    {
+      "title": "The case for the Open Internet. - https://www.thecurrent.com/",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOc29XTXk3SDlDM2gxWmtEUV9KOGUxalhMNUkxQXc3RUdYYXU3c0tuaWNuTVZnNmdaaEFmWi1abEJGdEFUX0dnNHBRdi03VUlUUkJGMkNpR2hGX2N6cnBPSTRVaXMtUklDRWRFSmtYdDJEZm1NY2dadF83UFpVbTRTVUtaUkNYLUIweFNzelo3RndiV3RWUjBnUQ?oc=5",
+      "source": "https://www.thecurrent.com/",
+      "region": "usa",
+      "published_at": "2026-10-27T15:01+00:00",
+      "date": "2026-10-27",
+      "classification": "automated_external_unreviewed",
+      "also_reported_by": []
+    },
+    {
+      "title": "To Make AI Morally Good, Tech Companies Are Turning to Religion - Broadband Breakfast",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMF9aTFJnanpKQ2VWZzNiTkwwdUgtbmNjcS0wN0JQTWlDRzd2MzVzMWp1OW1idEFLblFIczI0MmN3bkxqSTU2dmdEc09WU0gyS0QwajRmZFdFdHJwdjhzZzV4ZXRGQmdnQWN2Vl9QODV3Z1FZNE5BbmhJV0dibTNQMXFxcHNwZjM1Tm1hSFVwZjBPNHp3ZURoZzBB?oc=5",
+      "source": "Broadband Breakfast",
+      "region": "usa",
+      "published_at": "2026-10-27T14:59+00:00",
+      "date": "2026-10-27",
+      "classification": "automated_external_unreviewed",
+      "also_reported_by": []
+    },
+    {
+      "title": "Opinion: Telcos have a role to play in AI - Fierce Network",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9OdngzaUo3UFVORE05WUJra1JqY1RlYVc1aWIxTEpiRGozSkY2WV90V3Q5aFdwLVZycnRmMDZWaXpIaWdjMENxTGptYU1tR3Z4dmI0cmFTZmZjcVFZc29rempGZ1BJVTdGOVVQbDRZY05jbEhxTHdoVDlyNXA?oc=5",
+      "source": "Fierce Network",
+      "region": "usa",
+      "published_at": "2026-10-27T14:55+00:00",
+      "date": "2026-10-27",
+      "classification": "automated_external_unreviewed",
+      "also_reported_by": []
+    },
+    {
+      "title": "PM Modi highlights India’s advances in nuclear, AI and semiconductors - The News Mill",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOak9NcHhVd1d6ZVZUSE9pRHRac2Y5YTJobGJTYU1HZEhOcEpvdFE3NVdkS1NzSzNDaV9HZnFmOWUyU29tSFhLMlBETzV3c1NxQU1VT1FhMmJxd1NaSHJ6WUFiUzUwQUdQeEUtbUdhRGZiMjdjdXUtMWRlNW9TUTBzYVhnb194MG9OWFRKbzVYUm80WjN0TkRPdVVPM0JTZXBiZ2c?oc=5",
+      "source": "The News Mill",
+      "region": "international",
+      "published_at": "2026-10-27T14:53+00:00",
+      "date": "2026-10-27",
+      "classification": "automated_external_unreviewed",
+      "also_reported_by": []
+    },
+    {
+      "title": "AI financing driving private credit growth as refinancing risks rise, Moody’s says - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPMlFHLTNZbVhfQjRZSmFmT1N5S2s2UTNsUkIzRnF0eFNXbG1GTTlURnZsU2ZDUGJMNVhGX2tPVzBrdkpSR1Y2VHBxZlFfMUdHcnJoTWNjNVlLMFBkNzRja1RaVVRaWFBSaUU5ak1LN3lxUDBqRE45UVRBVm9USHk0SzZ3WG1pc0tXRDgwVU1JenB2cmFDN2pyb3d1U0tZQmlqNjA2UzltdmZFaHFLNWZxV0pITWlVV1U5enM5SGtNWjJfdEhQQVljbG9lcnFLZw?oc=5",
+      "source": "Reuters",
+      "region": "international",
+      "published_at": "2026-10-27T14:49+00:00",
+      "date": "2026-10-27",
+      "classification": "automated_external_unreviewed",
+      "also_reported_by": []
+    },
+    {
+      "title": "AI Startups Are Getting An Inch & Taking A Mile - Tedium.co",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBwSlZJRkJvSGdYT1ByeHdDQ0xnNXA2a0I1NnFjNzlxVWVYUXBXWnNsT3VkMlJ0N1Zla3YwckZuWXEwcGtSMVFUdnFjcHVQams3cHJsV040NWJrZHY5Zm4tWlM0VFhLeDdmRkE?oc=5",
+      "source": "Tedium.co",
+      "region": "usa",
+      "published_at": "2026-10-27T14:43+00:00",
+      "date": "2026-10-27",
+      "classification": "automated_external_unreviewed",
+      "also_reported_by": []
+    },
+    {
+      "title": "Wall Street Banks Provide $63 Billion To Finance Broadcom AI Chips For Anthropic - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPaURpMTZfVThMYTM0SVpUTGpvYjJSSVhKVjNpQkxpcmNRcGdmSjFRN3pBZ181bDVwd0E2eks2cmlqcnBHUHBoOVBSakJGaHRBWDIxN1IwUndBSnhkcG5sX2ZGX0RMWTRqVE1GeVI3TENLNnZwVWp1amRUMWNKSDFCdkpWTW1WdG5QcHVTMF94bnk1Znl1bmpj?oc=5",
+      "source": "Yahoo Finance",
+      "region": "usa",
+      "published_at": "2026-10-27T14:34+00:00",
+      "date": "2026-10-27",
+      "classification": "automated_external_unreviewed",
+      "also_reported_by": []
+    },
+    {
+      "title": "Opera Introduces WebAI, a New Web Standard for Running AI Models Directly in Browsers - Mezha",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdGhTV0lkanY0V2t6aDRYLUVzTnkwWjV1X0xTZHlpUm5maktzd3lzZ2VNRG1idFIwdC1CbVVZNzJ5X3Jtd1AzbENwNmlzSWNjeEo1NFVtN1pGSWQ3R3d4ZXNjWURpYU9QMXRFVlZqZmQzT0pja2d6MFpvdEZHZXkwS0RSRnh0NTg?oc=5",
+      "source": "Mezha",
+      "region": "usa",
+      "published_at": "2026-10-27T14:25+00:00",
+      "date": "2026-10-27",
+      "classification": "automated_external_unreviewed",
+      "also_reported_by": []
+    },
+    {
+      "title": "Inflation Forecasting: BoG staff push for use of Artificial Intelligence | Market Place - Modern Ghana",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE10OVlvWUt6T0I3Q1J1YkozN0JfQ1F4alZMUEVrU1QtdllEX0NXN3g1U1Zpd0txamtYamdTWXFDYW9lYk9BQ0ZLazVKWUhvWVYxeXJuNEtLLXlhMkxEcGJ4dmZFajjSAVxBVV95cUxNcTJUTDZfMnZ1cFhiQnpPa29SN1Q2S201aWVERFptNVdsVzFvT1g1N0xTM0UtOFBCdWhkVXRtMGF1aWJVWjN4UklJYV9iZ1l4NVd6SUFoUEFaZ0pOMQ?oc=5",
+      "source": "Modern Ghana",
+      "region": "international",
+      "published_at": "2026-10-27T14:20+00:00",
+      "date": "2026-10-27",
+      "classification": "automated_external_unreviewed",
+      "also_reported_by": []
+    },
+    {
+      "title": "Parallel Bio Appoints Jason Lew Chief AI Officer to Advance Human-First Drug Discovery - citybiz",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQUGRKZkFwRkNMd0l5MWRhVVZVaTE1NWd5WlFkWDBEU0Rmb1NaZ3ZoQkZINWhiVGhWVjBkaFAzN0FEbkpSQVdQRXVESFl5TENjRElIbnpMRS1zYTVXLTFSRUZSdUkwRWlzVFVBOHJZOHVHWVJMaW9sZVZQVFRZLVlBSnhIU0ExdEpaZmRYZHg1aDJwUjhmT0tGTjN4WVIyMlVwMUZXcUxxSUhCOGtNY1BXQlZVUHlFUDZXSWRXVEVpUzFYZE0?oc=5",
+      "source": "citybiz",
+      "region": "usa",
+      "published_at": "2026-10-27T14:14+00:00",
+      "date": "2026-10-27",
+      "classification": "automated_external_unreviewed",
+      "also_reported_by": []
+    },
+    {
+      "title": "GT Voice: China’s AI stock pullback isn’t a signal of a 'bubble bursting' - Global Times",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBLUk1veWItaUhXSE5pRmQyb0FLdDdGVy1IRFlmTmplTEJERHV4Si1mVnpFWUI2VTZKQmVsVXhIeUdOak9pVERqNW10QWNORXZ5Y1ZGdWN6NlQza1VkLW1zSTBR?oc=5",
+      "source": "Global Times",
+      "region": "international",
+      "published_at": "2026-10-27T14:14+00:00",
+      "date": "2026-10-27",
+      "classification": "automated_external_unreviewed",
+      "also_reported_by": []
+    }
+  ],
+  "note": "Headlines and links are supplied by outside publishers via RSS. GoldBrief has not fact-checked them and does not endorse them. No generated summaries or metrics."
 }

@@ -1,5 +1,21 @@
 {
-  "status": "pending-first-automation-run",
-  "last_checked": null,
-  "note": "GitHub Actions performs a fresh structural sweep daily."
+  "result": "PASS",
+  "browser_checks": "ran",
+  "checked_at": "2026-10-27T15:49:29+00:00",
+  "scope": "Structural + headless-browser checks (overflow at 320-1920px, JS errors, mobile drawer). Visual quality is not judged automatically.",
+  "pages_checked": 16,
+  "widths": [
+    320,
+    375,
+    390,
+    430,
+    768,
+    1024,
+    1440,
+    1920
+  ],
+  "findings": [],
+  "new_regressions": 0,
+  "human_review_required": true,
+  "human_review_note": "Any visual or editorial change proposed by these results must be reviewed by a person and shipped through a pull request."
 }
