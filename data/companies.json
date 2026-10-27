@@ -1,0 +1,260 @@
+{
+  "updated": "2026-10-27",
+  "method": "Manual editorial dataset. Country is primary organizational base of listed entity, not all operation locations; U.S.-parent nuance stated where relevant. No unverified private financial growth metrics.",
+  "companies": [
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "country": "United States",
+      "city": "San Francisco, California",
+      "region": "usa",
+      "focus": "General-purpose AI",
+      "kind": "AI research and products",
+      "use": "Writing, coding, research, assistants and software workflows.",
+      "url": "https://openai.com/",
+      "source": "https://openai.com/news/",
+      "signal": {
+        "date": "2026-10-26",
+        "title": "Published GPT-6.1 Terra announcement and research updates",
+        "url": "https://openai.com/index/introducing-gpt-6-1-terra/"
+      }
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "country": "United States",
+      "city": "San Francisco, California",
+      "region": "usa",
+      "focus": "General-purpose AI",
+      "kind": "AI research and products",
+      "use": "Claude assistants, enterprise workflows, coding and safety research.",
+      "url": "https://www.anthropic.com/",
+      "source": "https://www.anthropic.com/news",
+      "signal": {
+        "date": "2026-10-26",
+        "title": "Company announced proposed IPO filing; offering not completed",
+        "url": "https://www.anthropic.com/news/s1-sec"
+      }
+    },
+    {
+      "id": "meta",
+      "name": "Meta AI",
+      "country": "United States",
+      "city": "Menlo Park, California",
+      "region": "usa",
+      "focus": "General-purpose AI",
+      "kind": "Consumer and model research",
+      "use": "AI assistants, developer models and agent systems.",
+      "url": "https://ai.meta.com/",
+      "source": "https://about.fb.com/news/",
+      "signal": {
+        "date": "2026-10-12",
+        "title": "Announced Muse Wonder models for agents",
+        "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/"
+      }
+    },
+    {
+      "id": "microsoft",
+      "name": "Microsoft AI",
+      "country": "United States",
+      "city": "Redmond, Washington",
+      "region": "usa",
+      "focus": "Enterprise AI",
+      "kind": "Cloud and productivity AI",
+      "use": "Microsoft 365 Copilot, cloud AI and enterprise workflows.",
+      "url": "https://www.microsoft.com/ai",
+      "source": "https://blogs.microsoft.com/",
+      "signal": null
+    },
+    {
+      "id": "xai",
+      "name": "xAI",
+      "country": "United States",
+      "city": "United States",
+      "region": "usa",
+      "focus": "General-purpose AI",
+      "kind": "Model developer",
+      "use": "Grok assistants and model-based tools.",
+      "url": "https://x.ai/",
+      "source": "https://x.ai/news",
+      "signal": null
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "country": "United States",
+      "city": "San Francisco, California",
+      "region": "usa",
+      "focus": "Search & research",
+      "kind": "Answer engine",
+      "use": "Research with links to referenced sources.",
+      "url": "https://www.perplexity.ai/",
+      "source": "https://www.perplexity.ai/",
+      "signal": null
+    },
+    {
+      "id": "huggingface",
+      "name": "Hugging Face",
+      "country": "United States",
+      "city": "New York, New York",
+      "region": "usa",
+      "focus": "Open models & tooling",
+      "kind": "Open-source ecosystem",
+      "use": "Explore models, datasets, demos and developer tools.",
+      "url": "https://huggingface.co/",
+      "source": "https://huggingface.co/blog",
+      "signal": null
+    },
+    {
+      "id": "nvidia",
+      "name": "NVIDIA",
+      "country": "United States",
+      "city": "Santa Clara, California",
+      "region": "usa",
+      "focus": "AI infrastructure",
+      "kind": "Computing and software",
+      "use": "AI chips, developer tooling and accelerated computing.",
+      "url": "https://www.nvidia.com/en-us/ai/",
+      "source": "https://blogs.nvidia.com/",
+      "signal": null
+    },
+    {
+      "id": "mistral",
+      "name": "Mistral AI",
+      "country": "France",
+      "city": "Paris",
+      "region": "international",
+      "focus": "Open models & tooling",
+      "kind": "AI model developer",
+      "use": "Multilingual models, tools for businesses and open-weight research.",
+      "url": "https://mistral.ai/",
+      "source": "https://mistral.ai/news/",
+      "signal": {
+        "date": "2026-10-06",
+        "title": "Announced public preview of Mistral Large 4",
+        "url": "https://mistral.ai/news/mistral-large-4/"
+      }
+    },
+    {
+      "id": "deepmind",
+      "name": "Google DeepMind",
+      "country": "United Kingdom",
+      "city": "London (within U.S.-based Alphabet/Google)",
+      "region": "international",
+      "focus": "Scientific AI",
+      "kind": "Research organization",
+      "use": "AI research, science tools and Gemini model development.",
+      "url": "https://deepmind.google/",
+      "source": "https://deepmind.google/blog/",
+      "signal": {
+        "date": "2026-10-22",
+        "title": "Published global forest-type mapping research",
+        "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/"
+      }
+    },
+    {
+      "id": "cohere",
+      "name": "Cohere",
+      "country": "Canada",
+      "city": "Toronto",
+      "region": "international",
+      "focus": "Enterprise AI",
+      "kind": "AI model developer",
+      "use": "Enterprise language models, search and private deployment.",
+      "url": "https://cohere.com/",
+      "source": "https://cohere.com/blog",
+      "signal": null
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "country": "China",
+      "city": "Hangzhou",
+      "region": "international",
+      "focus": "Open models & tooling",
+      "kind": "AI model developer",
+      "use": "Reasoning-focused models and open-weight research.",
+      "url": "https://www.deepseek.com/",
+      "source": "https://github.com/deepseek-ai",
+      "signal": null
+    },
+    {
+      "id": "qwen",
+      "name": "Qwen / Alibaba Cloud",
+      "country": "China",
+      "city": "Hangzhou",
+      "region": "international",
+      "focus": "Open models & tooling",
+      "kind": "AI family within Alibaba Cloud",
+      "use": "Text, coding and multimodal models within Alibaba's ecosystem.",
+      "url": "https://qwenlm.github.io/",
+      "source": "https://github.com/QwenLM",
+      "signal": null
+    },
+    {
+      "id": "sakanai",
+      "name": "Sakana AI",
+      "country": "Japan",
+      "city": "Tokyo",
+      "region": "international",
+      "focus": "Scientific AI",
+      "kind": "Research startup",
+      "use": "AI research inspired by collective and evolutionary systems.",
+      "url": "https://sakana.ai/",
+      "source": "https://sakana.ai/blog/",
+      "signal": null
+    },
+    {
+      "id": "ai21",
+      "name": "AI21 Labs",
+      "country": "Israel",
+      "city": "Tel Aviv",
+      "region": "international",
+      "focus": "Enterprise AI",
+      "kind": "Language AI developer",
+      "use": "Enterprise language technologies and AI tools.",
+      "url": "https://www.ai21.com/",
+      "source": "https://www.ai21.com/blog",
+      "signal": null
+    },
+    {
+      "id": "alephalpha",
+      "name": "Aleph Alpha",
+      "country": "Germany",
+      "city": "Heidelberg",
+      "region": "international",
+      "focus": "Enterprise AI",
+      "kind": "AI infrastructure and solutions",
+      "use": "Enterprise-oriented sovereign AI systems and platforms.",
+      "url": "https://aleph-alpha.com/",
+      "source": "https://aleph-alpha.com/",
+      "signal": null
+    },
+    {
+      "id": "stability",
+      "name": "Stability AI",
+      "country": "United Kingdom",
+      "city": "London",
+      "region": "international",
+      "focus": "Creative AI",
+      "kind": "Generative media developer",
+      "use": "Image and creative media model development.",
+      "url": "https://stability.ai/",
+      "source": "https://stability.ai/news",
+      "signal": null
+    },
+    {
+      "id": "sarvam",
+      "name": "Sarvam AI",
+      "country": "India",
+      "city": "Bengaluru",
+      "region": "international",
+      "focus": "Multilingual AI",
+      "kind": "India-language model developer",
+      "use": "Indian-language AI and speech/text tools.",
+      "url": "https://www.sarvam.ai/",
+      "source": "https://www.sarvam.ai/",
+      "signal": null
+    }
+  ]
+}
