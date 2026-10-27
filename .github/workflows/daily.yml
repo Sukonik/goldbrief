@@ -33,10 +33,12 @@ jobs:
         with:
           node-version: 20
       - name: Browser checks
+        # A browser-tooling outage must not block the headline edition; the report records it.
+        continue-on-error: true
         timeout-minutes: 8
         run: |
           npm install --no-save playwright@1.49.1
-          npx playwright install --with-deps chromium
+          npx playwright install chromium
           node tests/browser_check.js > /tmp/browser.json || true
       - name: Build daily review report
         run: python3 scripts/daily_report.py /tmp/structural.json /tmp/browser.json
