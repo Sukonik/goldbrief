@@ -2,14 +2,14 @@
 
 ## Logo
 
-The primary mark is a dimensional briefcase built from five horizontal planes. Lit faces and receding edges give the restrained Piano rhythm depth without a GB monogram. The transparent vector sits on the dark header; the favicon includes a dark backing.
+The primary mark is a flat black briefcase built from measured, slightly angled horizontal bars. The handle and top bar form one continuous shape, with the opening cut from the same geometry. There is no GB lettering. The vector sits on a warm ivory field in the dark header; the favicon uses the same field.
 
 - `assets/goldbrief-mark.svg`: primary transparent vector icon for the header and artwork.
-- `assets/favicon.svg`: browser icon with dark backing.
+- `assets/favicon.svg`: browser icon with warm ivory backing.
 - `assets/goldbrief-mark.png`: 512 px transparent export.
 - Header lockup: icon followed by live text **GoldBrief**. Keep the wordmark as HTML text for sharpness and accessibility.
 
-Keep clear space around the mark equal to at least one eighth of its width. Keep the five-bar rhythm, warm gold face, and dark recessed sides. Avoid adding lettering inside the case or thin details that disappear at small sizes.
+Keep clear space around the mark equal to at least one eighth of its width. Keep the single black color, angled bar rhythm, joined handle, and warm ivory field on dark surfaces. Avoid extrusion, gradients, outlines, or lettering inside the case.
 
 ## Two font system
 
