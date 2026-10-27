@@ -1,51 +1,63 @@
 name: 📰 GoldBrief Daily News + UI Integrity
 on:
   schedule:
-    # 8:30 ET: 12:30 UTC in daylight time; 13:30 UTC in standard time.
-    # The Python gate prevents extra daily editions across DST.
+    # Target: 8:30 AM America/New_York. 12:30 UTC = 8:30 EDT; 13:30 UTC = 8:30 EST.
+    # scripts/daily_update.py only publishes in the 8-9 AM ET window and once per ET day.
+    # GitHub may start scheduled runs late (often 5-30+ min); the real run time is
+    # recorded in data/daily.json as actual_run_et.
     - cron: "30 12 * * *"
     - cron: "30 13 * * *"
   workflow_dispatch:
 permissions:
   contents: write
+  issues: write
+  actions: write
 concurrency:
   group: goldbrief-daily
   cancel-in-progress: false
 jobs:
   daily:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
-      - name: Checkout production branch
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           ref: main
-          persist-credentials: true
       - name: Collect external RSS headlines when due
         env:
           GOLDBRIEF_MANUAL: ${{ github.event_name == 'workflow_dispatch' }}
         run: python3 scripts/daily_update.py
-      - name: Run daily UI and site structure sweep
+      - name: Structural checks
+        run: python3 tests/check_site.py > /tmp/structural.json || true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Browser checks
         run: |
-          python3 tests/check_site.py > reports/daily-site-check.json
-          cat reports/daily-site-check.json
-      - name: Record UTC QA timestamp
-        run: |
-          python3 - <<'PY'
-          from pathlib import Path
-          import datetime, json
-          p = Path("reports/daily-site-check.json")
-          report = json.loads(p.read_text())
-          report["checked_at"] = datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds")
-          report["review_scope"] = "Structural checks only; visual screenshots need human review"
-          p.write_text(json.dumps(report,indent=2)+"\n")
-          PY
-      - name: Commit dated feed and integrity report to main
+          npm install --no-save playwright@1.49.1
+          npx playwright install --with-deps chromium
+          node tests/browser_check.js > /tmp/browser.json || true
+      - name: Build daily review report
+        run: python3 scripts/daily_report.py /tmp/structural.json /tmp/browser.json
+      - name: Commit feed and report to main
         run: |
           git config user.name "goldbrief-daily[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/daily.json reports/daily-site-check.json
           if ! git diff --cached --quiet; then
-            git commit -m "chore(daily): update sourced headlines and site integrity report"
+            git commit -m "chore(daily): update sourced headlines and site review report"
             git push origin HEAD:main
+            # Pushes made with GITHUB_TOKEN do not trigger other workflows, so deploy explicitly.
+            gh workflow run pages.yml --ref main
+          fi
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - name: Open an issue if checks failed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if grep -q '"result": "FAIL"' reports/daily-site-check.json; then
+            gh issue create --title "Daily site review failed $(date -u +%F)" --label "daily-review" \
+              --body "See reports/daily-site-check.json on main. Human design/editorial review required before any visual change. Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+              || gh issue create --title "Daily site review failed $(date -u +%F)" --body "See reports/daily-site-check.json. Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
           fi

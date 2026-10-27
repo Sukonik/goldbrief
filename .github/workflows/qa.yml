@@ -1,0 +1,27 @@
+name: 🧪 GoldBrief QA
+on:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Structural checks
+        run: python3 tests/check_site.py
+      - name: Generated pages are up to date
+        run: |
+          python3 scripts/build_trackers.py
+          python3 scripts/build_resources.py
+          git diff --exit-code
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Browser checks (8 widths x all pages)
+        run: |
+          npm install --no-save playwright@1.49.1
+          npx playwright install --with-deps chromium
+          node tests/browser_check.js

@@ -255,6 +255,32 @@
       "url": "https://www.sarvam.ai/",
       "source": "https://www.sarvam.ai/",
       "signal": null
+    },
+    {
+      "id": "google",
+      "name": "Google (Alphabet)",
+      "country": "United States",
+      "city": "Mountain View, California",
+      "region": "usa",
+      "focus": "General-purpose AI",
+      "kind": "Cloud, search and model developer",
+      "use": "Gemini assistant and models, Google Cloud AI and AI features across Google products. Google DeepMind is listed separately under International because its main research hub is in London.",
+      "url": "https://ai.google/",
+      "source": "https://blog.google/innovation-and-ai/technology/ai/",
+      "signal": null
+    },
+    {
+      "id": "minimax",
+      "name": "MiniMax",
+      "country": "China",
+      "city": "Shanghai",
+      "region": "international",
+      "focus": "General-purpose AI",
+      "kind": "Multimodal model developer",
+      "use": "Text, speech, image and video generation models and consumer apps.",
+      "url": "https://www.minimax.io/",
+      "source": "https://www.minimax.io/news",
+      "signal": null
     }
   ]
 }

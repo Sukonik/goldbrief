@@ -1,0 +1,108 @@
+{
+  "updated": "2026-10-27",
+  "note": "Public repositories we study or draw on for interface patterns. Listing is not an endorsement. Always read each repository's own LICENSE before reusing code, and prefer reusing patterns over copying source. Links were not fetchable from GoldBrief's build environment; verify them in your browser.",
+  "groups": [
+    {
+      "name": "GoldBrief family (our own)",
+      "items": [
+        {
+          "name": "GoldRang3r",
+          "url": "https://github.com/Sukonik/goldrang3r",
+          "what": "Design source for GoldBrief: matte black, gold accent, token / base / components / responsive CSS layers, accessible drawer menu."
+        },
+        {
+          "name": "GoldSea",
+          "url": "https://github.com/Sukonik/goldsea",
+          "what": "Sibling project used as a design reference.",
+          "note": "Private repository; access is limited."
+        }
+      ]
+    },
+    {
+      "name": "Full component libraries",
+      "items": [
+        {
+          "name": "Ant Design",
+          "url": "https://github.com/ant-design/ant-design",
+          "what": "Enterprise-oriented React component library with a large set of data-heavy components (tables, forms, charts of controls)."
+        },
+        {
+          "name": "Chakra UI",
+          "url": "https://github.com/chakra-ui/chakra-ui",
+          "what": "Accessible React component system built around style props and design tokens."
+        },
+        {
+          "name": "MUI Material UI",
+          "url": "https://github.com/mui/material-ui",
+          "what": "React implementation of Material Design components."
+        },
+        {
+          "name": "Mantine",
+          "url": "https://github.com/mantinedev/mantine",
+          "what": "React components and hooks library with a broad component set."
+        },
+        {
+          "name": "Fluent UI",
+          "url": "https://github.com/microsoft/fluentui",
+          "what": "Microsoft's design system components for web."
+        },
+        {
+          "name": "Carbon Design System",
+          "url": "https://github.com/carbon-design-system/carbon",
+          "what": "IBM's open design system with guidance and components."
+        },
+        {
+          "name": "Primer React",
+          "url": "https://github.com/primer/react",
+          "what": "GitHub's React component library and design system."
+        }
+      ]
+    },
+    {
+      "name": "Unstyled / headless primitives",
+      "items": [
+        {
+          "name": "Base UI",
+          "url": "https://github.com/mui/base-ui",
+          "what": "Unstyled, accessible React components from the MUI team, for building your own look."
+        },
+        {
+          "name": "Radix Primitives",
+          "url": "https://github.com/radix-ui/primitives",
+          "what": "Low-level accessible UI primitives for React (dialogs, menus, tabs)."
+        },
+        {
+          "name": "Headless UI",
+          "url": "https://github.com/tailwindlabs/headlessui",
+          "what": "Unstyled accessible components designed to pair with Tailwind CSS."
+        },
+        {
+          "name": "React Spectrum",
+          "url": "https://github.com/adobe/react-spectrum",
+          "what": "Adobe's accessibility-focused component and hooks collection."
+        }
+      ]
+    },
+    {
+      "name": "Copy-in & styling kits",
+      "items": [
+        {
+          "name": "shadcn/ui",
+          "url": "https://github.com/shadcn-ui/ui",
+          "what": "Collection of components you copy into your own codebase rather than install as a dependency."
+        },
+        {
+          "name": "daisyUI",
+          "url": "https://github.com/saadeghi/daisyui",
+          "what": "Component class names and themes for Tailwind CSS."
+        }
+      ]
+    }
+  ],
+  "principles": [
+    "Prefer semantic HTML and native controls before adding a library.",
+    "Choose components with documented keyboard and screen-reader behaviour.",
+    "GoldBrief Build 1 ships no UI framework dependency; these are references for patterns such as focus management, tokens and responsive layout.",
+    "Record the license before copying any code."
+  ]
+}

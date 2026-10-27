@@ -3,7 +3,7 @@
 import json, re, sys
 from pathlib import Path
 root=Path(__file__).resolve().parents[1]
-pages=["index","news","lake","leaderboards","usa","international","visuals","markets","apps","index-directory","glossary","encyclopedia","trust","about"]
+pages=["index","resources","ui-ux","news","lake","leaderboards","usa","international","visuals","markets","apps","index-directory","glossary","encyclopedia","trust","about"]
 files=[root/f"{p}.html" for p in pages]
 assets=["css/tokens.css","css/base.css","css/components.css","css/responsive.css","css/goldbrief.css","js/main.js","assets/favicon.svg"]
 errors=[]
@@ -19,7 +19,7 @@ for f in files:
         if clean and not (root/clean).is_file():errors.append(f"{f.name}: missing link/asset: {clean}")
 for p in assets:
     if not (root/p).is_file():errors.append("Missing local asset "+p)
-for p in ["companies","news","apps","markets","glossary","encyclopedia","daily"]:
+for p in ["companies","news","apps","markets","glossary","encyclopedia","daily","resources","ui"]:
     try:
         x=json.loads((root/"data"/f"{p}.json").read_text())
         if not isinstance(x,dict):errors.append(f"Bad dataset type: {p}")
@@ -27,5 +27,5 @@ for p in ["companies","news","apps","markets","glossary","encyclopedia","daily"]
 style=(root/"css/goldbrief.css").read_text()
 if "@media(max-width:1199px)" not in style:errors.append("Missing mobile single-nav breakpoint")
 if "nav-drawer" not in (root/"js/main.js").read_text():errors.append("No mobile navigation controller")
-print(json.dumps({"result":"FAIL" if errors else "PASS","pages":len(pages),"checked_files":len(files)+len(assets)+7,"errors":errors},indent=2))
+print(json.dumps({"result":"FAIL" if errors else "PASS","pages":len(pages),"checked_files":len(files)+len(assets)+9,"errors":errors},indent=2))
 sys.exit(1 if errors else 0)
