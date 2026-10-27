@@ -26,7 +26,6 @@
 .brand__mark {
   display: inline-flex; align-items: center; justify-content: center;
   width: 34px; height: 34px; flex: none;
-  background: #F4F1E9; border-radius: 3px; padding: 1px;
 }
 .brand__mark img { display: block; width: 100%; height: 100%; }
 .brand__name { color: var(--b3-text-primary); white-space: nowrap; }
