@@ -2,7 +2,12 @@
 
 Free, open-source AI news, education and company tracking. **Understand AI. Question claims. Discover what works.**
 
-> 🚧 **Status: Build 1 (v1.0.0) in review.** Not yet published. The target address is `sukonik.github.io/goldbrief`; this README will link it once the GitHub Pages deployment is verified.
+## 🏠 Current homepage — v1.0.0 (Build 1)
+☀️ **Live:** [sukonik.github.io/goldbrief](https://sukonik.github.io/goldbrief/) · 🔧 [Pull request #5](https://github.com/Sukonik/goldbrief/pull/5) · 🚀 [Deploy workflow](https://github.com/Sukonik/goldbrief/actions/workflows/pages.yml) · 🧪 [QA workflow](https://github.com/Sukonik/goldbrief/actions/workflows/qa.yml)
+
+News-first front page with a compact headline list, an automated "unreviewed headlines" feed, and a single hamburger drawer under 1200px. Older homepage versions are logged at the [bottom of this README](#-homepage-version-history).
+
+**Key pages:** [Home](https://sukonik.github.io/goldbrief/) · [News](https://sukonik.github.io/goldbrief/news.html) · [Lake](https://sukonik.github.io/goldbrief/lake.html) · [AI USA](https://sukonik.github.io/goldbrief/usa.html) · [International](https://sukonik.github.io/goldbrief/international.html) · [Apps](https://sukonik.github.io/goldbrief/apps.html) · [Resources](https://sukonik.github.io/goldbrief/resources.html) · [UI/UX](https://sukonik.github.io/goldbrief/ui-ux.html) · [Trust](https://sukonik.github.io/goldbrief/trust.html)
 
 ## ☀️ Mission
 Make AI easier to understand and more useful to everyday people, reduce fear and misinformation, and avoid becoming promotional material for AI companies. Optimistic about the potential, skeptical of unsupported claims, transparent in reporting.
@@ -13,22 +18,22 @@ Make AI easier to understand and more useful to everyday people, reduce fear and
 - Automated RSS headlines are never presented as fact-checked.
 
 ## 🧭 Website navigation
-Home (news front page) · Lake · Leaderboards · AI USA · International · Visuals · Markets · Apps · News · Index · Glossary · Encyclopedia · Resources · UI/UX · Trust · About. One responsive hamburger drawer on screens under 1200px.
+[Home](https://sukonik.github.io/goldbrief/) (news front page) · [Lake](https://sukonik.github.io/goldbrief/lake.html) · [Leaderboards](https://sukonik.github.io/goldbrief/leaderboards.html) · [AI USA](https://sukonik.github.io/goldbrief/usa.html) · [International](https://sukonik.github.io/goldbrief/international.html) · [Visuals](https://sukonik.github.io/goldbrief/visuals.html) · [Markets](https://sukonik.github.io/goldbrief/markets.html) · [Apps](https://sukonik.github.io/goldbrief/apps.html) · [News](https://sukonik.github.io/goldbrief/news.html) · [Index](https://sukonik.github.io/goldbrief/index-directory.html) · [Glossary](https://sukonik.github.io/goldbrief/glossary.html) · [Encyclopedia](https://sukonik.github.io/goldbrief/encyclopedia.html) · [Resources](https://sukonik.github.io/goldbrief/resources.html) · [UI/UX](https://sukonik.github.io/goldbrief/ui-ux.html) · [Trust](https://sukonik.github.io/goldbrief/trust.html) · [About](https://sukonik.github.io/goldbrief/about.html). One responsive hamburger drawer on screens under 1200px.
 
 ## 🇺🇸 U.S. tracker / 🌍 International tracker
-`data/companies.json` → `usa.html`, `international.html`. Each profile has headquarters, country, focus, products/use, official site, updates link, a dated event where one exists, and the date sources were checked. HQ is the organization's primary base; parent-company relationships (e.g. Google DeepMind within Alphabet) are stated. 20 organizations in Build 1.
+`data/companies.json` → [usa.html](https://sukonik.github.io/goldbrief/usa.html), [international.html](https://sukonik.github.io/goldbrief/international.html). Each profile has headquarters, country, focus, products/use, official site, updates link, a dated event where one exists, and the date sources were checked. HQ is the organization's primary base; parent-company relationships (e.g. Google DeepMind within Alphabet) are stated. 20 organizations in Build 1.
 
 ## 🧩 Applications directory
-`data/apps.json` → `apps.html`. Searchable and filterable by category. A directory, not an endorsement; pricing and privacy details are not asserted without a source.
+`data/apps.json` → [apps.html](https://sukonik.github.io/goldbrief/apps.html). Searchable and filterable by category. A directory, not an endorsement; pricing and privacy details are not asserted without a source.
 
 ## 📈 Markets and visualizations
-`markets.html` is a watchlist of public companies and IPO status with links to filings, not live prices. `visuals.html` shows only counts derived from our datasets (region, focus, listing status, curated stories by month and label). Usage growth, funding and valuation charts are **planned** until reliable dated data exists.
+[markets.html](https://sukonik.github.io/goldbrief/markets.html) is a watchlist of public companies and IPO status with links to filings, not live prices. [visuals.html](https://sukonik.github.io/goldbrief/visuals.html) shows only counts derived from our datasets (region, focus, listing status, curated stories by month and label). Usage growth, funding and valuation charts are **planned** until reliable dated data exists.
 
 ## 📚 Education & resources
-Glossary, Encyclopedia, **Resources** (skills directories such as skills.sh, courses, data and safety sources) and **UI/UX** (public design-system repositories we learn from; check each license before reusing code).
+[Glossary](https://sukonik.github.io/goldbrief/glossary.html), [Encyclopedia](https://sukonik.github.io/goldbrief/encyclopedia.html), **[Resources](https://sukonik.github.io/goldbrief/resources.html)** (skills directories such as skills.sh, courses, data and safety sources) and **[UI/UX](https://sukonik.github.io/goldbrief/ui-ux.html)** (public design-system repositories we learn from; check each license before reusing code).
 
 ## 🛡️ Verification and corrections policy
-See `trust.html`. Report errors by [opening an issue](https://github.com/Sukonik/goldbrief/issues) with the page, the claim, and a source.
+See [trust.html](https://sukonik.github.io/goldbrief/trust.html). Report errors by [opening an issue](https://github.com/Sukonik/goldbrief/issues) with the page, the claim, and a source.
 
 ## ⏰ Daily 8:30 AM ET update workflow
 `.github/workflows/daily.yml` runs at 12:30 and 13:30 UTC; `scripts/daily_update.py` publishes only inside the 8–9 AM America/New_York window and once per ET day, so it handles daylight saving time. GitHub scheduled runs can start late, so the actual run time is stored in `data/daily.json` (`actual_run_et`). The script collects US and international RSS headlines, timestamps, de-duplicates and clusters them, validates the result, and keeps the last good edition if feeds fail or validation fails. It then runs QA, writes `reports/daily-site-check.json`, and triggers a Pages deploy. Details: `docs/DAILY_OPERATIONS.md`.
@@ -56,3 +61,15 @@ GitHub Pages via `.github/workflows/pages.yml` on pushes to `main`. Preview a br
 
 ## 📜 License
 [Mozilla Public License 2.0](LICENSE).
+
+## 🕰️ Homepage version history
+Newest version is shown at the [top](#-current-homepage--v100-build-1); this log lists earlier versions, newest first. **Maintenance rule:** when the homepage changes in a user-visible way, move the previous "Current" entry here, add the new one at the top, and add a matching [CHANGELOG](CHANGELOG.md) entry.
+
+| Version | Date | Status | Homepage summary |
+| --- | --- | --- | --- |
+| 1.0.0 | 2026-10-27 | **Current** (see top) | First public release: news-first front page, drawer menu, automated unreviewed-headline feed, 20-organization tracker, Resources and UI/UX pages. |
+| pre-1.0 draft 3 | 2026-10-27 | Never public | Stable GoldRang3r-style header, mobile navigation and chart styles ([`bc62fde`](https://github.com/Sukonik/goldbrief/commit/bc62fde)). |
+| pre-1.0 draft 2 | 2026-10-27 | Never public | Accessible drawer, source-headline rendering, directory search ([`b692ecb`](https://github.com/Sukonik/goldbrief/commit/b692ecb)). |
+| pre-1.0 draft 1 | 2026-10-27 | Never public | First news-first homepage ([`b6f570b`](https://github.com/Sukonik/goldbrief/commit/b6f570b)). |
+
+Drafts are listed from branch history before launch. Exact earlier states can be viewed with `git show <commit>:index.html`.

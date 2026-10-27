@@ -1,6 +1,8 @@
 # Changelog
 
-## 1.0.0 — unreleased (Build 1)
+## 1.0.0 — 2026-10-27 (Build 1)
+Live: https://sukonik.github.io/goldbrief/
+
 - News-first Home plus Lake, Leaderboards, AI USA, International, Visuals, Markets, Apps, News, Index, Glossary, Encyclopedia, Trust, About.
 - New **Resources** page (skills.sh and similar directories, courses, data, safety) and **UI/UX** page (public design-system repositories).
 - Tracker expanded to 20 organizations (added Google/Alphabet, MiniMax); cards show source-checked date.
