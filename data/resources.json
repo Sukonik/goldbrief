@@ -1,0 +1,93 @@
+{
+  "updated": "2026-10-27",
+  "note": "Directory, not endorsement. Descriptions are GoldBrief's own plain-language summaries; check each site's own terms, privacy practices and current content. Third-party skills and code should be read before you run them.",
+  "groups": [
+    {
+      "name": "Agent skills & tooling",
+      "items": [
+        {
+          "name": "skills.sh",
+          "url": "https://www.skills.sh/",
+          "what": "A public directory and leaderboard of reusable 'agent skills'. Its homepage describes installing a skill with the command npx skills add <owner/repo>.",
+          "note": "Skills are instructions and scripts that run with your agent's access. Review a skill's source before installing it."
+        },
+        {
+          "name": "Agent Skills specification",
+          "url": "https://agentskills.io/",
+          "what": "Documentation for the open format used to package skills for AI agents."
+        },
+        {
+          "name": "Model Context Protocol",
+          "url": "https://modelcontextprotocol.io/",
+          "what": "Documentation for MCP, an open protocol for connecting AI applications to tools and data sources."
+        }
+      ]
+    },
+    {
+      "name": "Learn AI",
+      "items": [
+        {
+          "name": "Elements of AI",
+          "url": "https://www.elementsofai.com/",
+          "what": "Free introductory online course on what AI is and is not, aimed at non-specialists."
+        },
+        {
+          "name": "Google Machine Learning Crash Course",
+          "url": "https://developers.google.com/machine-learning/crash-course",
+          "what": "Free self-paced introduction to machine learning concepts with exercises."
+        },
+        {
+          "name": "Hugging Face Learn",
+          "url": "https://huggingface.co/learn",
+          "what": "Free courses on language models, agents and related tooling."
+        },
+        {
+          "name": "fast.ai",
+          "url": "https://www.fast.ai/",
+          "what": "Practical deep-learning teaching material and community."
+        }
+      ]
+    },
+    {
+      "name": "Data, benchmarks & trends",
+      "items": [
+        {
+          "name": "Stanford AI Index",
+          "url": "https://aiindex.stanford.edu/",
+          "what": "Annual report compiling research, industry and policy data on AI."
+        },
+        {
+          "name": "Epoch AI",
+          "url": "https://epoch.ai/",
+          "what": "Research organization publishing datasets and analysis on AI trends such as compute and training scale."
+        },
+        {
+          "name": "LMArena",
+          "url": "https://lmarena.ai/",
+          "what": "Crowd-voted model comparison leaderboard.",
+          "note": "Preference votes are one signal; they are not a measure of accuracy or safety."
+        },
+        {
+          "name": "OECD.AI Policy Observatory",
+          "url": "https://oecd.ai/",
+          "what": "International AI policy, incidents and country data."
+        }
+      ]
+    },
+    {
+      "name": "Safety, risk & accountability",
+      "items": [
+        {
+          "name": "AI Incident Database",
+          "url": "https://incidentdatabase.ai/",
+          "what": "Searchable collection of reports of real-world AI harms and failures."
+        },
+        {
+          "name": "NIST AI Risk Management Framework",
+          "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+          "what": "U.S. government voluntary framework for managing AI risk."
+        }
+      ]
+    }
+  ]
+}

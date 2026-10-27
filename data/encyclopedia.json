@@ -1,0 +1,45 @@
+{
+  "updated": "2026-10-27",
+  "topics": [
+    {
+      "title": "What AI actually is",
+      "summary": "Most modern AI systems learn statistical patterns from data and use them to generate outputs. An articulate answer is not necessarily correct.",
+      "source": "https://www.nist.gov/itl/ai-risk-management-framework"
+    },
+    {
+      "title": "Models, assistants and agents",
+      "summary": "A model is a technical component. An assistant adds a user interface; an agent may also call tools and take actions.",
+      "source": "https://huggingface.co/learn"
+    },
+    {
+      "title": "AI for everyday life",
+      "summary": "Start with low-risk tasks such as outlining a letter, translating unfamiliar vocabulary, planning meals or learning a topic. Review anything important.",
+      "source": "https://www.oecd.org/en/topics/artificial-intelligence.html"
+    },
+    {
+      "title": "Privacy and security",
+      "summary": "Inputs may be recorded or shared with services. Remove private data, limit connected apps, and verify policies before uploading documents.",
+      "source": "https://www.nist.gov/itl/ai-risk-management-framework"
+    },
+    {
+      "title": "Creative AI and copyright",
+      "summary": "Music and visual-generation tools raise licensing, authorship, consent and platform-compliance questions.",
+      "source": "https://www.copyright.gov/ai/"
+    },
+    {
+      "title": "AI regulation",
+      "summary": "Rules vary by country. Distinguish proposed laws, passed laws and voluntary commitments.",
+      "source": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+    },
+    {
+      "title": "Local and open models",
+      "summary": "Some AI systems can run locally or publish weights; compare licenses, safety, hardware and privacy.",
+      "source": "https://huggingface.co/learn"
+    },
+    {
+      "title": "AI company claims and metrics",
+      "summary": "A vendor benchmark, revenue estimate, funding event, valuation and monthly active users are not interchangeable measurements.",
+      "source": "https://www.sec.gov/edgar/search/"
+    }
+  ]
+}
