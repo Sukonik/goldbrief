@@ -46,3 +46,20 @@ input.field{min-width:240px;flex:1 1 250px}.field:focus-visible{outline-color:va
 @media(max-width:680px){.article-row{grid-template-columns:1fr;gap:.25rem}.tracker-grid,.steps{grid-template-columns:1fr}.hero{padding:3.5rem 0 2.7rem}.display{font-size:clamp(2.2rem,9vw,3.5rem)}.site-header__inner{padding-block:.85rem}}
 @media(max-width:400px){.brand{font-size:.99rem}.brand__mark{width:30px;height:30px}.container{padding-inline:1rem}}
 [hidden]{display:none!important}
+
+/* News-first editorial refinements and GoldRang3r-compatible mobile nav. */
+@media(max-width:1199px){.site-header .nav{display:none}.site-header .nav-toggle{display:flex;margin-left:auto}}
+@media(min-width:1200px){.site-header .nav{display:block}.site-header .nav-toggle{display:none}}
+.nav__list{gap:clamp(.35rem,1vw,.85rem)}
+.nav__link{font-size:.76rem;white-space:nowrap}
+.nav-drawer{overflow-y:auto;overscroll-behavior:contain}
+.nav-drawer__list{gap:1.2rem}.nav-drawer__link{font-size:clamp(1.1rem,3.4vw,1.6rem)}
+.nav-drawer__footer{padding:1rem 0}
+.bar-row{padding:.75rem 0}.bar-label{display:flex;justify-content:space-between;gap:1rem;color:var(--b3-text-secondary);font-size:.86rem;margin-bottom:.5rem}
+.bar-track{height:7px;background:var(--b3-black-700);border-radius:10px;overflow:hidden}.bar-fill{height:100%;background:var(--b3-yellow-dim);border-radius:10px}
+.article-row__title a{text-decoration:none}.article-row__title a:hover{text-decoration:underline}
+.company-card__sources{margin-top:auto}
+.news-river{margin-top:1.5rem}
+.site-footer__links{display:flex;gap:1.2rem;flex-wrap:wrap}.site-footer__inner{display:flex;flex-wrap:wrap;justify-content:space-between;gap:1rem}.site-footer{border-top:1px solid var(--b3-border);padding:2rem 0}
+.footer-ethos{font-size:.77rem;color:var(--b3-text-muted)}
+@media(max-width:640px){.site-footer__inner{flex-direction:column}.toolbar .field{width:100%;min-width:0}.display{overflow-wrap:break-word}.article-row{grid-template-columns:1fr}.container{padding-inline:1rem}}
