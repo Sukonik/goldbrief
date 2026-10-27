@@ -1,6 +1,7 @@
 # Changelog
 
 ## Unreleased
+- UI/UX page: the 23 most-starred projects on GitHub's `ui-components` topic (dated snapshot, with stars and platform), a step-by-step guide with a prompt template for building components with AI, and a section on how AI can improve interface design, with limits.
 - Desktop header is now six grouped dropdown menus (hover, click, keyboard); Resources page renamed **Tools**, Trust labeled **Editorial policy**; hamburger breakpoint lowered to 1024px.
 - Apps directory expanded from 20 to 112 apps in 17 categories with location filter, per-category cautions and a six-question checklist.
 - UI/UX page no longer lists the project's own repositories.

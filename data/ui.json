@@ -1,7 +1,174 @@
 {
   "updated": "2026-10-27",
-  "note": "Public repositories we study or draw on for interface patterns. Listing is not an endorsement. Always read each repository's own LICENSE before reusing code, and prefer reusing patterns over copying source. Links were not fetchable from GoldBrief's build environment; verify them in your browser.",
+  "note": "Public repositories we study or draw on for interface patterns. Listing is not an endorsement. Always read each repository's own LICENSE before reusing code, and prefer reusing patterns over copying source. Links could not be fetched from GoldBrief's build environment; verify them in your browser.",
   "groups": [
+    {
+      "name": "Most starred on GitHub's ui-components topic",
+      "note": "Top 23 results of github.com/topics/ui-components sorted by stars, as shown on 2026-10-27 (counts are GitHub's rounded display values and change daily; the topic mixes web, mobile and tooling projects). Stars measure popularity, not quality, accessibility or fit.",
+      "items": [
+        {
+          "name": "Chakra UI",
+          "url": "https://github.com/chakra-ui/chakra-ui",
+          "what": "Component system for building SaaS products, with accessible parts and design tokens.",
+          "stars": "40.7k",
+          "platform": "React"
+        },
+        {
+          "name": "Marko",
+          "url": "https://github.com/marko-js/marko",
+          "what": "HTML-based declarative language for building web apps.",
+          "stars": "14.5k",
+          "platform": "JavaScript"
+        },
+        {
+          "name": "assistant-ui",
+          "url": "https://github.com/assistant-ui/assistant-ui",
+          "what": "Library of building blocks for AI chat interfaces.",
+          "stars": "12.8k",
+          "platform": "React / TypeScript"
+        },
+        {
+          "name": "Vuestic Admin",
+          "url": "https://github.com/epicmaxco/vuestic-admin",
+          "what": "Open-source admin template built on Vue 3 and Vuestic UI.",
+          "stars": "11k",
+          "platform": "Vue"
+        },
+        {
+          "name": "react-native-calendars",
+          "url": "https://github.com/wix/react-native-calendars",
+          "what": "Calendar components for React Native apps.",
+          "stars": "10.3k",
+          "platform": "React Native"
+        },
+        {
+          "name": "Flowbite",
+          "url": "https://github.com/themesberg/flowbite",
+          "what": "Open-source UI component library built on Tailwind CSS.",
+          "stars": "9.4k",
+          "platform": "Tailwind CSS"
+        },
+        {
+          "name": "NG-ZORRO",
+          "url": "https://github.com/NG-ZORRO/ng-zorro-antd",
+          "what": "Angular component library based on Ant Design.",
+          "stars": "9.2k",
+          "platform": "Angular"
+        },
+        {
+          "name": "Tailblocks",
+          "url": "https://github.com/mertJF/tailblocks",
+          "what": "Ready-to-use Tailwind CSS page blocks.",
+          "stars": "8.9k",
+          "platform": "Tailwind CSS"
+        },
+        {
+          "name": "Radix Themes",
+          "url": "https://github.com/radix-ui/themes",
+          "what": "Accessible React component library focused on fast development and theming.",
+          "stars": "8.8k",
+          "platform": "React"
+        },
+        {
+          "name": "IBAnimatable",
+          "url": "https://github.com/IBAnimatable/IBAnimatable",
+          "what": "Tool for designing and prototyping iOS interfaces and animations in Interface Builder.",
+          "stars": "8.6k",
+          "platform": "iOS"
+        },
+        {
+          "name": "PrimeReact",
+          "url": "https://github.com/primefaces/primereact",
+          "what": "React component library with a broad set of components.",
+          "stars": "8.3k",
+          "platform": "React"
+        },
+        {
+          "name": "SwiftMessages",
+          "url": "https://github.com/SwiftKickMobile/SwiftMessages",
+          "what": "Flexible message bar for UIKit and SwiftUI.",
+          "stars": "7.5k",
+          "platform": "iOS"
+        },
+        {
+          "name": "QMUI iOS",
+          "url": "https://github.com/Tencent/QMUI_iOS",
+          "what": "Toolkit for speeding up iOS UI development (Chinese-language README).",
+          "stars": "7.2k",
+          "platform": "iOS"
+        },
+        {
+          "name": "JVFloatLabeledTextField",
+          "url": "https://github.com/jverdi/JVFloatLabeledTextField",
+          "what": "Text field with a floating label.",
+          "stars": "7.1k",
+          "platform": "iOS"
+        },
+        {
+          "name": "Reka UI",
+          "url": "https://github.com/unovue/reka-ui",
+          "what": "Accessible headless component library for Vue, formerly Radix Vue.",
+          "stars": "6.9k",
+          "platform": "Vue"
+        },
+        {
+          "name": "threeui",
+          "url": "https://github.com/MengTo/threeui",
+          "what": "Community catalog of interactive WebGL UI components.",
+          "stars": "6.9k",
+          "platform": "WebGL / Three.js"
+        },
+        {
+          "name": "GoldenLayout",
+          "url": "https://github.com/golden-layout/golden-layout",
+          "what": "Multi-window layout manager for web apps.",
+          "stars": "6.7k",
+          "platform": "JavaScript"
+        },
+        {
+          "name": "Charts.css",
+          "url": "https://github.com/ChartsCSS/charts.css",
+          "what": "CSS framework for data visualization.",
+          "stars": "6.6k",
+          "platform": "CSS"
+        },
+        {
+          "name": "Preline UI",
+          "url": "https://github.com/htmlstreamofficial/preline",
+          "what": "Prebuilt UI components based on Tailwind CSS.",
+          "stars": "6.5k",
+          "platform": "Tailwind CSS"
+        },
+        {
+          "name": "Magic MCP (21st.dev)",
+          "url": "https://github.com/21st-dev/magic-mcp",
+          "what": "Tool for searching and generating React and Tailwind components from inside an AI-enabled editor.",
+          "stars": "6.3k",
+          "platform": "AI tool (MCP)"
+        },
+        {
+          "name": "Aurora IMUI",
+          "url": "https://github.com/jpush/aurora-imui",
+          "what": "Instant-messaging chat interface components.",
+          "stars": "5.7k",
+          "platform": "Android / iOS / React Native"
+        },
+        {
+          "name": "Oat",
+          "url": "https://github.com/knadh/oat",
+          "what": "Lightweight, zero-dependency UI library built on semantic HTML.",
+          "stars": "5.6k",
+          "platform": "HTML / CSS / JS"
+        },
+        {
+          "name": "21st.dev",
+          "url": "https://github.com/serafimcloud/21st",
+          "what": "Marketplace of shadcn/ui-based components, blocks and hooks.",
+          "stars": "5.5k",
+          "platform": "React / Tailwind"
+        }
+      ]
+    },
     {
       "name": "Full component libraries",
       "items": [
@@ -9,11 +176,6 @@
           "name": "Ant Design",
           "url": "https://github.com/ant-design/ant-design",
           "what": "Enterprise-oriented React component library with a large set of data-heavy components (tables, forms, charts of controls)."
-        },
-        {
-          "name": "Chakra UI",
-          "url": "https://github.com/chakra-ui/chakra-ui",
-          "what": "Accessible React component system built around style props and design tokens."
         },
         {
           "name": "MUI Material UI",
@@ -88,5 +250,85 @@
     "Choose components with documented keyboard and screen-reader behaviour.",
     "GoldBrief Build 1 ships no UI framework dependency; these are references for patterns such as focus management, tokens and responsive layout.",
     "Record the license before copying any code."
+  ],
+  "guides": [
+    {
+      "id": "build-with-ai",
+      "title": "Building a new component with AI",
+      "intro": "AI can draft a component quickly. The quality comes from the brief you give it and the review you do afterward.",
+      "steps": [
+        [
+          "Define the job first",
+          "Write one sentence on what the component is for and who uses it. List every state it needs: default, hover, focus, disabled, loading, empty and error."
+        ],
+        [
+          "Give it your constraints",
+          "Paste your design tokens (colors, spacing, type), name the framework, and require keyboard operation, visible focus and WCAG 2.2 AA contrast. Say whether new dependencies are allowed."
+        ],
+        [
+          "Start from accessible primitives",
+          "Ask it to compose a headless or accessible base (for example Base UI, Radix, Reka UI or Zag from the list above) instead of re-inventing focus handling, ARIA roles and keyboard patterns."
+        ],
+        [
+          "Ask for the API before the code",
+          "Request the props, usage examples and edge cases first. Agree on the interface, then ask for the implementation, one component per prompt."
+        ],
+        [
+          "Review it like a stranger's pull request",
+          "Read the code. Operate it with the keyboard only, check it with a screen reader, resize from 320 to 1920 px, and test reduced motion and high contrast. AI can invent props, libraries or ARIA attributes that do not exist."
+        ],
+        [
+          "Test with real content",
+          "Try long words, translated text, empty data, large type and right-to-left text. Add automated tests: unit, visual regression and an accessibility checker such as axe."
+        ],
+        [
+          "Check licenses and provenance",
+          "Generated code can resemble licensed code. Prefer original output, run a license or similarity check where you can, and record where the component came from."
+        ]
+      ],
+      "prompt": "Build a <Component> in <framework>.\nPurpose: <one sentence>. Users: <who>.\nStates: default, hover, focus-visible, disabled, loading, error.\nConstraints: use only these design tokens: <paste>. No new dependencies. Keyboard operable, visible focus, WCAG 2.2 AA contrast, works from 320 to 1920 px, respects prefers-reduced-motion.\nBase it on: <headless primitive or an existing component>.\nReturn, in order: the props API, a usage example, the implementation, then a manual test checklist.",
+      "tools": "Apps in our directory that generate or edit interface code include v0, Lovable, Bolt.new, Cursor and Claude Code. See the Apps page."
+    },
+    {
+      "id": "ai-improves-ui",
+      "title": "How AI can improve interface design",
+      "intro": "Used well, AI widens the options you consider and catches problems earlier. People still decide what is good.",
+      "helps": [
+        [
+          "Explore more options",
+          "Generate several layouts or variants of one screen to compare. The value is in the comparison, not in accepting the first output."
+        ],
+        [
+          "Review accessibility",
+          "Ask for a review of heading order, labels, link text, alt text and color contrast, alongside automated checkers. It finds issues faster but does not replace testing with assistive technology and real users."
+        ],
+        [
+          "Write clearer interface text",
+          "Rewrite error messages, empty states and button labels in plain language, then test them with real readers."
+        ],
+        [
+          "Keep a design system consistent",
+          "Have AI flag spacing, color and type that drift from your tokens, and propose fixes through a normal reviewed change."
+        ],
+        [
+          "Make adaptation easier",
+          "Support translation, reading level, text size and density settings so more people can use the same interface."
+        ],
+        [
+          "Speed up research synthesis",
+          "Summarize interview notes or feedback into themes, then check each theme against the original quotes."
+        ],
+        [
+          "Find layout bugs earlier",
+          "Generate unusual test content and run automated checks for overflow and broken navigation across screen sizes, as GoldBrief's daily review does."
+        ]
+      ],
+      "watch": [
+        "Output tends toward the generic. Brief it with your brand and real content.",
+        "It can state wrong things about browser support, APIs and accessibility rules. Verify against the specification.",
+        "Do not paste private user data, unreleased designs or credentials into tools you have not reviewed.",
+        "Automated or AI review is a first pass. A person should approve visual changes before they ship."
+      ]
+    }
   ]
 }

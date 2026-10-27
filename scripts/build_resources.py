@@ -11,7 +11,7 @@ e = html.escape
 SITE = "https://sukonik.github.io/goldbrief/"
 PAGES = {
     "resources": ("Tools", "AI tools & resources", "Where to go next.", "Skills directories, free courses, data sources and accountability tools.", "data/resources.json"),
-    "ui-ux": ("UI/UX", "UI/UX references", "Interfaces we learn from.", "Public GitHub design systems and component libraries behind our interface decisions.", "data/ui.json"),
+    "ui-ux": ("UI/UX", "UI/UX references", "Interfaces we learn from.", "The most-starred UI component projects on GitHub, our curated design systems, and a short guide to building and improving interfaces with AI.", "data/ui.json"),
 }
 shell = (ROOT / "visuals.html").read_text(encoding="utf-8")
 
@@ -22,14 +22,23 @@ def body(key):
     out.append(f'<section><div class="container"><p class="result-count">{e(d["note"])}</p>')
     out.append('<div class="toolbar"><input class="field" type="search" id="res-search" placeholder="Search this page..." aria-label="Search this page"></div><p id="result-count" class="result-count" aria-live="polite"></p>')
     for g in d["groups"]:
-        out.append(f'<h2 class="section-title">{e(g["name"])}</h2><div class="grid">')
+        out.append(f'<h2 class="section-title">{e(g["name"])}</h2>' + (f'<p class="last-review">{e(g["note"])}</p>' if g.get("note") else "") + '<div class="grid">')
         for i in g["items"]:
             note = f'<p class="last-review">{e(i["note"])}</p>' if i.get("note") else ""
-            out.append(f'<article class="card" data-search="{e((i["name"] + " " + i["what"] + " " + g["name"]).lower())}"><h3>{e(i["name"])}</h3><p>{e(i["what"])}</p>{note}'
+            meta = f'<p class="card__meta">★ {e(i["stars"])} · {e(i["platform"])}</p>' if i.get("stars") else ""
+            out.append(f'<article class="card" data-search="{e((i["name"] + " " + i["what"] + " " + g["name"] + " " + i.get("platform", "")).lower())}">{meta}<h3>{e(i["name"])}</h3><p>{e(i["what"])}</p>{note}'
                        f'<p class="card__foot"><a class="text-link" href="{e(i["url"])}" target="_blank" rel="noopener noreferrer">{e(i["url"].split("//")[1].rstrip("/"))} ↗</a></p></article>')
         out.append("</div>")
     if d.get("principles"):
         out.append('<h2 class="section-title">How we use these</h2><div class="surface-panel"><ul>' + "".join(f"<li>{e(p)}</li>" for p in d["principles"]) + "</ul></div>")
+    for gd in d.get("guides", []):
+        out.append(f'<h2 class="section-title" id="{gd["id"]}">{e(gd["title"])}</h2><p class="lede">{e(gd["intro"])}</p>')
+        if gd.get("steps"):
+            out.append('<ol class="steps-list">' + "".join(f'<li><b>{e(t)}.</b> {e(x)}</li>' for t, x in gd["steps"]) + "</ol>")
+            out.append(f'<h3>Prompt template</h3><pre class="prompt" tabindex="0">{e(gd["prompt"])}</pre><p class="last-review">{e(gd["tools"])}</p>')
+        if gd.get("helps"):
+            out.append('<div class="grid">' + "".join(f'<article class="card"><h3>{e(t)}</h3><p>{e(x)}</p></article>' for t, x in gd["helps"]) + "</div>")
+            out.append('<h3>Watch out for</h3><div class="surface-panel"><ul>' + "".join(f"<li>{e(w)}</li>" for w in gd["watch"]) + "</ul></div>")
     out.append(f'<p class="last-review">Last compiled {d["updated"]}. Spot an error or dead link? <a class="text-link" href="https://github.com/Sukonik/goldbrief/issues" target="_blank" rel="noopener noreferrer">Open an issue ↗</a></p></div></section></main>')
     return "".join(out)
 

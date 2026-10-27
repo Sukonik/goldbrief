@@ -79,3 +79,7 @@ html:not(.js) .nav-group:hover .nav-panel,html:not(.js) .nav-group:focus-within 
 .nav-panel__link:hover,.nav-panel__link:focus-visible{background:var(--b3-yellow-wash);border-left-color:var(--b3-yellow)}
 .nav-panel__link[aria-current=page]{border-left-color:var(--b3-yellow)}.nav-panel__link[aria-current=page] strong{color:var(--b3-yellow-bright)}
 @media(prefers-reduced-motion:reduce){.nav-group__btn .caret{transition:none}}
+
+.steps-list{margin:1.2rem 0;padding-left:1.4rem;display:grid;gap:.7rem;max-width:62ch}.steps-list li{line-height:1.5}.prompt{white-space:pre-wrap;overflow-wrap:anywhere;font-family:var(--b3-font-mono);font-size:.82rem;line-height:1.55;background:var(--b3-black-800);border:1px solid var(--b3-border);border-radius:8px;padding:1rem;color:var(--b3-text-secondary)}
+
+.card{min-width:0}.card h3,.card p{overflow-wrap:anywhere}
