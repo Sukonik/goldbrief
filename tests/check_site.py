@@ -5,7 +5,7 @@ from pathlib import Path
 root=Path(__file__).resolve().parents[1]
 pages=["index","resources","ui-ux","news","lake","leaderboards","usa","international","visuals","markets","apps","index-directory","glossary","encyclopedia","trust","about"]
 files=[root/f"{p}.html" for p in pages]
-assets=["css/tokens.css","css/base.css","css/components.css","css/responsive.css","css/goldbrief.css","js/main.js","assets/favicon.svg"]
+assets=["css/tokens.css","css/base.css","css/components.css","css/responsive.css","css/goldbrief.css","js/main.js","assets/favicon.svg","assets/favicon.ico","assets/apple-touch-icon.png","assets/goldbrief-mark.svg","site.webmanifest"]
 errors=[]
 for f in files:
     if not f.exists():errors.append(f"Missing page: {f.name}");continue

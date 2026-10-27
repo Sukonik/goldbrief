@@ -2,14 +2,21 @@
 
 ## Logo
 
-The primary mark is a flat black briefcase built from measured, slightly angled horizontal bars. The handle and top bar form one continuous shape, with the opening cut from the same geometry. There is no GB lettering. The vector sits on a warm ivory field in the dark header; the favicon uses the same field.
+The primary mark is the **left-facing briefcase** from the logo handoff: an upright document case seen slightly from above and from the viewer's left, one light seam turning round the left edge, handle integrated. The approved graphite master is preserved untouched in `assets/brand/`; the site uses a vector redrawn from the same geometry by `scripts/build_brand.py`.
 
-- `assets/goldbrief-mark.svg`: primary transparent vector icon for the header and artwork.
-- `assets/favicon.svg`: browser icon with warm ivory backing.
-- `assets/goldbrief-mark.png`: 512 px transparent export.
-- Header lockup: icon followed by live text **GoldBrief**. Keep the wordmark as HTML text for sharpness and accessibility.
+| File | Use |
+| --- | --- |
+| `assets/goldbrief-mark.svg` / `.png` (512) | Header and drawer mark (transparent, detailed) |
+| `assets/favicon.svg` | Browser tab icon: ivory tile, bolder seam for small sizes |
+| `assets/favicon.ico`, `favicon-16/32/48.png` | Legacy and fixed-size favicons |
+| `assets/apple-touch-icon.png`, `icon-192.png`, `icon-512.png`, `site.webmanifest` | Home-screen and PWA icons (full-bleed ivory) |
+| `assets/brand/` | Handoff originals: transparent PNGs (master, 1024/512/256/128), white-background preview, gradient schematics |
 
-Keep clear space around the mark equal to at least one eighth of its width. Keep the single black color, angled bar rhythm, joined handle, and warm ivory field on dark surfaces. Avoid extrusion, gradients, outlines, or lettering inside the case.
+**Rules.** The mark is dark, so it always sits on the warm ivory field `#F4F1E9`, including in the dark header. Never place the dark master directly on the black header. Do not stretch or rotate it; keep clear space of at least one eighth of its width. Keep the wordmark as live HTML text.
+
+**Palette (from the gradient schematics).** Obsidian `#30343A` → `#191C20` → `#080A0D` for the case body (used in the mark); seam `#F3F4F4`. Optional, not yet used: Gold signal `#FFF2C4` → `#D4A017` → `#8B5C18` for a seam or editorial accent only; Platinum `#F2F4F5` → `#BBC0C5` → `#717981` as an alternate seam. Keep the case body Obsidian in every variant.
+
+**Status.** The vector is a hand-built redraw for review, not an auto-trace. Before final launch, check it in the real header at 128, 64 and 32 px on white and ivory, and on high-DPI screens. Regenerate every icon with `python3 scripts/build_brand.py`.
 
 ## Two font system
 
