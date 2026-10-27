@@ -1,0 +1,102 @@
+{
+  "updated": "2026-10-27",
+  "refresh": "Manually curated; not a live feed.",
+  "news": [
+    {
+      "id": "a-ipo",
+      "date": "2026-10-26",
+      "title": "Anthropic files for a proposed U.S. stock-market listing",
+      "company": "Anthropic",
+      "region": "usa",
+      "type": "company",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/news/s1-sec",
+      "summary": "Anthropic says it filed an S-1 registration statement for a proposed IPO. The price, offering size and eventual outcome were not yet determined in its filing announcement.",
+      "why": "A filing signals an intention, not a completed IPO or proof that a valuation target is justified."
+    },
+    {
+      "id": "ai-stock",
+      "date": "2026-10-26",
+      "title": "Investors weigh opportunities and AI infrastructure risks ahead of a possible Anthropic IPO",
+      "company": "Anthropic",
+      "region": "usa",
+      "type": "report",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/legal/transactional/ai-stocks-rise-anthropic-nears-wall-street-debut-amid-investor-caution-2026-10-26/",
+      "summary": "Independent market coverage discusses interest in AI-related stocks and concerns about debt-financed infrastructure spending.",
+      "why": "The market reaction and a company's fundamental business strength are different questions."
+    },
+    {
+      "id": "openai-research",
+      "date": "2026-10-26",
+      "title": "OpenAI releases AI-assisted mathematical and scientific research claims for wider scrutiny",
+      "company": "OpenAI",
+      "region": "usa",
+      "type": "company",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+      "summary": "OpenAI published AI-generated research outputs and describes efforts to involve external experts and academic communities in understanding and validating them.",
+      "why": "Publication is a starting point for verification; readers should separate exciting claims from community-confirmed conclusions."
+    },
+    {
+      "id": "terra",
+      "date": "2026-10-26",
+      "title": "OpenAI introduces GPT-6.1 Terra focused on computer-use tasks",
+      "company": "OpenAI",
+      "region": "usa",
+      "type": "company",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+      "summary": "OpenAI announced a model aimed at visual understanding and computer workflows, with performance and price claims based on its published evaluations.",
+      "why": "Benchmarks are useful context, but practical value depends on real tasks, cost and independent testing."
+    },
+    {
+      "id": "agent-skills",
+      "date": "2026-10-22",
+      "title": "Anthropic says it is donating Agent Skills to the Agentic AI Foundation",
+      "company": "Anthropic",
+      "region": "usa",
+      "type": "company",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+      "summary": "Anthropic described plans for community stewardship of a reusable agent-skills specification.",
+      "why": "Open standards can reduce dependence on individual vendors, but participation and governance still matter."
+    },
+    {
+      "id": "forests",
+      "date": "2026-10-22",
+      "title": "Google DeepMind publishes a forest-type mapping project",
+      "company": "Google DeepMind",
+      "region": "international",
+      "type": "company",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+      "summary": "The team introduced a research-based map intended to distinguish forest types using satellite imagery and AI methods.",
+      "why": "AI can help in environmental monitoring; review validation methods and limitations before relying on outputs."
+    },
+    {
+      "id": "mistral",
+      "date": "2026-10-06",
+      "title": "France-based Mistral previews Mistral Large 4",
+      "company": "Mistral AI",
+      "region": "international",
+      "type": "company",
+      "source": "Mistral AI",
+      "url": "https://mistral.ai/news/mistral-large-4/",
+      "summary": "Mistral described a preview of a large multimodal model, including its own comparisons with alternatives.",
+      "why": "Vendor performance claims need independent benchmarks and use-case testing."
+    },
+    {
+      "id": "meta",
+      "date": "2026-10-12",
+      "title": "Meta introduces Muse Wonder models for agents",
+      "company": "Meta AI",
+      "region": "usa",
+      "type": "company",
+      "source": "Meta",
+      "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
+      "summary": "Meta announced agent-oriented models designed for tasks including software and document workflows.",
+      "why": "Agent capability brings useful automation but also questions about permissions, privacy and mistakes."
+    }
+  ]
+}
