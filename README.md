@@ -1,3 +1,5 @@
+<img src="assets/favicon.svg" width="72" height="72" alt="GoldBrief briefcase logo">
+
 # ☀️ GoldBrief — AI Explained
 
 Free, open-source AI news, education and company tracking. **Understand AI. Question claims. Discover what works.**
