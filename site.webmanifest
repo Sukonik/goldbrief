@@ -3,7 +3,7 @@
   "short_name": "GoldBrief",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#F4F1E9",
+  "background_color": "#050504",
   "theme_color": "#050504",
   "icons": [
     {
