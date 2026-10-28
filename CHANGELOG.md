@@ -1,6 +1,7 @@
 # Changelog
 
 ## Unreleased
+- Daily workflow: manual/API dispatch is no longer forced by default (new `force` input), so an external cron can ping it safely; added `docs/EXTERNAL_CRON.md` with cron-job.org setup.
 - Daily news: five staggered scheduled attempts (the single 8:30 slot was skipped by GitHub on 2026-10-28), fast exit when no edition is due, wider ET window, and a visible edition/status line with a stale-edition notice.
 - UI/UX page: the 23 most-starred projects on GitHub's `ui-components` topic (dated snapshot, with stars and platform), a step-by-step guide with a prompt template for building components with AI, and a section on how AI can improve interface design, with limits.
 - Desktop header is now six grouped dropdown menus (hover, click, keyboard); Resources page renamed **Tools**, Trust labeled **Editorial policy**; hamburger breakpoint lowered to 1024px.
