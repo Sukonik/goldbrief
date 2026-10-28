@@ -1,5 +1,30 @@
 # External cron trigger for the daily edition
 
+## Current status (update this when anything changes)
+| Item | Value |
+| --- | --- |
+| Service | cron-job.org (account settings: https://console.cron-job.org/settings) |
+| Set up by / on | repository owner, 2026-10-28 |
+| Jobs | daily 08:00 and 08:20, time zone America/New_York, POST to the `daily.yml` dispatch endpoint with `{"ref":"main"}` |
+| Token | fine-grained PAT, `Sukonik/goldbrief` only, Actions: read/write |
+| Token expires | _fill in: ____ (set a reminder 2 weeks earlier)_ |
+| First confirmed run | _fill in after the first 08:00 ET run appears in the Actions tab as `workflow_dispatch` from the token owner_ |
+| Backup triggers | five GitHub schedules in `daily.yml` (12:07, 12:37, 13:07, 13:37, 14:07 UTC) |
+
+## Runbook: what to check when the news looks stale
+1. Open the repository **Actions** tab, workflow "GoldBrief Daily News". Is there a run today?
+2. **No run at all:** check cron-job.org's job history. A 401 means the token expired or was revoked (rotate it, below). A 404 usually means a wrong URL. Anything other than 204 is a failure.
+3. **Run exists but skipped quickly ("No new edition due"):** expected after the first success of the day, or outside the 8-10 AM ET window.
+4. **Run failed:** read its log. A push rejection is retried automatically; a feed outage keeps the previous edition and shows the stale notice on the site.
+5. To publish immediately: Actions -> "GoldBrief Daily News" -> Run workflow -> tick **force**.
+6. The site shows the edition date and collection time on the news pages. `data/daily.json` has `actual_run_et`.
+
+## Rotation checklist (before the token expires)
+1. GitHub -> Settings -> Developer settings -> Fine-grained tokens: generate a new token with the same single-repo, Actions read/write scope.
+2. In cron-job.org, edit **both** jobs and replace the `Authorization: Bearer ...` header.
+3. Use cron-job.org's "Test run" and confirm a `workflow_dispatch` run appears in Actions.
+4. Delete the old token. Update the "Token expires" row above.
+
 GitHub's own scheduler is best-effort and skipped the 2026-10-28 morning run. A free external cron service can call GitHub's workflow-dispatch API instead. This is a second, independent trigger: the five GitHub schedules stay in place as backups.
 
 **Why it is safe to ping more than once.** A dispatch with no inputs is *not* forced. `scripts/daily_update.py` publishes only inside the 8–10 AM America/New_York window and only once per ET day; every other ping exits in seconds without committing. To recollect on demand, dispatch with `force=true`.
