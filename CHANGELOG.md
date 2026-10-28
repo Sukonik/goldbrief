@@ -1,6 +1,7 @@
 # Changelog
 
 ## Unreleased
+- Daily news: five staggered scheduled attempts (the single 8:30 slot was skipped by GitHub on 2026-10-28), fast exit when no edition is due, wider ET window, and a visible edition/status line with a stale-edition notice.
 - UI/UX page: the 23 most-starred projects on GitHub's `ui-components` topic (dated snapshot, with stars and platform), a step-by-step guide with a prompt template for building components with AI, and a section on how AI can improve interface design, with limits.
 - Desktop header is now six grouped dropdown menus (hover, click, keyboard); Resources page renamed **Tools**, Trust labeled **Editorial policy**; hamburger breakpoint lowered to 1024px.
 - Apps directory expanded from 20 to 112 apps in 17 categories with location filter, per-category cautions and a six-question checklist.
