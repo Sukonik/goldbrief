@@ -12,6 +12,13 @@ on:
     - cron: "37 13 * * *"
     - cron: "7 14 * * *"
   workflow_dispatch:
+    # External cron (docs/EXTERNAL_CRON.md) dispatches with no inputs: it publishes only when an
+    # edition is due (8-10 AM ET window, once per ET day). Tick "force" to recollect immediately.
+    inputs:
+      force:
+        description: "Force a new edition now, ignoring the time window and the once-per-day rule"
+        type: boolean
+        default: false
 permissions:
   contents: write
   issues: write
@@ -30,7 +37,7 @@ jobs:
       - name: Collect external RSS headlines when due
         id: collect
         env:
-          GOLDBRIEF_MANUAL: ${{ github.event_name == 'workflow_dispatch' }}
+          GOLDBRIEF_MANUAL: ${{ github.event_name == 'workflow_dispatch' && inputs.force == true }}
         run: |
           python3 scripts/daily_update.py
           if git diff --quiet data/daily.json && [ "$GOLDBRIEF_MANUAL" != "true" ]; then
