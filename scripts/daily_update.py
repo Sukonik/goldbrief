@@ -70,8 +70,8 @@ def main():
     now = dt.datetime.now(dt.timezone.utc); et = now.astimezone(EASTERN)
     existing = json.loads(TARGET.read_text())
     manual = os.environ.get("GOLDBRIEF_MANUAL", "false").lower() == "true"
-    if not manual and not et.hour in (8, 9):
-        print("Skipped: not the 8:30 AM ET window:", et.isoformat()); return 0
+    if not manual and not et.hour in (8, 9, 10):
+        print("Skipped: not the 8-10 AM ET window:", et.isoformat()); return 0
     if not manual and existing.get("local_date") == et.date().isoformat():
         print("Today's edition already exists."); return 0
     raw, failed = [], []

@@ -10,7 +10,7 @@
 - Companies, original summaries and research links stay manually curated until an evidence-first editorial workflow exists.
 
 ## ⏱️ Target vs actual time
-Target is 8:30 AM America/New_York. Two crons (12:30, 13:30 UTC) cover EDT and EST; the script gates on the ET window. GitHub scheduled runs are best-effort and commonly start 5–30+ minutes late. `data/daily.json` records `actual_run_et`. Bot commits use `GITHUB_TOKEN` and do not trigger other workflows, so `daily.yml` dispatches `pages.yml` itself.
+Target is 8:30 AM America/New_York. Five staggered crons (12:07, 12:37, 13:07, 13:37, 14:07 UTC, off-peak minutes) cover EDT and EST; the script gates on an 8–10 AM ET window and one edition per ET day, and the workflow skips QA and commit when no edition is due. On 2026-10-28 the first scheduled slot did not run at all, which is why there are backups; the site shows a notice when the edition is stale. GitHub scheduled runs are best-effort and commonly start 5–30+ minutes late. `data/daily.json` records `actual_run_et`. Bot commits use `GITHUB_TOKEN` and do not trigger other workflows, so `daily.yml` dispatches `pages.yml` itself.
 
 ## 🎨 Daily UI/UX sweep
 Run `python3 tests/check_site.py` and `node tests/browser_check.js` (overflow at 320–1920px, JS errors, drawer keyboard behavior); `scripts/daily_report.py` merges them with priorities (P1 broken/JS/nav, P2 layout/console, P3 other), flags new regressions, and `daily.yml` opens an issue on failure. Checks never redesign the site; visual changes go through a reviewed PR. Structural integrity covers, duplicate ids, JSON validity, internal pages/assets, responsive CSS and mobile menu scripting. Save the QA status in `reports/daily-site-check.json`.

@@ -1,12 +1,16 @@
 name: 📰 GoldBrief Daily News + UI Integrity
 on:
   schedule:
-    # Target: 8:30 AM America/New_York. 12:30 UTC = 8:30 EDT; 13:30 UTC = 8:30 EST.
-    # scripts/daily_update.py only publishes in the 8-9 AM ET window and once per ET day.
-    # GitHub may start scheduled runs late (often 5-30+ min); the real run time is
-    # recorded in data/daily.json as actual_run_et.
-    - cron: "30 12 * * *"
-    - cron: "30 13 * * *"
+    # Target: edition live by 8:30 AM America/New_York. GitHub's scheduler is best-effort and
+    # sometimes skips or delays runs, so there are four staggered attempts on off-peak minutes.
+    # scripts/daily_update.py publishes only inside the 8-10 AM ET window and only once per ET day;
+    # attempts after the first successful one exit in seconds. Covers EDT (12:xx/13:xx UTC = 8:xx/9:xx)
+    # and EST (13:xx/14:xx UTC = 8:xx/9:xx).
+    - cron: "7 12 * * *"
+    - cron: "37 12 * * *"
+    - cron: "7 13 * * *"
+    - cron: "37 13 * * *"
+    - cron: "7 14 * * *"
   workflow_dispatch:
 permissions:
   contents: write
@@ -24,15 +28,25 @@ jobs:
         with:
           ref: main
       - name: Collect external RSS headlines when due
+        id: collect
         env:
           GOLDBRIEF_MANUAL: ${{ github.event_name == 'workflow_dispatch' }}
-        run: python3 scripts/daily_update.py
+        run: |
+          python3 scripts/daily_update.py
+          if git diff --quiet data/daily.json && [ "$GOLDBRIEF_MANUAL" != "true" ]; then
+            echo "due=false" >> "$GITHUB_OUTPUT"; echo "No new edition due; skipping QA and commit."
+          else
+            echo "due=true" >> "$GITHUB_OUTPUT"
+          fi
       - name: Structural checks
+        if: steps.collect.outputs.due == 'true'
         run: python3 tests/check_site.py > /tmp/structural.json || true
       - uses: actions/setup-node@v4
+        if: steps.collect.outputs.due == 'true'
         with:
           node-version: 20
       - name: Browser checks
+        if: steps.collect.outputs.due == 'true'
         # A browser-tooling outage must not block the headline edition; the report records it.
         continue-on-error: true
         timeout-minutes: 8
@@ -41,8 +55,10 @@ jobs:
           npx playwright install chromium
           node tests/browser_check.js > /tmp/browser.json || true
       - name: Build daily review report
+        if: steps.collect.outputs.due == 'true'
         run: python3 scripts/daily_report.py /tmp/structural.json /tmp/browser.json
       - name: Commit feed and report to main
+        if: steps.collect.outputs.due == 'true'
         run: |
           git config user.name "goldbrief-daily[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -61,6 +77,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
       - name: Open an issue if checks failed
+        if: steps.collect.outputs.due == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
