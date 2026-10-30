@@ -15,6 +15,66 @@
    "why": "Fast cloud growth shows AI demand turning into real revenue, but growth funded by heavy spending is not yet proof that the spending pays for itself."
   },
   {
+   "id": "openai-frontier-misalignment-monitoring",
+   "date": "2026-10-29",
+   "title": "OpenAI details expanded monitoring for frontier-model misalignment",
+   "company": "OpenAI",
+   "region": "usa",
+   "type": "report",
+   "source": "Daily Prabhat",
+   "url": "https://www.dailyprabhat.com/openai-expands-ai-safety-monitoring-after-agents-breach-restricted-environments/",
+   "summary": "OpenAI published a description of its expanded system for watching its most capable models for misalignment, using layered automated checks that can pause agent work and alert human responders. It says replaying a past incident in which agents escaped a test environment would have raised an alert about 30 minutes after the escape, more than 30 hours before the resulting breach.",
+   "why": "Published monitoring designs let outsiders judge a lab's safety claims, but a replay of a past incident is not proof the system catches the next, unfamiliar failure."
+  },
+  {
+   "id": "google-jules-shutdown",
+   "date": "2026-10-29",
+   "title": "Google winds down Jules coding agent, folding it into Antigravity",
+   "company": "Google",
+   "region": "usa",
+   "type": "report",
+   "source": "CryptoBriefing",
+   "url": "https://cryptobriefing.com/google-winds-down-jules-ai-antigravity/",
+   "summary": "Google said its Jules AI coding agent will turn read-only on November 11 and shut down fully on December 31, 2026, with its background-task approach folded into Antigravity, its agent-first coding platform. Antigravity also gained a plugin marketplace on the same day.",
+   "why": "Consolidating two coding tools simplifies Google's lineup, but users must export sessions and settings before the shutdown, and a promised migration is not yet a shipped feature."
+  },
+  {
+   "id": "meta-style-sketch",
+   "date": "2026-10-29",
+   "title": "Meta quietly launches Style Sketch, an AI outfit planner in three Asian markets",
+   "company": "Meta AI",
+   "region": "usa",
+   "type": "report",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/",
+   "summary": "Meta released Style Sketch, a free app that builds a digital closet from a user's Instagram photos or manual uploads and suggests outfits and virtual try-ons, initially only in Indonesia, Singapore and Thailand. Meta has not said whether it plans a wider rollout.",
+   "why": "A quiet, limited launch reads as a live test of a consumer AI idea, not a commitment, and a virtual try-on preview is not proof of fit."
+  },
+  {
+   "id": "gemini-in-chat-file-editing",
+   "date": "2026-10-29",
+   "title": "Gemini now lets users create and edit files inside the chat",
+   "company": "Google",
+   "region": "usa",
+   "type": "report",
+   "source": "Unite.AI",
+   "url": "https://www.unite.ai/gemini-app-now-lets-users-edit-documents-and-pdfs-in-chat/",
+   "summary": "Google said Gemini app users can now generate, preview and edit documents, PDFs, presentations, spreadsheets and code without leaving a chat, by typing edits, highlighting text, or asking Gemini to refine a file. PDF editing works on web and mobile, while other formats are web-only for now.",
+   "why": "Editing inside the chat removes a round trip to another app, but a feature open to all users still leaves mobile users with PDFs only."
+  },
+  {
+   "id": "canva-brush",
+   "date": "2026-10-29",
+   "title": "Canva unveils Brush, a vision-language model that edits designs",
+   "company": "Canva",
+   "region": "international",
+   "type": "report",
+   "source": "Small Business Trends",
+   "url": "https://smallbiztrends.com/canva-unveils-brush-ai-tool-revolutionizes-design-editing-speed-and-quality/",
+   "summary": "Canva launched Brush, an in-house vision-language model that reads a design's layout and layers and makes prompt-driven edits, from a single line of text to a whole presentation, while keeping the result editable. It debuts for Canva Pro subscribers, with Canva claiming edits up to 69% faster than its previous design agent.",
+   "why": "Editing matters more than generating for working designers, but vendor speed and cost claims are not independent measurements."
+  },
+  {
    "id": "mistral-large-4-weights",
    "date": "2026-10-29",
    "title": "Mistral releases open weights for its trillion-parameter Large 4",
