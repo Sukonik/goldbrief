@@ -15,6 +15,18 @@
    "why": "Fast cloud growth shows AI demand turning into real revenue, but growth funded by heavy spending is not yet proof that the spending pays for itself."
   },
   {
+   "id": "kuaishou-kling-3b-round",
+   "date": "2026-10-30",
+   "title": "Kuaishou's Kling AI unit completes a near $3 billion funding round",
+   "company": "Kuaishou",
+   "region": "international",
+   "type": "report",
+   "source": "Reuters",
+   "url": "https://www.reuters.com/business/retail-consumer/kuaishous-kling-ai-unit-completes-near-3-billion-funding-round-2026-10-30/",
+   "summary": "Kuaishou said its Kling AI video unit has completed a fundraising round of about 19.8 billion yuan, roughly $3 billion, following a $2.8 billion raise in July; Kuaishou will keep about two-thirds of the equity and 52.45% of the voting rights. New investors include units of Kingdee and MetaX, while Kuaishou did not say how Kling will use the proceeds.",
+   "why": "A completed round is real capital, not just a valuation headline — but an undisclosed use of proceeds and a reported IPO plan for next year are intentions, not results, and a funding round is not revenue."
+  },
+  {
    "id": "openai-frontier-misalignment-monitoring",
    "date": "2026-10-29",
    "title": "OpenAI details expanded monitoring for frontier-model misalignment",
