@@ -15,6 +15,18 @@
    "why": "Open weights let anyone test the accuracy claims for themselves — but a launch announcement is not an independent benchmark, and small models still need checking on real documents."
   },
   {
+   "id": "deepseek-series-b-close",
+   "date": "2026-10-30",
+   "title": "DeepSeek closes a $15.8 billion second funding round",
+   "company": "DeepSeek",
+   "region": "international",
+   "type": "report",
+   "source": "TokenPost",
+   "url": "https://www.tokenpost.com/news/business/44390",
+   "summary": "DeepSeek has closed its second external funding round, raising about 105.5 billion yuan (roughly $15.8 billion) at a valuation of about 615.5 billion yuan, with nearly 30 investors taking part. Tencent and battery maker CATL remain its largest backers, and the share of state-linked investors in the round rose sharply from the first round.",
+   "why": "A closed round is real capital, not a rumored target — but a high valuation is not revenue, and a larger state-linked share does not by itself say how the company will be run."
+  },
+  {
    "id": "waymo-toyota-bz4x",
    "date": "2026-10-30",
    "title": "Waymo and Toyota will build a bZ4X robotaxi for Japan and the UK",
