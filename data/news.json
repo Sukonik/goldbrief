@@ -3,6 +3,42 @@
  "refresh": "Manually curated; not a live feed.",
  "news": [
   {
+   "id": "apple-ternus-no-ai-for-ais-sake",
+   "date": "2026-10-31",
+   "title": "Apple CEO says the company won't 'ship AI for AI's sake'",
+   "company": "Apple",
+   "region": "usa",
+   "type": "report",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+   "summary": "In an interview with Wired, Apple chief executive John Ternus said Apple will use AI in new products but does not want to add AI features simply for their own sake, arguing that good features should not make users think about whether AI or traditional software built them.",
+   "why": "A new chief executive's first statement of AI strategy sets the tone for Apple's product choices — but an interview position is not a product announcement, and it names no new features or dates."
+  },
+  {
+   "id": "lenovo-tianxi-ai-4-5",
+   "date": "2026-10-30",
+   "title": "Lenovo launches Tianxi AI 4.5 for AI PCs",
+   "company": "Lenovo",
+   "region": "international",
+   "type": "company",
+   "source": "Ad-hoc News",
+   "url": "https://www.ad-hoc-news.de/boerse/unternehmensnachrichten/lenovo-s-ai-software-launch-overshadowed-as-pc-shipments-tumble-23/70441816",
+   "summary": "Lenovo rolled out Tianxi AI 4.5, an updated AI software platform for its AI PCs, adding a cross-application agent mode, meeting notes, and handoffs of tasks from phones and tablets to PCs.",
+   "why": "Lenovo is betting that on-device AI software, not just hardware, will sell PCs — but the launch arrived alongside a reported 23% year-on-year fall in its PC shipments, so software alone has not yet changed the sales story."
+  },
+  {
+   "id": "dream-17m-built-world-models",
+   "date": "2026-10-29",
+   "title": "Dream raises $17 million to build AI models that design buildings",
+   "company": "Dream",
+   "region": "usa",
+   "type": "report",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/",
+   "summary": "Dream, a startup founded by two former Palantir executives, emerged from stealth with $17 million in seed funding led by Andreessen Horowitz to build AI models that automate building design and engineering, trained on data from more than 100 million square feet of permitted U.S. buildings.",
+   "why": "A seed round shows investors believe AI can move from text and images into physical design work — but the company is only at the start, with its platform deployed on 10 projects so far, not yet proof it can replace established design tools."
+  },
+  {
    "id": "south-korea-october-exports",
    "date": "2026-11-01",
    "title": "South Korea's October exports nearly double on AI chip demand",
