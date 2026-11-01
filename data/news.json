@@ -63,6 +63,42 @@
    "why": "A reported round is not closed cash until confirmed, and a valuation is not revenue — but the size shows investors paying for AI output developers can use directly, not just chat."
   },
   {
+   "id": "aramco-humain-49-percent",
+   "date": "2026-11-01",
+   "title": "Aramco closes deal for 49% of Saudi AI company HUMAIN",
+   "company": "HUMAIN",
+   "region": "international",
+   "type": "company",
+   "source": "Aramco",
+   "url": "https://www.aramco.com/en/news-media/news/2026/pif-and-aramco-close-humain-transaction-to-accelerate-humains-global-growth",
+   "summary": "Saudi Aramco has closed a deal taking a 49% stake in HUMAIN, Saudi Arabia's state-backed AI company, through a wholly owned subsidiary, with the Public Investment Fund keeping 51%. Aramco will contribute about $2.6 billion in cash during 2026 plus AI, computing and digital assets, backing HUMAIN's plan for 3 gigawatts of AI data-centre capacity by 2030.",
+   "why": "A closed deal with a named cash figure is firmer than an announced plan — but the transferred assets are unvalued, so the $2.6 billion is not the deal's total value, and 3 gigawatts by 2030 is a target, not built capacity."
+  },
+  {
+   "id": "chainalysis-agentic-breach",
+   "date": "2026-11-01",
+   "title": "Chainalysis discloses breach tied to 'offensive agentic techniques'",
+   "company": "Chainalysis",
+   "region": "usa",
+   "type": "report",
+   "source": "BleepingComputer",
+   "url": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+   "summary": "Blockchain analytics firm Chainalysis said an outside attacker used what it calls 'offensive agentic techniques' to reach its internal systems and tools, accessing customer user IDs, names, email addresses and organisation role labels. The company says it has found no evidence so far that investigation content, passwords, multi-factor secrets or session tokens were reached.",
+   "why": "The case shows AI-assisted attack methods reaching a security firm itself — but 'agentic' is the company's own label, with no attacker identity, entry point or affected-customer count disclosed yet."
+  },
+  {
+   "id": "quad-85m-ai-indo-pacific",
+   "date": "2026-11-01",
+   "title": "Quad partners outline $85 million-plus AI assistance plan for the Indo-Pacific",
+   "company": "Quad",
+   "region": "international",
+   "type": "report",
+   "source": "IANS",
+   "url": "https://ianslive.in/quad-unveils-ai-minerals-and-maritime-plans--20261031210602",
+   "summary": "The US, India, Japan and Australia said they intend to provide more than $85 million in technical and financial assistance to expand access to trusted AI across the Indo-Pacific, alongside a US commitment of $10 million for critical-minerals recycling facilities in India and Southeast Asia.",
+   "why": "A joint ministerial statement signals shared direction on AI supply chains — but it is an intention, not disbursed funding: the statement names no per-country contributions or distribution plan."
+  },
+  {
    "id": "apple-intelligence-china-qwen",
    "date": "2026-10-31",
    "title": "Apple Intelligence reaches China in December, powered by Alibaba's Qwen",
