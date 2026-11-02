@@ -1,7 +1,91 @@
 {
- "updated": "2026-11-01",
+ "updated": "2026-11-02",
  "refresh": "Manually curated; not a live feed.",
  "news": [
+  {
+   "id": "cohere-series-e-first-close",
+   "date": "2026-11-02",
+   "title": "Cohere closes first part of Series E round targeting up to CAD 7 billion",
+   "company": "Cohere",
+   "region": "international",
+   "type": "report",
+   "source": "FinSMEs",
+   "url": "https://www.finsmes.com/2026/11/cohere-holds-initial-closing-of-cad-7-billion-series-e-funding.html",
+   "summary": "Toronto-based Cohere has held the first closing of a Series E round targeting up to CAD 7 billion, at a reported valuation of CAD 35.7 billion, with backing from Germany's Schwarz Group, new investors including Bell Ventures and Bullhound Capital, and the Government of Canada.",
+   "why": "A first closing is real money committed, not the full round — and a valuation is not revenue, though the Canadian government's participation shows how closely Ottawa is tying itself to a domestic AI lab."
+  },
+  {
+   "id": "openai-abu-dhabi-four-deals",
+   "date": "2026-11-02",
+   "title": "OpenAI signs four agreements with Abu Dhabi entities",
+   "company": "OpenAI",
+   "region": "international",
+   "type": "report",
+   "source": "RR Tech Pulse",
+   "url": "https://rrtechpulse.com/stories/abu-dhabi-openai-four-agreements/",
+   "summary": "OpenAI signed four agreements with Abu Dhabi government and business entities covering government services, energy, and investment, including a “Machine-Readable Government” initiative and a five-year AI adoption pact with G42 subsidiary Inception42; the first pilot, on food imports, is already running.",
+   "why": "Signed agreements show a Gulf government putting AI into public administration and a state oil company, not just buying software — but no values or timelines were disclosed, so the scale of the deals is still unknown."
+  },
+  {
+   "id": "anthropic-japan-ipo-tranche",
+   "date": "2026-11-02",
+   "title": "Anthropic files to sell up to $3.5 billion of IPO shares in Japan",
+   "company": "Anthropic",
+   "region": "usa",
+   "type": "report",
+   "source": "Reuters",
+   "url": "https://www.reuters.com/world/asia-pacific/anthropic-plans-sell-35-billion-shares-japan-investors-ipo-filing-shows-2026-11-02/",
+   "summary": "Anthropic filed in Japan to sell up to 552.9 billion yen (about $3.5 billion) of shares to Japanese investors as part of its planned U.S. listing, with Mizuho Securities managing the Japanese portion; the filing does not state the IPO's total size or valuation.",
+   "why": "A filing ceiling is a maximum, not a sale — but opening the listing to Japanese retail investors shows how broad Anthropic expects demand for its shares to be."
+  },
+  {
+   "id": "openai-chatgpt-codex-shared-allowance",
+   "date": "2026-11-02",
+   "title": "ChatGPT and Codex will share one usage allowance from December",
+   "company": "OpenAI",
+   "region": "usa",
+   "type": "report",
+   "source": "CryptoBriefing",
+   "url": "https://cryptobriefing.com/openai-unifies-chatgpt-codex-token-allowance/",
+   "summary": "OpenAI says Plus, Pro, and Business subscribers will draw from a single token-based allowance shared across ChatGPT and Codex starting in December, with Instant chat exempt; combined remaining usage will appear in Settings.",
+   "why": "One pool changes how subscribers budget chat versus coding work — but OpenAI has published no allowance sizes or exact start date, so users cannot yet tell whether they gain or lose room."
+  },
+  {
+   "id": "xai-grok-api-watermark",
+   "date": "2026-11-02",
+   "title": "xAI will watermark Grok API text by default from November 7",
+   "company": "xAI",
+   "region": "usa",
+   "type": "report",
+   "source": "CryptoBriefing",
+   "url": "https://cryptobriefing.com/xai-grok-text-watermarking-api/",
+   "summary": "xAI will switch on invisible statistical watermarking by default for text from its Grok API models starting November 7, citing EU AI Act transparency rules; team administrators can disable it per model only after confirming a legal exception applies.",
+   "why": "A watermark makes AI-generated text detectable in principle — but detection is statistical and access is gated, so it is a compliance signal, not a proof of origin a reader can check."
+  },
+  {
+   "id": "lumaril-66m-series-a",
+   "date": "2026-11-02",
+   "title": "Lumaril raises $66 million to digitize factory-floor know-how",
+   "company": "Lumaril",
+   "region": "usa",
+   "type": "report",
+   "source": "Pulse 2",
+   "url": "https://pulse2.com/lumaril-raises-66-million-series-a-at-400-million-valuation-to-expand-industrial-ai-platform/",
+   "summary": "Lumaril raised a $66 million Series A led by Elad Gil at a $400 million valuation to expand its industrial AI platform, which captures experienced factory workers' operating knowledge and uses it to improve manufacturing throughput and yield.",
+   "why": "A raise is funding, not revenue — but the bet is on a real constraint: experienced operators retiring and taking undocumented know-how with them."
+  },
+  {
+   "id": "google-cloud-free-ai-courses",
+   "date": "2026-11-02",
+   "title": "Google Cloud offers free Gemini courses for finance and legal teams",
+   "company": "Google",
+   "region": "usa",
+   "type": "report",
+   "source": "PYMNTS",
+   "url": "https://www.pymnts.com/news/artificial-intelligence/2026/google-cloud-launches-free-ai-courses-for-financial-services-and-legal-teams/",
+   "summary": "Google Cloud's learning platform has launched free Gemini courses aimed at financial services and legal teams, building on agentic AI products for those industries announced in August.",
+   "why": "Free training lowers the barrier to trying Gemini at work — but a course is not adoption, and it says nothing about whether these teams will actually run their workflows on it."
+  },
   {
    "id": "apple-ternus-no-ai-for-ais-sake",
    "date": "2026-10-31",
