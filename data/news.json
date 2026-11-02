@@ -3,6 +3,30 @@
  "refresh": "Manually curated; not a live feed.",
  "news": [
   {
+   "id": "clark-11m-seed-audit-clerks",
+   "date": "2026-11-02",
+   "title": "Clark launches AI audit employees and raises an $11 million seed round",
+   "company": "Clark",
+   "region": "usa",
+   "type": "report",
+   "source": "Unite.AI",
+   "url": "https://www.unite.ai/clark-raises-11m-seed-to-bring-ai-audit-employees-to-more-cpa-firms/",
+   "summary": "New York-based Clark launched Clerks, autonomous AI employees that perform audit work for CPA firms, and announced an $11 million seed round led by Touring Capital, bringing its total funding to $16 million. More than 35 CPA firms already use Clark on audits, with licensed CPAs keeping review and sign-off.",
+   "why": "A seed round is early funding, not proof that autonomous audit work passes peer review at scale — but the pitch targets a regulated profession where accuracy, not speed alone, decides adoption."
+  },
+  {
+   "id": "42ai-62-5m-behavioral-world-model",
+   "date": "2026-11-02",
+   "title": "42AI comes out of stealth with $62.5 million for a behavioral world model",
+   "company": "42AI",
+   "region": "international",
+   "type": "report",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/",
+   "summary": "Israeli startup 42AI came out of stealth with $62.5 million in seed funding for a behavioral world model it says can predict how people will respond in new situations, initially running at financial brokerages to forecast how traders respond to volatile conditions.",
+   "why": "The 98% accuracy figure cited is about predicted ranges, not individual predictions — so the model is a claim to test in live deployments, not a demonstrated ability to predict human behavior."
+  },
+  {
    "id": "cohere-series-e-first-close",
    "date": "2026-11-02",
    "title": "Cohere closes first part of Series E round targeting up to CAD 7 billion",
