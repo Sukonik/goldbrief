@@ -3,6 +3,18 @@
  "refresh": "Manually curated; not a live feed.",
  "news": [
   {
+   "id": "menlo-ventures-enterprise-ai-spending-177b",
+   "date": "2026-11-03",
+   "title": "Menlo Ventures finds enterprise AI spending hit $177 billion, up 5.4x in a year",
+   "company": "Menlo Ventures",
+   "region": "usa",
+   "type": "report",
+   "source": "GlobeNewswire",
+   "url": "https://www.globenewswire.com/news-release/2026/11/03/3394279/0/en/menlo-ventures-2026-state-of-enterprise-ai-report-enterprise-ai-spending-hits-177b-up-5-4x-in-one-year-as-agents-take-over.html",
+   "summary": "Menlo Ventures' 2026 State of Enterprise AI report puts enterprise AI spending at $176.8 billion, up 5.4 times in a year, as autonomous agents changed how businesses use and pay for AI. Anthropic, OpenAI, and Google together captured 69% of deployment spending, with Anthropic extending its lead in enterprise API spending to 55%.",
+   "why": "A venture firm's survey measures its own sample of enterprise buyers, not the whole market — and rising spending shows budgets moving, not proof the spending pays for itself."
+  },
+  {
    "id": "lazarus-ai-43m-independent-ai",
    "date": "2026-11-03",
    "title": "Lazarus AI raises $43 million to build AI that customers control themselves",
