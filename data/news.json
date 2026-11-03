@@ -3,6 +3,42 @@
  "refresh": "Manually curated; not a live feed.",
  "news": [
   {
+   "id": "lazarus-ai-43m-independent-ai",
+   "date": "2026-11-03",
+   "title": "Lazarus AI raises $43 million to build AI that customers control themselves",
+   "company": "Lazarus AI",
+   "region": "usa",
+   "type": "report",
+   "source": "BusinessWire",
+   "url": "https://www.businesswire.com/news/home/20261103440906/en/",
+   "summary": "Lazarus AI announced $43 million in funding to expand AI that enterprises and governments run under their own control, covering document understanding, code vulnerability review, and modernizing old computer systems. Investors included QBE, Mucker Capital, State Farm Ventures, and others, and the company says customers keep their data in-house and approve every model change.",
+   "why": "The pitch is control over data, models, and costs, but the announcement discloses no valuation or revenue, so it proves investor interest, not market adoption."
+  },
+  {
+   "id": "tutor-intelligence-75m-series-b",
+   "date": "2026-11-03",
+   "title": "Tutor Intelligence raises $75 million to rent out warehouse robots by the hour",
+   "company": "Tutor Intelligence",
+   "region": "usa",
+   "type": "report",
+   "source": "Dealroom",
+   "url": "https://dealroom.co/news/168993-tutor-intelligence-raises-75m-series-b-from-a16z-for-robot-workforce/",
+   "summary": "Tutor Intelligence, a Watertown, Massachusetts robotics company spun out of MIT, raised a $75 million Series B led by Andreessen Horowitz, bringing its total funding to $117 million. Instead of selling robots, it rents its Sonny and Cassie warehouse robots by the hour or per item picked, and says it will use the money to train robot foundation models and expand manufacturing and deployment.",
+   "why": "A funding round buys runway, not proof the hourly-rental model works at scale — the company's target of 1,000 robots under contract by the end of 2027 is a goal, not a result."
+  },
+  {
+   "id": "semianalysis-gdpx-benchmark-12-percent",
+   "date": "2026-11-03",
+   "title": "SemiAnalysis launches GDPx, a work-like benchmark where the best AI scores 12%",
+   "company": "SemiAnalysis",
+   "region": "usa",
+   "type": "report",
+   "source": "AI Primer",
+   "url": "https://www.ai-primer.com/engineer/stories/gdpx-benchmark-release",
+   "summary": "SemiAnalysis published GDPx, a benchmark of 206 long agentic tasks across 11 fields including chip design, finance, and law, giving models up to eight hours per task. The best score was Claude Opus 5.5 at 12.0%, ahead of Gemini 4 Carbon at 10.9% and GPT-6 Astra at 9.6%, with every model scoring zero in finance and legal under all-or-nothing grading.",
+   "why": "A 12% top score on deliberately hard, work-like tasks measures how far agents are from finishing real jobs end to end — not that they are useless, since partial progress still counts in practice and the benchmark itself has not been independently audited."
+  },
+  {
    "id": "anthropic-s1a-rsi-threshold",
    "date": "2026-11-03",
    "title": "Anthropic warns its AI may soon speed up its own research, IPO filing says",
