@@ -3,6 +3,54 @@
   "refresh": "Manually curated; not a live feed.",
   "news": [
     {
+      "id": "tencent-hy4-full-launch",
+      "date": "2026-11-04",
+      "title": "Tencent launches full Hy4 model with vision and computer use, weights still to come",
+      "company": "Tencent",
+      "region": "international",
+      "type": "report",
+      "source": "Startup Fortune",
+      "url": "https://startupfortune.com/tencent-launches-hunyuan-hy4-with-vision-and-the-ability-to-click-through-apps/",
+      "summary": "Tencent has switched on the full version of its Hy4 model, adding vision and the ability to operate apps on screen to the text-only preview released in August, and made it available through its cloud and products. The model weights and full system card are promised for later, so for now it can only be reached through hosted services, not downloaded and run independently.",
+      "why": "A hosted launch is not the same as an open release, and Tencent's own ranking claims are not independent benchmarks."
+    },
+    {
+      "id": "together-ai-polymorphic-inference-compiler",
+      "date": "2026-11-04",
+      "title": "Together AI launches Together Compiler to keep inference tuned as models change",
+      "company": "Together AI",
+      "region": "usa",
+      "type": "company",
+      "source": "Together AI",
+      "url": "https://www.together.ai/blog/polymorphic-inference",
+      "summary": "Together AI has introduced Together Compiler, which uses AI agents to continually retune the code that runs open models as models, traffic, and hardware change, instead of hand-tuning each setup once. The company says the system already runs on many of its top production workloads and is available to customers in a limited beta.",
+      "why": "Faster serving is a real infrastructure gain, but company-reported speedups are not independent proof of performance on other workloads."
+    },
+    {
+      "id": "ai2-google-5m-climate-neuralgcm",
+      "date": "2026-11-04",
+      "title": "Google funds Ai2 with $5 million to turn a weather model into a climate forecaster",
+      "company": "Ai2",
+      "region": "usa",
+      "type": "report",
+      "source": "GeekWire",
+      "url": "https://www.geekwire.com/2026/ai2-gets-5m-from-google-to-turn-ai-weather-model-into-a-tool-for-projecting-climate-change/",
+      "summary": "Google is giving Seattle's Allen Institute for AI about $5 million, plus $1.8 million in cloud credits, to build an open-source model that projects climate change over five to 50 years from Google's NeuralGCM weather model. The three-year project will first release training code, with work on an ocean model running in parallel.",
+      "why": "A grant funds a tool to be built, not proof that its long-range projections will be reliable."
+    },
+    {
+      "id": "shackleton-ai-5m-seed-construction-agents",
+      "date": "2026-11-04",
+      "title": "Shackleton AI emerges from stealth with $5 million seed for construction agents",
+      "company": "Shackleton AI",
+      "region": "usa",
+      "type": "report",
+      "source": "Unite.AI",
+      "url": "https://www.unite.ai/shackleton-ai-raises-5m-seed-to-expand-construction-agent-workflows/",
+      "summary": "Shackleton AI has emerged from stealth with a $5 million seed round led by Battery Ventures for an agentic system that pulls construction project work, from bidding to field reports, into one platform. The company says the platform, launched in June, now manages more than $1 billion in project value across more than 15 states.",
+      "why": "A seed round and a self-reported project total are signs of investor and customer interest, not proof the agents save time or money in practice."
+    },
+    {
       "id": "applied-compute-350m-3-25b",
       "date": "2026-11-04",
       "title": "Applied Compute raises $350 million at a $3.25 billion valuation",
@@ -85,6 +133,30 @@
       "url": "https://ppc.land/democrats-win-congress-what-changes-for-ai-rules-privacy-and-advertising/",
       "summary": "Democrats won control of Congress in the November 3 midterms, but with a presidential veto and the Senate's 60-vote threshold for most bills, they cannot write federal AI rules alone. The likeliest near-term effect is closing the path toward federal preemption of state AI laws, leaving the state-by-state rulebook in place.",
       "why": "An election changes who holds the gavels, not the law itself, so state AI rules look likelier to survive and expand than to be replaced by one federal regime."
+    },
+    {
+      "id": "crowdstrike-fiddler-dreadnode-acquisitions",
+      "date": "2026-11-03",
+      "title": "CrowdStrike agrees to buy Fiddler AI and Dreadnode and adds an AI kill switch",
+      "company": "CrowdStrike",
+      "region": "usa",
+      "type": "report",
+      "source": "Futurum Group",
+      "url": "https://futurumgroup.com/insights/crowdstrike-buys-fiddler-and-dreadnode-to-test-watch-and-stop-ai-agents/",
+      "summary": "CrowdStrike has signed agreements to acquire Fiddler AI, which monitors and explains what AI agents do, and Dreadnode, which tests AI systems for security flaws before deployment, and has added an AI Kill Switch to its Falcon Guardian product. The Wall Street Journal reported a combined price of about $495 million, which CrowdStrike itself has not disclosed, and both deals are expected to close in its fiscal fourth quarter.",
+      "why": "Signed agreements are not closed deals, and a kill switch is a control for stopping a bad agent, not proof that agents are safe to deploy."
+    },
+    {
+      "id": "sambanova-supermicro-inference-systems",
+      "date": "2026-11-03",
+      "title": "SambaNova and Supermicro plan inference systems pairing RDUs with GPUs",
+      "company": "SambaNova",
+      "region": "usa",
+      "type": "report",
+      "source": "HPCWire",
+      "url": "https://www.hpcwire.com/off-the-wire/sambanova-and-supermicro-to-build-ai-inference-systems-combining-rdus-and-gpus/",
+      "summary": "SambaNova and Supermicro have announced a strategic collaboration to build and sell AI inference systems that pair Nvidia GPUs with SambaNova SN50 chips, initially planning for 10,000 SN50 chips. Supermicro will integrate, deliver, and support the systems, starting with neocloud and sovereign cloud providers.",
+      "why": "A planned chip volume is a starting target, not shipped systems or sales, and the announcement gives no system-level benchmarks."
     },
     {
       "id": "menlo-ventures-enterprise-ai-spending-177b",
