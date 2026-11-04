@@ -3,6 +3,30 @@
   "refresh": "Manually curated; not a live feed.",
   "news": [
     {
+      "id": "fal-1-3b-series-f-16b",
+      "date": "2026-11-04",
+      "title": "Fal raises $1.3 billion Series F at a $16 billion valuation",
+      "company": "Fal",
+      "region": "usa",
+      "type": "company",
+      "source": "WebProNews",
+      "url": "https://www.webpronews.com/fal-series-f-1-3-billion-16-billion-valuation-generative-media-inference/",
+      "summary": "Fal, a San Francisco company that hosts image, video and audio AI models for developers through a single API, has raised $1.3 billion in a Series F led by Bessemer Venture Partners, which Bloomberg reports values it at $16 billion, double its April valuation. The company announced the round alongside an earlier $350 million Series E, bringing the two rounds to $1.65 billion combined.",
+      "why": "A funding round buys computing capacity and runway, not proof of demand, and the $16 billion valuation is a reported figure, not a public-market price."
+    },
+    {
+      "id": "openai-chatgpt-search-fifth-google",
+      "date": "2026-11-04",
+      "title": "OpenAI says ChatGPT search volume is now about one-fifth of Google's",
+      "company": "OpenAI",
+      "region": "usa",
+      "type": "company",
+      "source": "Search Engine Land",
+      "url": "https://searchengineland.com/chatgpt-1-trillion-searches-500589",
+      "summary": "OpenAI says ChatGPT's volume of search-like questions is now roughly one-fifth of Google's query volume, alongside 1.2 billion weekly users, figures shared by consumer product lead Adam Fry at a New York event. OpenAI counts each question that sends ChatGPT to search the web as one search, so a single conversation can produce several.",
+      "why": "The comparison shows how far asking a chatbot has become a habit, but it is OpenAI's own count using its own definition, with no published method or independent check, so it is not a measured share of the search market."
+    },
+    {
       "id": "tencent-hy4-full-launch",
       "date": "2026-11-04",
       "title": "Tencent launches full Hy4 model with vision and computer use, weights still to come",
