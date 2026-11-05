@@ -3,6 +3,42 @@
   "refresh": "Manually curated; not a live feed.",
   "news": [
     {
+      "id": "baidu-ernie-55-flash-base",
+      "date": "2026-11-05",
+      "title": "Baidu open-sources ERNIE 5.5 Flash Base, a 280-billion-parameter model",
+      "company": "Baidu",
+      "region": "international",
+      "type": "report",
+      "source": "The Decoder",
+      "url": "https://the-decoder.com/baidu-releases-ernie-5-5-flash-base-with-280-billion-parameters-as-an-open-source-foundation-model/",
+      "summary": "Baidu has released the weights for ERNIE 5.5 Flash Base, a 280-billion-parameter model that activates only 14 billion parameters per token and was trained on 33.5 trillion tokens, with context up to one million tokens. It is a raw base model meant for developers to fine-tune, not a finished chatbot, and its custom licence bars use in the EU, UK and South Korea and requires Baidu's written approval for large commercial users.",
+      "why": "Open weights let outside developers build on a major Chinese model, but a restrictive licence limits who can actually use it, and Baidu's claim of leading rival models comes from its own tests, not an independent check."
+    },
+    {
+      "id": "openai-community-compact-campus-blueprint",
+      "date": "2026-11-05",
+      "title": "OpenAI publishes a community compact and campus policy blueprint",
+      "company": "OpenAI",
+      "region": "usa",
+      "type": "report",
+      "source": "Unite.ai",
+      "url": "https://www.unite.ai/openai-publishes-community-compact-and-ai-campus-policy-blueprint/",
+      "summary": "OpenAI has published a National Community Compact and a Compute Campus Policy Blueprint, promising that future campuses it owns and operates will pay their full electricity and infrastructure costs, consult local residents early, and report publicly each year. The blueprint also proposes rules for the whole industry, including requirements that developers pay for the grid upgrades their campuses need.",
+      "why": "A voluntary promise from the company building the campuses is a starting point, not a guarantee — OpenAI's own blueprint says lasting assurance will need policy, not pledges — and the commitments apply to future campuses, not existing ones."
+    },
+    {
+      "id": "panasonic-t-rex-tactile-robot",
+      "date": "2026-11-05",
+      "title": "Panasonic and university partners give a robot a sense of touch with T-Rex",
+      "company": "Panasonic",
+      "region": "international",
+      "type": "company",
+      "source": "Panasonic",
+      "url": "https://news.panasonic.com/global/press/en261105-2",
+      "summary": "Panasonic, working with researchers from UC Berkeley, NVIDIA and Stanford, has built T-Rex, a robot manipulation AI that reacts to fingertip touch in real time while handling objects with two hands. Across 12 delicate tasks, including moving an egg between trays and screwing in a light bulb, it succeeded 65% of the time, against 35% for the best vision-only method.",
+      "why": "Touch is the missing sense that keeps robots from crushing what they hold, but these are lab results on 12 set tasks, not a product, and the paper is presented at a research conference next week."
+    },
+    {
       "id": "china-blocks-softbank-abb-robotics",
       "date": "2026-11-05",
       "title": "China blocks SoftBank's $5.4 billion takeover of ABB's robotics division",
@@ -61,6 +97,18 @@
       "url": "https://www.theregister.com/ai-and-ml/2026/11/05/meta-brings-conductor-on-board-its-model-train/5307711",
       "summary": "Meta has acquired Conductor, a startup whose Mac app runs several coding agents at once in separate copies of a project. Conductor's hosted cloud service goes read-only on November 13 and shuts down on November 20, and the app will stop receiving new models or fixes in early 2027. No price was announced.",
       "why": "An acquisition that shuts down the product it buys is a talent-and-technology deal, not a vote of confidence in the product, and an undisclosed price means the scale of the bet is unknown."
+    },
+    {
+      "id": "anthropic-ap-licensing-deal",
+      "date": "2026-11-04",
+      "title": "Anthropic strikes its first publisher licensing deal, with the AP",
+      "company": "Anthropic",
+      "region": "usa",
+      "type": "report",
+      "source": "Adweek",
+      "url": "https://www.adweek.com/media/anthropic-licensing-deal-ap-election/",
+      "summary": "Anthropic has struck its first licensing deal with a digital publisher, the Associated Press, Adweek reported, citing two people familiar with the matter. The deal let Claude show live, attributed AP election results on election night; neither company disclosed the price, length, or whether it covers anything beyond election coverage, and neither commented on the record.",
+      "why": "The last major lab still arguing that scraping news was fair use has now paid a publisher, but one deal for election data is not a broad licensing strategy, and the report rests on unnamed sources rather than a company announcement."
     },
     {
       "id": "openai-images-2-6-gifs",
