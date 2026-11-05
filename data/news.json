@@ -1,7 +1,91 @@
 {
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "refresh": "Manually curated; not a live feed.",
   "news": [
+    {
+      "id": "meta-acquires-conductor",
+      "date": "2026-11-05",
+      "title": "Meta acquires Conductor, then winds down its hosted service",
+      "company": "Meta",
+      "region": "usa",
+      "type": "company",
+      "source": "The Register",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/05/meta-brings-conductor-on-board-its-model-train/5307711",
+      "summary": "Meta has acquired Conductor, a startup whose Mac app runs several coding agents at once in separate copies of a project. Conductor's hosted cloud service goes read-only on November 13 and shuts down on November 20, and the app will stop receiving new models or fixes in early 2027. No price was announced.",
+      "why": "An acquisition that shuts down the product it buys is a talent-and-technology deal, not a vote of confidence in the product, and an undisclosed price means the scale of the bet is unknown."
+    },
+    {
+      "id": "openai-images-2-6-gifs",
+      "date": "2026-11-04",
+      "title": "OpenAI releases Images 2.6 with animated GIFs and two faster API models",
+      "company": "OpenAI",
+      "region": "usa",
+      "type": "report",
+      "source": "Techbooky",
+      "url": "https://www.techbooky.com/openai-images-2-6-brings-faster-creation-and-gifs-to-chatgpt/",
+      "summary": "OpenAI has released Images 2.6 in ChatGPT, Codex and its API, adding animated GIF creation from a prompt or photo and reusable reference images for characters and objects. Two new API models arrive with it: Flare, built for speed at as little as six seconds per image, and Sunburst, built for higher-quality, more consistent edits. OpenAI says generation is 50% faster than before and that users now create more than 4 billion images a week.",
+      "why": "A speed claim and a usage total are the company's own numbers, not independent measurements; the concrete change is GIFs and reference images, which turn a still-image tool into a short-animation one."
+    },
+    {
+      "id": "openai-acquires-pierre-computer",
+      "date": "2026-11-04",
+      "title": "OpenAI to acquire Pierre Computer Company to build Codex around Git",
+      "company": "OpenAI",
+      "region": "usa",
+      "type": "company",
+      "source": "The Hindu BusinessLine",
+      "url": "https://www.thehindubusinessline.com/info-tech/openai-to-acquire-pierre-computer-company-to-expand-codex-coding-capabilities/article71668505.ece",
+      "summary": "OpenAI plans to acquire Pierre Computer Company, a small developer-tools startup whose open-source libraries already render file trees and code changes inside Codex. Pierre's Code Storage product, a Git-based hosting service built for AI apps, will be folded into Codex, while its open-source projects stay open source. No price was disclosed and the deal still needs regulatory approval.",
+      "why": "Buying a supplier it already depends on is about control of Codex's plumbing, not a new product, and an announced acquisition is not a closed one until regulators clear it."
+    },
+    {
+      "id": "openai-kernel-948-root-exploits",
+      "date": "2026-11-04",
+      "title": "OpenAI pipeline turns 948 Linux kernel bugs into working root exploits",
+      "company": "OpenAI",
+      "region": "usa",
+      "type": "report",
+      "source": "Help Net Security",
+      "url": "https://www.helpnetsecurity.com/2026/11/05/openai-linux-kernel-root-exploits/",
+      "summary": "OpenAI says an automated pipeline running an upcoming cyber-focused model found 1,724 real vulnerabilities in the Linux kernel and turned 948 of them into working exploits that give an ordinary user root access, each with a candidate patch, at a cost of about $1.2 million in API credits. Ten days after the mid-October run, 61 of the flaws had been patched upstream, 43 had patches in staging, and the rest were being reported through its Patch the Planet program.",
+      "why": "948 candidate patches are not 948 fixed bugs, since most were still working through disclosure, but the run shows finding flaws at scale is now far cheaper than fixing them."
+    },
+    {
+      "id": "anthropic-claude-marketplace-expansion",
+      "date": "2026-11-04",
+      "title": "Anthropic expands Claude Marketplace with 14 partner agents and products",
+      "company": "Anthropic",
+      "region": "usa",
+      "type": "company",
+      "source": "Anthropic",
+      "url": "https://claude.com/resources/articles/new-agents-and-products-claude-marketplace",
+      "summary": "Anthropic has added 14 partner agents and products to Claude Marketplace, covering security, developer infrastructure, creative work and productivity, bringing the total to more than 25. Eligible enterprise customers can now apply part of their committed Anthropic spending to partner software from companies including Chainguard, Cyera, Datadog and Netlify.",
+      "why": "Letting customers spend committed Anthropic money on other companies' tools makes the marketplace a procurement channel, not just a catalog, but the buying option is a limited preview, so most customers cannot use it yet."
+    },
+    {
+      "id": "moonshot-kimi-k31-pro-weights",
+      "date": "2026-11-04",
+      "title": "Moonshot AI releases full Kimi K3.1 Pro weights, meeting its November 4 deadline",
+      "company": "Moonshot AI",
+      "region": "international",
+      "type": "report",
+      "source": "vLLM",
+      "url": "https://vllm.ai/blog/2026-11-04-kimi-k31-pro",
+      "summary": "Moonshot AI has released the full weights of Kimi K3.1 Pro, its open-weight multimodal model with 2.8 trillion total parameters and 104 billion active per token, meeting the November 4 deadline it set at launch. The 1.56 TB checkpoint carries a 1-million-token context window, and inference engines including vLLM, SGLang and AMD's ATOM added support on release day.",
+      "why": "Publishing weights is what turns an announced model into one anyone can run and check, but at 1.56 TB it still needs data-center hardware, and the benchmark scores remain Moonshot's own claims."
+    },
+    {
+      "id": "meta-15b-bond-ai-infrastructure",
+      "date": "2026-11-04",
+      "title": "Meta raises $15 billion in bonds to fund its AI infrastructure build-out",
+      "company": "Meta",
+      "region": "usa",
+      "type": "company",
+      "source": "Verdict",
+      "url": "https://www.verdict.co.uk/meta-issues-15bn-five-part-bond-offering/",
+      "summary": "Meta has raised $15 billion through a five-part dollar bond offering to help pay for AI infrastructure, its third large debt sale in recent years after $25 billion in April and $30 billion last year. The company expects capital spending of $135 billion to $145 billion this year, mostly on AI, and has also outlined plans for an equity raise of up to about $97.5 billion.",
+      "why": "Borrowing to build is a bet that the infrastructure will earn more than it costs; a completed bond sale proves lenders will fund it, not that the spending will pay off."
+    },
     {
       "id": "fal-1-3b-series-f-16b",
       "date": "2026-11-04",
@@ -325,6 +409,18 @@
       "url": "https://tech-insider.org/granter-1-6m-euro-ai-public-funding-platform-europe-expansion-2026/",
       "summary": "Portuguese startup Granter raised €1.6 million, led by 3XP Global, to expand its AI platform that finds, prepares, and manages public grant applications, starting with Spain. The round brings its total funding to €2 million.",
       "why": "A small early-stage raise is a bet on a niche, not a proven business — and AI-drafted grant applications carry real risk if an eligibility claim is wrong."
+    },
+    {
+      "id": "anthropic-s1-17b-q3-895b-commitments",
+      "date": "2026-11-02",
+      "title": "Anthropic reports $17 billion quarter and $895 billion in compute commitments",
+      "company": "Anthropic",
+      "region": "usa",
+      "type": "report",
+      "source": "MadRobot",
+      "url": "https://madrobot.blog/2026/11/02/anthropic-s-1a-17-billion-quarter-895-billion-compute/",
+      "summary": "Anthropic's amended IPO filing reports about $17 billion of revenue for the three months to September 30, roughly twelve times a year earlier, but a swing back to a $567 million operating loss as compute costs rose to 58% of revenue. The filing also discloses about $895.4 billion in signed purchase and lease commitments, nearly all for computing power and data centers, with about $70 billion due within a year. The price range is still blank, so the listing has not been priced.",
+      "why": "Revenue growth and a near-trillion-dollar spending commitment can both be true at once; the filing shows a company paying more for the computing behind its growth than the growth itself returns, and a filing is a disclosure, not a valuation."
     },
     {
       "id": "clark-11m-seed-audit-clerks",
