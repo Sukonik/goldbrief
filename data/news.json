@@ -1,7 +1,79 @@
 {
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "refresh": "Manually curated; not a live feed.",
   "news": [
+    {
+      "id": "openai-gpt6-cyber",
+      "date": "2026-11-05",
+      "title": "OpenAI launches GPT-6 Cyber, a security model that finds flaws and builds working exploits",
+      "company": "OpenAI",
+      "region": "usa",
+      "type": "company",
+      "source": "Neowin",
+      "url": "https://www.neowin.net/news/openai-announces-gpt-6-cyber-its-most-capable-cybersecurity-model-yet/",
+      "summary": "OpenAI has launched GPT-6 Cyber, a model built for authorised security research that finds software flaws, builds working exploits to prove them, and suggests fixes. In OpenAI's own tests it found 81 previously unknown high-severity flaws in Firefox and working exploits for 948 Linux kernel vulnerabilities. Access starts with a small group of approved Daybreak Red customers, with wider access planned.",
+      "why": "A model that can find and exploit real flaws is powerful for defenders and dangerous in the wrong hands, which is why OpenAI is limiting access, and the headline numbers come from OpenAI's own tests, not an independent check."
+    },
+    {
+      "id": "google-gemini-omni-12-flash",
+      "date": "2026-11-05",
+      "title": "Google makes Gemini Omni 1.2 Flash generally available, with 15-second video at a lower price",
+      "company": "Google",
+      "region": "usa",
+      "type": "company",
+      "source": "Unite.AI",
+      "url": "https://www.unite.ai/googles-gemini-omni-1-2-flash-reaches-general-availability/",
+      "summary": "Google has made Gemini Omni 1.2 Flash generally available, its video model that generates and edits clips with sound. Clips can now run up to 15 seconds instead of 10, can be revised over several back-and-forth turns, and cost about 30% less, at roughly $0.07 per second for 720p video.",
+      "why": "Longer clips and lower prices make AI video cheaper to produce at scale, but the quality claims are Google's own and the model has no independent benchmark results yet."
+    },
+    {
+      "id": "google-wyoming-data-center-17b",
+      "date": "2026-11-05",
+      "title": "Google plans a $17 billion Wyoming data center, its first in the state",
+      "company": "Google",
+      "region": "usa",
+      "type": "company",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/us/google-plans-17-billion-wyoming-data-center-amid-rising-threats-curbs-2026-11-05/",
+      "summary": "Google will spend $17 billion over the long term to build its first data center in Wyoming, in Laramie County, with partners including American Electric Power and Tallgrass Energy. Part of the power will come from a planned 702-megawatt fuel-cell plant with carbon capture, and Google says it will pay for all the electricity the site uses.",
+      "why": "The investment comes days after voters rejected data-center projects in 40 of 41 local ballot measures, so Google is pairing the build with a pay-your-own-power promise, but $17 billion is a long-term figure, not money spent, and no opening date was given."
+    },
+    {
+      "id": "anthropic-claude-personal-finance",
+      "date": "2026-11-05",
+      "title": "Anthropic launches Personal Finance in Claude, a read-only beta that reads your bank accounts",
+      "company": "Anthropic",
+      "region": "usa",
+      "type": "company",
+      "source": "Tiller",
+      "url": "https://tiller.com/claude-money-what-you-need-to-know/",
+      "summary": "Anthropic has launched Personal Finance in Claude, a beta that lets US subscribers on Pro, Max and Ultra plans link bank, card, loan and investment accounts and ask Claude about their own money in plain language. Accounts connect through Plaid and access is read-only: Claude can read balances and transactions but cannot move, manage or invest money.",
+      "why": "A chatbot that can read your bank statements is a real step into personal finance, but it is a limited US beta, not a general release, and Anthropic itself warns Claude's answers can be wrong, so figures still need checking against the bank."
+    },
+    {
+      "id": "metr-anthropic-rd-acceleration",
+      "date": "2026-11-05",
+      "title": "METR estimates Anthropic's AI progress has roughly doubled in pace, driven by AI-assisted research",
+      "company": "Anthropic",
+      "region": "usa",
+      "type": "report",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/metr-anthropic-ai-models-twice-pace/",
+      "summary": "Independent evaluator METR estimates that Anthropic's AI models have been improving at about twice their earlier pace since October 2025, based on 11 weeks of access to internal data and staff interviews. METR attributes most of the speed-up to Anthropic using its own AI to do research, while warning the estimate is highly uncertain, with a plausible range of 1.3x to 3x.",
+      "why": "If AI is already speeding up AI research, timelines for more capable models could shorten, but the estimate rests on one lab's internal data that Anthropic heavily redacted, and a faster pace of improvement is not proof of self-improving AI."
+    },
+    {
+      "id": "thinking-machines-inkling-2-small",
+      "date": "2026-11-05",
+      "title": "Thinking Machines Lab releases Inkling 2 Small, a 594-billion-parameter model with open weights promised next week",
+      "company": "Thinking Machines Lab",
+      "region": "usa",
+      "type": "company",
+      "source": "Emergent",
+      "url": "https://emergent.sh/news/inkling-2-small-launches-594b-moe-apache-2-0",
+      "summary": "Thinking Machines Lab, founded by former OpenAI CTO Mira Murati, has released Inkling 2 Small, a 594-billion-parameter model that activates 17 billion parameters per token and scores 31 on the Artificial Analysis Intelligence Index, up from 12 for its predecessor. It is available now through the lab's Tinker platform, with full weights promised under an Apache 2.0 licence next week after external safety testing.",
+      "why": "The score would make it the strongest open-weights model built outside China, but the weights are not out yet, a promise of open weights next week is not an open model today, and the benchmark score comes from the vendor's own hosted endpoint."
+    },
     {
       "id": "baidu-ernie-55-flash-base",
       "date": "2026-11-05",
