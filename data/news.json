@@ -3,6 +3,54 @@
   "refresh": "Manually curated; not a live feed.",
   "news": [
     {
+      "id": "anthropic-ipo-valuation-doubts",
+      "date": "2026-11-06",
+      "title": "Investors doubt Anthropic can hold its $1.5 trillion IPO valuation",
+      "company": "Anthropic",
+      "region": "usa",
+      "type": "report",
+      "source": "The Wall Street Journal",
+      "url": "https://www.wsj.com/finance/major-investors-are-skeptical-anthropic-ipo-can-achieve-1-5-trillion-valuation-ca965d8b",
+      "summary": "Major investors now doubt Anthropic's planned IPO can proceed at a $1.5 trillion valuation after a sharp selloff in technology stocks, the Wall Street Journal reports. Three large investors who plan to take part say the price will likely need to come down, with one putting it closer to $1 trillion, though the company has not finalized a target and is still aiming to list the week before Thanksgiving.",
+      "why": "Investor doubt about a price is not a cancelled IPO, and the same report notes Anthropic's revenue run rate topped $80 billion at the end of October, so the debate is about what the company is worth, not whether it is growing."
+    },
+    {
+      "id": "airbnb-ai-travel-agent-2027",
+      "date": "2026-11-05",
+      "title": "Airbnb plans an AI travel agent for the first half of 2027",
+      "company": "Airbnb",
+      "region": "usa",
+      "type": "company",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
+      "summary": "Airbnb says it will start rolling out an AI travel agent to guests in the first half of 2027, the company announced in its third-quarter shareholder letter. The agent is meant to plan trips, compare options, and handle bookings, changes, refunds, and safety support, presenting maps, photos, and itineraries in a custom interface instead of a plain chat window.",
+      "why": "A launch date turns a long-teased idea into a testable promise, but the agent is still in development, so what it can actually do at launch remains unproven."
+    },
+    {
+      "id": "meta-muse-voice-us-rollout",
+      "date": "2026-11-05",
+      "title": "Meta rolls out Muse Voice to all US users, with a talking avatar",
+      "company": "Meta",
+      "region": "usa",
+      "type": "company",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
+      "summary": "Meta has opened Muse Voice to everyone in the US, letting people phone-call or video-chat with its Muse AI agent on mobile, web, and Mac. The feature pairs real-time voice with an animated avatar, nicknamed Jolly by default, that reacts with expressions and gestures, and users can customize how it looks.",
+      "why": "Voice plus a face is Meta's bet on making its assistant feel like a person to talk to, but it is US-only for now, and the avatar hears you without seeing you, so it is a voice call with a character, not a video call with a person."
+    },
+    {
+      "id": "indiaai-eka1-dhir-models",
+      "date": "2026-11-03",
+      "title": "India releases three homegrown AI models under its IndiaAI Mission",
+      "company": "IndiaAI Mission",
+      "region": "international",
+      "type": "report",
+      "source": "The Hindu Business Line",
+      "url": "https://www.thehindubusinessline.com/info-tech/indiaai-mission-releases-indigenous-foundation-models-eka-1-dhir-2b-and-dhir-5b/article71663692.ece",
+      "summary": "India's electronics ministry has released three homegrown AI foundation models under the IndiaAI Mission: EKA-1 from Soket Labs, and Dhir 2B and Dhir 5B from ZenteiQ. EKA-1 has 26.3 billion parameters and supports 22 Indian languages, while the smaller Dhir models are open-source, work in English and 10 Indian languages, and are designed to run offline on devices.",
+      "why": "The launch is a concrete step in India's push to build AI it controls rather than rents, but no independent benchmark results were published, so how the models compare with international systems is still untested."
+    },
+    {
       "id": "openai-gpt6-cyber",
       "date": "2026-11-05",
       "title": "OpenAI launches GPT-6 Cyber, a security model that finds flaws and builds working exploits",
