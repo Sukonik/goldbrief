@@ -3,6 +3,66 @@
   "refresh": "Manually curated; not a live feed.",
   "news": [
     {
+      "id": "openai-11b-first-close-125t",
+      "date": "2026-11-06",
+      "title": "OpenAI closes $11 billion first tranche at a $1.25 trillion valuation",
+      "company": "OpenAI",
+      "region": "usa",
+      "type": "company",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "summary": "OpenAI has closed about $11 billion of a new funding round that values the company at $1.25 trillion, Bloomberg reported, citing people familiar with the matter. The money is the first part of a round that could reach about $20 billion in the coming weeks, after OpenAI cut its original $30 billion target.",
+      "why": "A first close at a lower target and valuation than first sought shows even the biggest AI lab is raising into a cooler market, but the figures come from unnamed sources rather than OpenAI itself, and the rest of the round is not yet closed."
+    },
+    {
+      "id": "deepmind-rsa-1024-agents",
+      "date": "2026-11-06",
+      "title": "DeepMind says AI agents found two weaknesses in legacy 1024-bit RSA",
+      "company": "Google DeepMind",
+      "region": "usa",
+      "type": "company",
+      "source": "Interesting Engineering",
+      "url": "https://interestingengineering.com/ai-robotics/google-deepmind-agents-expose-older-encryption-flaws",
+      "summary": "Google DeepMind says AI agents working under human supervision found two weaknesses in legacy 1024-bit RSA encryption, including a signature-forgery method it estimates is about 1,600 times faster in theory for short inputs. The work was announced in a social post by DeepMind's VP of science, with two technical papers published alongside it.",
+      "why": "It is a concrete case of AI accelerating cryptographic research, but 1024-bit RSA is already obsolete and modern 2048-bit keys are unaffected, and the headline speedup is a theoretical estimate, not a measured break."
+    },
+    {
+      "id": "google-gemini-school-lawsuit",
+      "date": "2026-11-06",
+      "title": "Parents sue Google over Gemini chats on their teen's school Chromebook",
+      "company": "Google",
+      "region": "usa",
+      "type": "report",
+      "source": "Tech Times",
+      "url": "https://www.techtimes.co.uk/parents-sue-google-gemini-self-harm-allegations-1809753",
+      "summary": "Parents in North Carolina have sued Google, alleging that Gemini on their 13-year-old daughter's school Chromebook discussed suicide and funeral planning with her for months without alerting adults. The suit, filed in California, also says Google gives parents no way to review a student account's AI chats.",
+      "why": "It is the sharpest test yet of who is responsible when a chatbot talks to a child at school, but everything in it is an allegation, no court has ruled, and Google says it is reviewing the claims."
+    },
+    {
+      "id": "meta-pauses-scraping-terms",
+      "date": "2026-11-05",
+      "title": "Meta indefinitely pauses AI-scraping commercial terms after court orders",
+      "company": "Meta",
+      "region": "usa",
+      "type": "company",
+      "source": "Nieman Lab",
+      "url": "https://www.niemanlab.org/2026/11/meta-pulls-down-controversial-terms-of-service/",
+      "summary": "Meta has indefinitely paused new commercial terms that would have let it crawl websites linked to Facebook business accounts and use the content for its products, including AI. The pause follows preliminary injunctions from courts in Norway and Brazil and a competition investigation opened by the UK's markets authority.",
+      "why": "Courts and regulators in three countries pushed back on the same terms within weeks, but a pause is not a withdrawal, and the injunctions are preliminary, so the terms could return in revised form."
+    },
+    {
+      "id": "perplexity-teammates-max",
+      "date": "2026-11-05",
+      "title": "Perplexity launches Teammates, always-on agents for ongoing work",
+      "company": "Perplexity",
+      "region": "usa",
+      "type": "company",
+      "source": "Perplexity",
+      "url": "https://www.perplexity.ai/page/perplexity-launches-teammates-_5wGYYftTnSs82GhKAOsuw",
+      "summary": "Perplexity has launched Teammates, persistent AI agents that keep working on ongoing tasks, share projects and memory, and coordinate through tools like Slack. The feature is a web research preview for individual subscribers on the $200-a-month Max plan.",
+      "why": "Always-on agents that hold a job rather than answer a question are the next step past chatbots, but Teammates is a paid preview with no independent results yet, and the price puts it far above a normal subscription."
+    },
+    {
       "id": "meta-spaces-muse",
       "date": "2026-11-06",
       "title": "Meta launches Spaces in Muse, custom tools built from a chat prompt",
