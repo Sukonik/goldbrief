@@ -1,7 +1,79 @@
 {
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "refresh": "Manually curated; not a live feed.",
   "news": [
+    {
+      "id": "cursor-voice-chat-agents",
+      "date": "2026-11-06",
+      "title": "Cursor adds two-way voice calls with its coding agents",
+      "company": "Cursor",
+      "region": "usa",
+      "type": "company",
+      "source": "Automater",
+      "url": "https://automater.ai/news/cursor-voice-chat-agents-concurrent-coding/",
+      "summary": "Cursor has added Voice Chat with Agents, letting developers hold a two-way voice call with the coding agent in their chat while it keeps working. The call runs on Grok Voice, works in the IDE, on the web, in the Agents Window and on iOS, including starting a call by saying 'Hey Siri, call Cursor', and uses zero data retention when Privacy Mode is on.",
+      "why": "Talking to an agent while it codes changes how developers supervise long runs, but the voice is a separate layer from the coding model, and the daily call limit is unpublished, so this is a new way to steer work, not a faster model."
+    },
+    {
+      "id": "anthropic-claude-science-research-use",
+      "date": "2026-11-05",
+      "title": "Anthropic maps how scientists actually use Claude, and where AI could speed research",
+      "company": "Anthropic",
+      "region": "usa",
+      "type": "report",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/research/how-researchers-use-claude",
+      "summary": "Anthropic studied 207,049 Claude and Claude Code research sessions from August and September, finding data analysis and writing dominate how scientists use the tools, with computer science far over-represented in Claude Code use. Its model estimates that current AI could take on 27-52% of researcher time in a typical study if widely adopted.",
+      "why": "A measured picture of real scientific use beats a headline claim about AI replacing researchers, but the acceleration figures are scenarios from Anthropic's own model, not observed gains in published science."
+    },
+    {
+      "id": "shield-ai-echodyne-acquisition",
+      "date": "2026-11-05",
+      "title": "Shield AI agrees to buy radar maker Echodyne for $5.3 billion and raise $2.5 billion",
+      "company": "Shield AI",
+      "region": "usa",
+      "type": "company",
+      "source": "Shield AI",
+      "url": "https://shield.ai/shield-to-acquire-echodyne-in-a-transaction-valued-at-5-3-billion-and-raise-2-5-billion-at-a-28-8-billion-valuation/",
+      "summary": "Shield AI has signed a definitive agreement to acquire Echodyne, which makes compact counter-drone radars, in a deal valued at $5.3 billion, and is raising $2.5 billion to fund it, including a $1 billion Series H at a $28.8 billion valuation. The deal is expected to close in early 2027, pending regulatory approval.",
+      "why": "A signed agreement is a commitment, not a closed deal, and the financing is tied to the acquisition, so if the purchase falls through, the $2.5 billion raise does not go ahead either."
+    },
+    {
+      "id": "axon-skydio-1-2b",
+      "date": "2026-11-05",
+      "title": "Axon puts another $1.2 billion into drone maker Skydio and takes exclusive police sales",
+      "company": "Axon",
+      "region": "usa",
+      "type": "company",
+      "source": "PR Newswire",
+      "url": "https://www.prnewswire.com/news-releases/axon-reports-record-q3-2026-revenue-of-909-million-up-28-year-over-year-302931236.html",
+      "summary": "Axon is investing a further $1.2 billion in Skydio, lifting its fully diluted stake to 37% at a $5.2 billion pre-money valuation, and becoming the exclusive distributor of Skydio drones to public safety agencies in the US and Canada. Only about $255 million of the total is new money for Skydio; the rest buys shares from existing investors.",
+      "why": "A minority stake plus exclusive distribution is a channel deal, not an acquisition, and Axon's own shares fell sharply on the news, so the market read the price as steep even as the company called it its largest investment ever."
+    },
+    {
+      "id": "sand-ai-200m-series-a-plus",
+      "date": "2026-11-05",
+      "title": "Beijing video startup Sand.ai raises $200 million and calls itself a unicorn",
+      "company": "Sand.ai",
+      "region": "international",
+      "type": "company",
+      "source": "TechNode",
+      "url": "https://technode.global/2026/11/06/sand-ai-series-a-funding/",
+      "summary": "Sand.ai, a Beijing startup building generative video models, has closed a $200 million Series A+ round co-led by CoStone Capital and Wangsu Science & Technology. The company says the round brings its 2026 fundraising to $300 million and its valuation above $1 billion, ahead of the full release of its MAGI-2 video model.",
+      "why": "A raise is not revenue, and the unicorn valuation and fundraising totals are the company's own figures, while its paid video service's reported $10 million in annual recurring revenue is still small next to the cost of training video models."
+    },
+    {
+      "id": "anthropic-flashprove",
+      "date": "2026-11-02",
+      "title": "Anthropic open-sources FlashProve, a cryptographic proof of which model answered",
+      "company": "Anthropic",
+      "region": "usa",
+      "type": "report",
+      "source": "CellCog",
+      "url": "https://cellcog.ai/blog/anthropic-flashprove-provable-inference/",
+      "summary": "Anthropic has released FlashProve, an open-source research prototype that attaches a cryptographic proof to an AI response, showing it came from a specific set of model weights without revealing those weights. On a 400-billion-parameter Llama 4 Maverick, proving ran at about 110 tokens per second on one H100 GPU, with each 1,024-token proof weighing roughly 19 MB.",
+      "why": "A proof that the named model really answered would close a real trust gap in hosted AI, but FlashProve is a prototype: proving costs 70-95 times the GPU time of ordinary inference, and it proves the model, not that the answer is correct."
+    },
     {
       "id": "psi-aaronson-ambainis-proof",
       "date": "2026-11-06",
