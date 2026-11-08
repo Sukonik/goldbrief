@@ -3,6 +3,54 @@
   "refresh": "Manually curated; not a live feed.",
   "news": [
     {
+      "id": "anthropic-onepwr-generators",
+      "date": "2026-11-08",
+      "title": "Anthropic strikes $3.4 billion deal for gas-fired generators to power its data centres",
+      "company": "Anthropic",
+      "region": "usa",
+      "type": "company",
+      "source": "The Hindu BusinessLine",
+      "url": "https://www.thehindubusinessline.com/info-tech/anthropic-strikes-34-billion-deal-for-data-centre-generators/article71680927.ece",
+      "summary": "Anthropic has struck a deal worth about $3.4 billion to secure commitments for 1.7 gigawatts of gas-fired power generators for its data centres, the Financial Times reported, as carried by Reuters. The generators come from OnePWR Solutions, a San Antonio supplier, and the deal includes the engineering and construction work needed to install them; Anthropic did not buy the supplier itself.",
+      "why": "Buying generator commitments is not buying electricity, and Reuters said it could not verify the report while neither company commented, so this shows power supply is now a board-level constraint for AI labs, not a confirmed $3.4 billion spend."
+    },
+    {
+      "id": "palo-alto-clutch-talks",
+      "date": "2026-11-06",
+      "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500 million",
+      "company": "Palo Alto Networks",
+      "region": "usa",
+      "type": "company",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
+      "summary": "Palo Alto Networks is in talks to acquire Clutch Security, a startup that secures AI agents' access to company systems, for $500 million in cash plus milestone-based payouts, according to a person familiar with the discussions. Clutch was last valued at $85 million in a January 2025 Series A and is approaching $10 million in annual recurring revenue.",
+      "why": "Talks are not a deal, and neither company commented, so the reported price says more about demand for agent security than about Clutch's business: $500 million would be about 50 times its current recurring revenue."
+    },
+    {
+      "id": "cesiumastro-series-d-synchronicity",
+      "date": "2026-11-05",
+      "title": "CesiumAstro raises $730 million and unveils a planned 737-satellite AI constellation",
+      "company": "CesiumAstro",
+      "region": "usa",
+      "type": "company",
+      "source": "CesiumAstro",
+      "url": "https://www.cesiumastro.com/press-release/series-d",
+      "summary": "CesiumAstro has closed $730 million in Series D financing at a valuation above $4.5 billion, led by Janus Henderson, and unveiled Synchronicity, a planned 737-satellite AI-enabled constellation for commercial, sovereign and defence missions. Its first satellite, Element-1, began on-orbit operations in October.",
+      "why": "A raise is not revenue, and Synchronicity is a plan, not a deployed network: only one satellite is operating so far, so this money funds an ambition to become a constellation operator, not a working one."
+    },
+    {
+      "id": "traversal-series-b-120m",
+      "date": "2026-11-03",
+      "title": "Traversal raises $120 million at a $1 billion valuation for AI that fixes software outages",
+      "company": "Traversal",
+      "region": "usa",
+      "type": "company",
+      "source": "Business Wire",
+      "url": "https://www.businesswire.com/news/home/20261103122345/en/Traversal-Raises-%24120M-with-a-%241-Billion-Valuation-to-Keep-Code-Running-With-a-Superintelligent-AI-Site-Reliability-Engineer",
+      "summary": "Traversal, a New York startup building AI agents for site reliability engineering, has raised $120 million at a $1 billion valuation, co-led by Kleiner Perkins, Redpoint Ventures and Khosla Ventures. Its agents investigate production outages using causal machine learning, and the company says its revenue has grown ninefold this year.",
+      "why": "A raise is not revenue, and Traversal's own benchmark found the best frontier AI agents manage only 25.3% accuracy on medium-difficulty outage investigations, so the pitch is that general-purpose models cannot do this job yet, not that the problem is solved."
+    },
+    {
       "id": "cursor-voice-chat-agents",
       "date": "2026-11-06",
       "title": "Cursor adds two-way voice calls with its coding agents",
