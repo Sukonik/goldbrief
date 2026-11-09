@@ -3,6 +3,18 @@
   "refresh": "Manually curated; not a live feed.",
   "news": [
     {
+      "id": "google-tpu-8tx-8i-max",
+      "date": "2026-11-09",
+      "title": "Google adds TPU 8tx and TPU 8i Max, its third and fourth TPU systems of the year",
+      "company": "Google",
+      "region": "usa",
+      "type": "company",
+      "source": "Google Blog",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
+      "summary": "Google said on November 9 it has added two systems to its eighth-generation TPU lineup: TPU 8tx, built for secure and confidential inference, and TPU 8i Max, which packages two 8i chips together for very large context windows. The additions bring Google to four TPU systems introduced in a single year for the first time, aimed at agentic workloads that need either locked-down data handling or far more memory.",
+      "why": "Two new systems in one year show Google is pushing its own chips as a real alternative to NVIDIA hardware, but both are configurations of existing silicon with no price, availability date or independent benchmark published, so this is a roadmap statement, not a product you can buy or measure yet."
+    },
+    {
       "id": "meta-instagram-age-estimation-global",
       "date": "2026-11-09",
       "title": "Meta takes Instagram's AI age estimation global, putting millions more teens in Teen Accounts",
