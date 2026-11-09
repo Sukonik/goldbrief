@@ -3,6 +3,54 @@
   "refresh": "Manually curated; not a live feed.",
   "news": [
     {
+      "id": "meta-instagram-age-estimation-global",
+      "date": "2026-11-09",
+      "title": "Meta takes Instagram's AI age estimation global, putting millions more teens in Teen Accounts",
+      "company": "Meta",
+      "region": "usa",
+      "type": "company",
+      "source": "Unite.AI",
+      "url": "https://www.unite.ai/meta-takes-ai-age-estimation-global-for-instagram-teen-protections/",
+      "summary": "Meta said on November 9 it is expanding its AI age-estimation system to Instagram users worldwide, so accounts it suspects belong to teenagers are moved into Teen Account protections even if they signed up with an adult birthday. The system estimates age from account activity and visual cues, and Meta says it will place millions more teens under the stricter limits; Facebook and Threads follow later.",
+      "why": "A global rollout is a real expansion, not a new safeguard: the system guesses age rather than verifying it, Meta publishes no error rate, and the protections only work if the guesses are right, so this is a scale story, not proof that teens are now correctly identified."
+    },
+    {
+      "id": "edgevana-blackwell-agreements-700m",
+      "date": "2026-11-09",
+      "title": "Edgevana signs $700 million-plus multi-year deals to deploy NVIDIA Blackwell systems",
+      "company": "Edgevana",
+      "region": "usa",
+      "type": "company",
+      "source": "Unite.AI",
+      "url": "https://www.unite.ai/edgevana-signs-multi-year-agreements-to-deploy-nvidia-blackwell/",
+      "summary": "Edgevana said on November 9 it has signed fully committed, multi-year take-or-pay agreements worth more than $700 million covering NVIDIA Blackwell deployments in North America and Europe. The company reports $7 billion in contracted customer demand and a pipeline above $20 billion, and says it can bring tens of megawatts of AI compute online in 90 to 120 days.",
+      "why": "Signed take-or-pay deals are firmer than a pipeline, but the $7 billion demand figure and the $20 billion pipeline are different, softer measures, so the news is the $700 million in commitments, not the bigger numbers around them."
+    },
+    {
+      "id": "amazon-alexa-shopping-text",
+      "date": "2026-11-06",
+      "title": "Amazon lets shoppers text its Alexa shopping agent, which can search, compare and buy",
+      "company": "Amazon",
+      "region": "usa",
+      "type": "company",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
+      "summary": "Amazon said on November 6 that a small invite-only group of US customers can now text its Alexa for Shopping AI agent, which searches for products, compares options, builds a cart and completes purchases. The feature will reach millions more customers in the coming weeks, and it arrives shortly after Amazon blocked Meta's Muse agent from querying its site.",
+      "why": "Texting an agent is a real product change, but the launch is invite-only with no date for general access, and the timing says as much about Amazon keeping shopping agents on its own terms as it does about convenience."
+    },
+    {
+      "id": "thinking-machines-5b-round-reported",
+      "date": "2026-11-06",
+      "title": "Thinking Machines Lab reportedly nears a $5 billion round at a $40 billion valuation",
+      "company": "Thinking Machines Lab",
+      "region": "usa",
+      "type": "company",
+      "source": "SiliconANGLE",
+      "url": "https://siliconangle.com/2026/11/06/thinking-machines-debuts-inkling-2-small-amid-reported-5b-fundraising-push/",
+      "summary": "Business Insider reported on November 6 that Thinking Machines Lab is closing in on a $5 billion funding round led by Accel at a $40 billion pre-money valuation, more than triple its $12 billion seed valuation from July 2025. The lab declined to comment and Accel did not respond, and the report said the deal could close within days.",
+      "why": "A reported round is not a closed round, and neither the company nor the reported lead investor confirmed the terms, so the $40 billion figure is a signal of investor appetite for the lab's new model, not a settled valuation."
+    },
+    {
       "id": "nvidia-korea-sovereign-ai",
       "date": "2026-11-09",
       "title": "NVIDIA expands sovereign AI work in Korea, linking Korean chips to its platform",
