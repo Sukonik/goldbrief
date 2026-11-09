@@ -1,7 +1,91 @@
 {
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "refresh": "Manually curated; not a live feed.",
   "news": [
+    {
+      "id": "nvidia-korea-sovereign-ai",
+      "date": "2026-11-09",
+      "title": "NVIDIA expands sovereign AI work in Korea, linking Korean chips to its platform",
+      "company": "NVIDIA",
+      "region": "international",
+      "type": "company",
+      "source": "NVIDIA Blog",
+      "url": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration/",
+      "summary": "NVIDIA and Korea's Ministry of Science and ICT expanded their sovereign AI collaboration, including a deal with Rebellions and SK Telecom to connect Rebellions' next-generation R200 processors to NVIDIA's platform through NVLink Fusion, with deployment planned for 2028. The work also covers training, Korean foundation models, and agent security.",
+      "why": "A partnership announcement is a plan, not a product: no performance figures or purchase commitments were disclosed, and the hardware is not expected to be ready until 2028."
+    },
+    {
+      "id": "nvidia-korean-startup-investments",
+      "date": "2026-11-09",
+      "title": "NVIDIA backs four Korean AI startups, from chip interconnects to robotics",
+      "company": "NVIDIA",
+      "region": "international",
+      "type": "company",
+      "source": "NVIDIA Blog",
+      "url": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
+      "summary": "NVIDIA announced an investment in Point2 Technology, which builds radio-frequency interconnects for AI data centers, and said it plans further investments in Motif Technologies, RLWRLD, and Upstage, covering open-weight models, robotics foundation models, and enterprise document software.",
+      "why": "Only the Point2 investment is described as announced; the other three are planned, and no amounts, valuations, or stakes were disclosed, so this is a signal of interest, not a measured bet."
+    },
+    {
+      "id": "lg-exaone-25-free-api",
+      "date": "2026-11-09",
+      "title": "LG opens free API access to its K-EXAONE 2.5 model",
+      "company": "LG AI Research",
+      "region": "international",
+      "type": "company",
+      "source": "Unite.AI",
+      "url": "https://www.unite.ai/lg-ai-research-opens-free-api-access-to-its-k-exaone-2-5-model/",
+      "summary": "LG AI Research opened free API access to K-EXAONE 2.5, a 750-billion-parameter Korean and English model with a 512,000-token context window, through its EXAONE API Platform. LG says the model improved more than 70% across 24 internal metrics versus the August version and aims to finish a frontier-level model by January 2027.",
+      "why": "Free access is real, but the performance claims are LG's own measurements, not independent tests, and LG has not said how long the free period will last."
+    },
+    {
+      "id": "nvidia-board-investigation-huang",
+      "date": "2026-11-08",
+      "title": "NVIDIA's board opens an independent investigation into reports its CEO was targeted by foreign intelligence",
+      "company": "NVIDIA",
+      "region": "usa",
+      "type": "report",
+      "source": "EE News Europe",
+      "url": "https://www.eenewseurope.com/en/nvidia-board-investigation-jensen-huang-spying/",
+      "summary": "NVIDIA's board said it will independently investigate reports that chief executive Jensen Huang was targeted by a foreign intelligence effort, after Huang told staff he had been unfaithful to his wife. The board said it has no reason to believe national security or company secrets were compromised, and three House committee chairs have asked Huang for a closed-door briefing on November 18.",
+      "why": "An investigation is a process, not a finding: the allegations remain unproven, no conclusion or timeline has been published, and the board's current position is that nothing was compromised."
+    },
+    {
+      "id": "apple-agentic-siri-push",
+      "date": "2026-11-08",
+      "title": "Apple's new CEO presses for a faster, more agentic Siri, Bloomberg reports",
+      "company": "Apple",
+      "region": "usa",
+      "type": "company",
+      "source": "Silicon Report",
+      "url": "https://www.siliconreport.com/apple-ceo-pushes-federighi-to-speed-siri-roadmap-gurman-says",
+      "summary": "Apple chief executive John Ternus has pressed software chief Craig Federighi to move faster on Siri and aim beyond incremental improvements, Bloomberg's Mark Gurman reported, with an assistant that acts on goals across apps possibly arriving as early as next year. Nearer-term steps include finer control of Apple's own apps in iOS 27.3 and third-party app actions in spring 2027.",
+      "why": "This is a reported internal push, not a product announcement: Apple has not confirmed a timeline, and an agentic Siri 'as early as next year' is a target, not a promise."
+    },
+    {
+      "id": "deepseek-harness-154m-dau",
+      "date": "2026-11-08",
+      "title": "DeepSeek says its Harness agent app reached 1.54 million daily users in under three months",
+      "company": "DeepSeek",
+      "region": "international",
+      "type": "company",
+      "source": "AI Weekly",
+      "url": "https://aiweekly.co/alerts/deepseek-harness-hits-154m-daily-users-92t-tokens-a-day",
+      "summary": "DeepSeek said its open-source agent app Harness reached 1.54 million daily active users on November 4, less than three months after its August debut, with users consuming about 92 trillion tokens a day through DeepSeek's official API. About 35,000 third-party plugins have been built, and DeepSeek is preparing an official plugin marketplace.",
+      "why": "The figures are self-reported by DeepSeek, count only users of its own API, and have not been independently audited, so they show momentum, not a verified user base."
+    },
+    {
+      "id": "botpress-breach-disclosure",
+      "date": "2026-11-06",
+      "title": "Botpress discloses a breach that exposed customer bot credentials",
+      "company": "Botpress",
+      "region": "international",
+      "type": "report",
+      "source": "Botpress",
+      "url": "https://botpress.com/blog/security-incident-disclosure-november-2026",
+      "summary": "Botpress disclosed that an attacker exploited a flaw in an internal authentication proxy, obtained a staff member's API credential, and read bot configurations in 16 customer workspaces on October 21. Those configurations can hold AI provider keys and other third-party credentials, so Botpress told affected customers to treat every stored credential as exposed; it says the attacker was after AI usage to resell.",
+      "why": "Botpress says it fixed the flaw the same day and found no evidence of access to end-user conversations, but it cannot tell which bots held a valid credential when read, so the exposure is real even though its full scope is unknown."
+    },
     {
       "id": "ramp-ai-spending-stalls",
       "date": "2026-11-06",
