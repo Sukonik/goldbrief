@@ -3,6 +3,30 @@
   "refresh": "Manually curated; not a live feed.",
   "news": [
     {
+      "id": "fireworks-ai-breach-widens",
+      "date": "2026-11-09",
+      "title": "Fireworks AI says hackers reached customer datasets, unfinished model weights and billing records",
+      "company": "Fireworks AI",
+      "region": "usa",
+      "type": "report",
+      "source": "The Neuron",
+      "url": "https://www.theneuron.ai/news/fireworks-ai-breach-stolen-ai-access-llmjacking/",
+      "summary": "Fireworks AI said on November 9 that a security incident it first disclosed in October was wider than first reported: attackers reached billing records and, for a limited set of customers, secrets, datasets and portions of unfinished AI models. The company says the intrusions came through stolen internal credentials and a third-party cloud provider's machines, and that it has seen no further unauthorised access to its customer platform since October 25.",
+      "why": "A breach that reaches customer datasets and model weights touches the core material companies hand to an inference provider, but Fireworks says only a limited set of accounts was affected and no complete models were taken, so the scale of the damage is still an open question while the investigation continues."
+    },
+    {
+      "id": "paris-call-ai-safety-security",
+      "date": "2026-11-09",
+      "title": "Six governments and ten AI companies sign the Paris Call for AI safety and security",
+      "company": "AI industry",
+      "region": "international",
+      "type": "report",
+      "source": "Élysée",
+      "url": "https://www.elysee.fr/en/emmanuel-macron/2026/11/09/paris-call-for-ai-safety-and-security",
+      "summary": "Six governments — Bahrain, Canada, Finland, France, Norway and the Netherlands — and ten AI companies including Anthropic, Microsoft, OpenAI and Mistral AI signed the Paris Call for AI Safety and Security on November 9, pledging shared safety testing, independent oversight and shutdown mechanisms for the most powerful AI models. The declaration also commits signatories to faster reporting of serious incidents, and remains open to new endorsements.",
+      "why": "The signatory list is the news, but the declaration is voluntary, with no deadlines, enforcement or penalties, so it is a statement of intent, not a binding safety regime."
+    },
+    {
       "company": "Anthropic",
       "date": "2026-11-10",
       "id": "anthropic-ipo-range-70-78-roadshow",
