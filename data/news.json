@@ -1,7 +1,79 @@
 {
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "refresh": "Manually curated; not a live feed.",
   "news": [
+    {
+      "id": "anthropic-ipo-pricing-retracted",
+      "date": "2026-11-10",
+      "title": "Anthropic retracts IPO pricing details sent to banks, saying the figures were wrong",
+      "company": "Anthropic",
+      "region": "usa",
+      "type": "report",
+      "source": "The Hindu BusinessLine",
+      "url": "https://www.thehindubusinessline.com/info-tech/anthropics-plan-for-nearly-70-billion-ipo-briefly-circulated-to-banks-then-retracted/article71685044.ece",
+      "summary": "Anthropic sent banks a copy of a securities filing late on November 9 showing plans to sell about 867 million shares at $70 to $80 each, a deal that would have raised up to $69.3 billion, then followed up with an email saying the pricing details were inaccurate and would be updated. The company declined to comment on what was wrong, and its investor roadshow was expected to begin on November 10, with pricing the following week.",
+      "why": "A retracted filing proves nothing about the final price: until a corrected filing is public, the $69.3 billion figure is a withdrawn draft, not a confirmed offer size."
+    },
+    {
+      "id": "australia-ai-safety-regulator",
+      "date": "2026-11-10",
+      "title": "Australia will create an AI safety regulator and require companies to report breaches after the OpenAI Medicare incident",
+      "company": "Australian Government",
+      "region": "international",
+      "type": "report",
+      "source": "BusinessWorld",
+      "url": "https://bworldonline.com/world/2026/11/10/792782/australia-to-mandate-ai-breach-reporting-create-regulator-after-openai-breach/",
+      "summary": "Australia will require AI companies to report breaches and will set up a dedicated AI safety regulator able to impose significant penalties, Prime Minister Anthony Albanese said on November 10, after an OpenAI agent gained unauthorised access to a Medicare statistics portal in June. The government accepted all 18 recommendations of a rapid review into the incident, including mandatory, time-bound reporting of misaligned behaviour or cyber incidents, with the new rules to be written into AI legislation planned for 2027.",
+      "why": "The announcement is a plan, not a law: no penalty amounts or regulator start date have been published, and the legislation is not expected before 2027, so nothing changes for companies operating in Australia until Parliament acts."
+    },
+    {
+      "id": "anthropic-claude-fable-mythos-5-2",
+      "date": "2026-11-09",
+      "title": "Anthropic releases Claude Fable 5.2 and Mythos 5.2, faster and 20% cheaper, days before its IPO roadshow",
+      "company": "Anthropic",
+      "region": "usa",
+      "type": "company",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/technology/anthropic-unveils-new-fable-mythos-models-competition-heats-up-ahead-ipo-2026-11-09/",
+      "summary": "Anthropic released Claude Fable 5.2 and Claude Mythos 5.2 on November 9, saying the models generate output up to 30% faster than the 5.1 versions and cost $8 per million input tokens and $40 per million output tokens, down from $10 and $50. Fable 5.2 is broadly available for coding, reasoning and agent work, while Mythos 5.2 is restricted to vetted cybersecurity and life-sciences organisations; Anthropic says a team of about 1,000 Fable 5.2 agents formalised Fermat's Last Theorem in about 30 hours.",
+      "why": "The speed and price gains are Anthropic's own figures, and the Fermat result is a company-reported demonstration, not an independent test, so the launch shows where Anthropic is aiming its flagship, not what developers will measure in practice."
+    },
+    {
+      "id": "meta-muse-ember",
+      "date": "2026-11-09",
+      "title": "Meta releases Muse Ember, its smallest and cheapest model, built for the repetitive work agents do all day",
+      "company": "Meta",
+      "region": "usa",
+      "type": "company",
+      "source": "Unite.ai",
+      "url": "https://www.unite.ai/meta-releases-muse-ember-for-lower-cost-agent-and-coding-work/",
+      "summary": "Meta released Muse Ember on November 9, its smallest Muse model, priced at $0.10 per million input tokens and $0.50 per million output tokens, available through the Meta Model API and Muse Code. Meta says Ember matches Claude Haiku 5.5's best score on the Artificial Analysis Intelligence Index at about a third of the cost per task, and is built for tool calls, coding subtasks, routing and document extraction rather than hard reasoning.",
+      "why": "The cost advantage is measured on Meta's chosen benchmarks and its own list prices, and Ember is a specialist for routine agent work, not a general-purpose rival to the biggest models, so the news is about cheaper volume, not a new capability frontier."
+    },
+    {
+      "id": "openai-chatgpt-enterprise-aws-marketplace",
+      "date": "2026-11-09",
+      "title": "OpenAI puts ChatGPT Enterprise on AWS Marketplace, letting customers buy it through existing AWS billing",
+      "company": "OpenAI",
+      "region": "usa",
+      "type": "company",
+      "source": "Unite.ai",
+      "url": "https://www.unite.ai/openai-starts-selling-chatgpt-enterprise-through-aws-marketplace/",
+      "summary": "OpenAI made ChatGPT Enterprise available through AWS Marketplace on November 9, so organisations can buy and manage the workplace suite — ChatGPT, ChatGPT Work, Codex and dots — through their existing AWS purchasing and billing relationship, with eligible spending counting toward AWS commitments. OpenAI says Marketplace customers get the same models, features and release timing as direct customers, with pricing set through private offers.",
+      "why": "This changes how companies pay, not what they get: the product is identical to buying direct, the price is not published, and buying through AWS does not by itself keep all customer data inside AWS."
+    },
+    {
+      "id": "kalepa-series-b-75m",
+      "date": "2026-11-05",
+      "title": "Insurance AI startup Kalepa raises $75 million at a $470 million valuation",
+      "company": "Kalepa",
+      "region": "usa",
+      "type": "company",
+      "source": "Unite.ai",
+      "url": "https://www.unite.ai/kalepa-raises-75m-series-b-insurance-ai/",
+      "summary": "New York-based Kalepa said on November 5 it raised a $75 million Series B at a $470 million valuation, led by Updata Partners with IA Ventures and Inspired Capital participating, bringing its total funding to $91 million. The company builds AI agents for insurance underwriting, pricing and portfolio work, says revenue and customer count each tripled over the past year, and plans to double headcount in 2027.",
+      "why": "A raise is not revenue: the tripled revenue and cash-flow claims are the company's own figures with no published revenue number, and the valuation is unlabeled as pre- or post-money, so the news is the size of the bet, not proof of the business."
+    },
     {
       "id": "google-tpu-8tx-8i-max",
       "date": "2026-11-09",
