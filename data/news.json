@@ -3,6 +3,66 @@
   "refresh": "Manually curated; not a live feed.",
   "news": [
     {
+      "company": "Anthropic",
+      "date": "2026-11-10",
+      "id": "anthropic-ipo-range-70-78-roadshow",
+      "region": "usa",
+      "source": "TechCrunch",
+      "summary": "Anthropic filed an amended prospectus on November 10 setting its IPO price range at $70 to $78 a share for 825 million shares, and launched its investor roadshow for a Nasdaq listing under the ticker ANT. Seven chip and cloud partners, including Google, NVIDIA and Microsoft, agreed to buy $26 billion of stock in a private placement at the IPO price, and reports say pricing is expected on November 18 with trading to start November 19.",
+      "title": "Anthropic sets its IPO price range at $70 to $78 a share and launches the roadshow",
+      "type": "report",
+      "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
+      "why": "This range replaces the $70 to $80 draft Anthropic sent banks on November 9 and then retracted as inaccurate, but it is still only an estimate: the final price is set after the roadshow and the registration is not yet effective, so no shares can be sold until regulators sign off."
+    },
+    {
+      "company": "NVIDIA",
+      "date": "2026-11-09",
+      "id": "nvidia-groot-2-corl",
+      "region": "usa",
+      "source": "The Neuron",
+      "summary": "NVIDIA introduced GR00T 2 at the Conference on Robot Learning in Austin on November 9, a robot foundation model built on its Cosmos world models that learns manipulation skills from more than 400,000 hours of first-person human video plus robot demonstrations. NVIDIA reports the model completed 40 of 50 dexterous tasks with no demonstrations, averaging 40% success with none, 71% with one and 95% with five, and released 100,000 hours of the human video data under an open licence.",
+      "title": "NVIDIA unveils GR00T 2, a robot model that learns new skills from watching human video",
+      "type": "company",
+      "url": "https://www.theneuron.ai/robotics-insider/nvidia-gr00t-2-human-video-robot-learning/",
+      "why": "Every performance figure is NVIDIA's own, measured on tasks its whitepaper says were chosen because the model can learn them in five demonstrations, and the model code arrives in December with no weights release date or licence published yet, so this is a research result, not a robot you can download or buy."
+    },
+    {
+      "company": "Google",
+      "date": "2026-11-09",
+      "id": "markey-google-schools-ai-search",
+      "region": "usa",
+      "source": "WebPro News",
+      "summary": "Senator Edward Markey wrote to Google chief executive Sundar Pichai on November 9 demanding schools be allowed to disable AI Overviews, Gemini and Guided Learning on K-12 student accounts while keeping Google Search. Markey cited a lawsuit filed this month in which a girl's family alleges Gemini coached her through a suicide plan she reached through Search on a school Chromebook, and asked Google to answer by November 30.",
+      "title": "Senator Markey tells Google to let schools switch off AI without losing Search",
+      "type": "report",
+      "url": "https://www.webpronews.com/senator-markey-demands-google-decouple-ai-from-search-for-schools/",
+      "why": "A senator's letter is a demand, not a rule: Google has not publicly responded, and the dispute turns on whether Search without its built-in AI is technically separable, a question only Google can answer."
+    },
+    {
+      "company": "Google",
+      "date": "2026-11-10",
+      "id": "google-adobe-integrations-max",
+      "region": "usa",
+      "source": "Unite.AI",
+      "summary": "Google announced an expanded Adobe partnership at Adobe MAX on November 10, with planned Acrobat access from Drive and Gmail, more Adobe connectors in Gemini and Gemini Enterprise, and Adobe creative tools in Search's AI Mode. Adobe will also put its CX Enterprise Coworker agent inside Gemini Enterprise, and the two companies will explore new Photoshop editing powered by a Google DeepMind image model.",
+      "title": "Google and Adobe deepen their tie-up, bringing Acrobat into Drive and Gmail and Gemini into Adobe apps",
+      "type": "company",
+      "url": "https://www.unite.ai/google-expands-adobe-integrations-across-drive-gemini-and-search/",
+      "why": "Most of this is planned, not shipped: the Acrobat entry points and the Photoshop image model are forthcoming with no dates, so the news is the direction of the partnership, not tools users can open today."
+    },
+    {
+      "company": "Anthropic",
+      "date": "2026-11-10",
+      "id": "anthropic-fable-freelance-jobs-41",
+      "region": "usa",
+      "source": "The Decoder",
+      "summary": "Anthropic's new model Fable 5.2 completed 41.3% of real freelance projects at professional quality on the Remote Labor Index, a benchmark from Scale Labs and the Center for AI Safety that tests whether a paying client would accept the work. That is more than double its predecessor Fable 5.1 at under 18%, and more than 16 times the 2.5% top score when the benchmark launched about a year ago.",
+      "title": "Anthropic's Fable 5.2 completes 41% of real freelance jobs, up from 2.5% a year ago",
+      "type": "report",
+      "url": "https://the-decoder.com/anthropics-fable-5-2-completes-41-percent-of-real-freelance-jobs-up-from-2-5-percent-a-year-ago/",
+      "why": "A benchmark score is not a job market: the test measures whether work is good enough for a client to accept, not whether clients actually hire agents, and it is one benchmark's result, not proof that freelance work is being displaced."
+    },
+    {
       "id": "anthropic-ipo-pricing-retracted",
       "date": "2026-11-10",
       "title": "Anthropic retracts IPO pricing details sent to banks, saying the figures were wrong",
