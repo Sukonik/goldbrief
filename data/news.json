@@ -3,6 +3,42 @@
   "refresh": "Manually curated; not a live feed.",
   "news": [
     {
+      "id": "openai-control-room-kill-switch",
+      "date": "2026-11-11",
+      "title": "OpenAI deploys Control Room, a kill switch for its research models",
+      "company": "OpenAI",
+      "region": "usa",
+      "type": "company",
+      "source": "The Register",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/11/openai-builds-a-kill-switch-for-its-research-models/5309006",
+      "summary": "OpenAI has deployed Control Room across its research infrastructure, a central system that tracks research workloads by job ID and can halt a model's output within 35 seconds of a decision to intervene. The system works with OpenAI's misalignment-monitoring tools and is designed to stop model output even if Control Room itself goes down.",
+      "why": "A kill switch that takes 35 seconds is a real safety control, not an instant off button, and it covers OpenAI's internal research jobs only, not the models it serves to customers, so it shows the company tightening its own lab, not a fix for AI agents running loose in the wild."
+    },
+    {
+      "id": "openai-businesses-chatgpt-business-hub",
+      "date": "2026-11-10",
+      "title": "OpenAI lets businesses claim ChatGPT profiles and adds AI agents for US e-commerce firms",
+      "company": "OpenAI",
+      "region": "usa",
+      "type": "company",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/technology/openai-lets-businesses-claim-chatgpt-profiles-adds-ai-agents-us-e-commerce-firms-2026-11-10/",
+      "summary": "OpenAI launched Businesses in ChatGPT in beta, letting companies claim a profile inside ChatGPT, correct their details, add product feeds with prices and stock, and see aggregated counts of mentions, profile views and website clicks through a new Business Hub. Eligible US ecommerce and online-service businesses can also build a Business Agent, a branded chat assistant that answers customer questions inside ChatGPT.",
+      "why": "This turns ChatGPT into a business directory reaching 1.2 billion weekly users, but claiming a listing does not guarantee placement or sales, the click counts do not confirm visits or purchases, and Business Agents are US-only for now, so it is a new storefront, not a proven sales channel."
+    },
+    {
+      "id": "railway-breach-ai-keys-740k",
+      "date": "2026-11-10",
+      "title": "Railway says stolen customer AI keys led to $740,000 in unauthorized charges",
+      "company": "Railway",
+      "region": "usa",
+      "type": "report",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html",
+      "summary": "Railway published its final incident report on an October breach, saying attackers escaped the isolation around its build system, decrypted environment variables in up to 100,000 workspaces, and ran up about $740,000 in unauthorized AI usage on stolen provider keys. The company says it will cover charges that AI providers refuse to refund, and that customer databases were not accessed and no account was logged into with stolen credentials.",
+      "why": "The 100,000 figure is an upper bound, not a confirmed count of victims, and the report does not explain how the $740,000 was estimated, so this is a warning about how much damage stolen API keys can do at scale, not a final tally of what was taken."
+    },
+    {
       "id": "plurai-seed-13m-agent-simulation",
       "date": "2026-11-11",
       "title": "Plurai raises $13 million seed and opens its AI-agent simulation platform",
