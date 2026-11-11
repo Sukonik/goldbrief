@@ -3,6 +3,78 @@
   "refresh": "Manually curated; not a live feed.",
   "news": [
     {
+      "id": "plurai-seed-13m-agent-simulation",
+      "date": "2026-11-11",
+      "title": "Plurai raises $13 million seed and opens its AI-agent simulation platform",
+      "company": "Plurai",
+      "region": "international",
+      "type": "company",
+      "source": "Unite.AI",
+      "url": "https://www.unite.ai/plurai-raises-13m-seed-and-opens-ai-agent-simulation-platform/",
+      "summary": "Plurai raised $13 million in seed funding led by Team8 and opened its AI-agent simulation platform to general availability with a free tier. The platform builds a digital twin of an agent and its environment, then tests it against simulated and adversarial users to catch policy violations, hallucinations and bad tool calls before customers see them.",
+      "why": "The 82% drop in failures reaching users and 97% cost cut are Plurai's own figures from a small group of design partners, not independent testing, so the launch shows simulation entering the agent stack, not proof it works that well for everyone."
+    },
+    {
+      "id": "guava-seed-12-5m-voice-agent",
+      "date": "2026-11-11",
+      "title": "Guava raises $12.5 million seed to scale its AI voice agent platform",
+      "company": "Guava",
+      "region": "usa",
+      "type": "company",
+      "source": "American Bazaar",
+      "url": "https://americanbazaaronline.com/2026/11/11/guava-secures-12-5m-seed-funding-to-scale-its-ai-voice-agent-492040/",
+      "summary": "Guava, a developer platform for building voice agents, raised $12.5 million in seed funding led by Acrew Capital. Its first public model, Daytona, launched in September, and the company says it already serves more than a dozen enterprise customers and powers tens of thousands of calls a day.",
+      "why": "A seed round is early money, not a proven business, and the customer and call figures are the company's own, so this is a bet on voice agents scaling, not evidence they already have."
+    },
+    {
+      "id": "torus-foundry-500m-modular-inference",
+      "date": "2026-11-11",
+      "title": "Torus launches Foundry modular AI infrastructure and secures $500 million",
+      "company": "Torus",
+      "region": "usa",
+      "type": "company",
+      "source": "Business Wire",
+      "url": "https://markets.financialcontent.com/borgernewsherald/article/bizwire-2026-11-11-torus-launches-modular-ai-infrastructure-foundry-to-meet-surging-ai-inference-demand-and-secures-500m-in-funding",
+      "summary": "Torus launched Foundry, prefabricated modular infrastructure that packages power, storage, cooling, networking and compute to add 1 to 20 megawatts of AI inference capacity per site in 12 to 16 weeks, and announced $500 million in growth capital led by Magnetar. Its first customers are Hydra Host and another AI cloud provider.",
+      "why": "The 12-to-16-week timeline and a target of more than 47,000 GPUs by the end of 2027 are the company's own plans, and the round funds manufacturing, so this is a bet that inference demand keeps outrunning data-center construction, not a delivered fleet."
+    },
+    {
+      "id": "deepmind-alphaproof-code-signal",
+      "date": "2026-11-10",
+      "title": "DeepMind's AlphaProof Code proves Signal's encryption code with AI-written math",
+      "company": "Google DeepMind",
+      "region": "usa",
+      "type": "report",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "summary": "Google DeepMind introduced AlphaProof Code, an agent framework for formal verification, and used it to mathematically prove security properties of the compiled code behind the Signal protocol. Agents running on Gemini Carbon wrote about 6.5 million lines of machine-checked Lean proof in four weeks, a job DeepMind says historically took expert teams years.",
+      "why": "The proof covers named properties of one compiled build on one platform, not the whole Signal app, and human experts wrote the specifications, so this is a real verification milestone, not a guarantee the software is bug-free."
+    },
+    {
+      "id": "anthropic-ipo-above-range-15t-ft",
+      "date": "2026-11-11",
+      "title": "Anthropic bankers weigh pricing the IPO above its $70-$78 range, FT reports",
+      "company": "Anthropic",
+      "region": "usa",
+      "type": "report",
+      "source": "Benzinga",
+      "url": "https://www.tradingview.com/news/benzinga:54b61d6e8094b:0-anthropic-ipo-could-top-1-5-trillion-valuation-as-banks-weigh-higher-pricing-amid-strong-investor-demand-potentially-raising-over-100-billion-report/",
+      "summary": "The Financial Times reports Anthropic's bankers expect to price its IPO above the $70 to $78 range filed on Tuesday after strong first-day roadshow demand, which could lift the valuation to $1.5 trillion or more and total fundraising past $100 billion. Pricing is still expected on November 18, with trading on November 19.",
+      "why": "This is a newspaper report citing unnamed people, not a new filing, and Anthropic has not confirmed a higher price, so it shows strong demand for the deal, not a settled valuation."
+    },
+    {
+      "id": "spines-64m-ai-publishing",
+      "date": "2026-11-09",
+      "title": "Spines raises $64 million to automate book publishing with AI agents",
+      "company": "Spines",
+      "region": "international",
+      "type": "company",
+      "source": "Unite.AI",
+      "url": "https://www.unite.ai/spines-raises-64m-through-series-a-1-equity-and-growth-financing/",
+      "summary": "Spines, an AI publishing platform that turns manuscripts into published books, raised $64 million in growth capital: a $29 million Series A-1 equity round led by Zeev Ventures plus a $35 million non-dilutive facility from Twelve. The company reports a $50 million revenue run rate and 400% year-over-year growth.",
+      "why": "More than half the $64 million is debt, not equity, and the revenue and growth figures are the company's own, so the round shows a real business with paying authors, not a valuation or proof the growth rate will hold."
+    },
+    {
       "id": "anthropic-claude-sheets-meetings-whiteboards",
       "date": "2026-11-10",
       "title": "Anthropic launches Claude Sheets, Whiteboards and Meetings, turning Claude into office software",
