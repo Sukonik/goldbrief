@@ -171,6 +171,42 @@
       "why": "A funding round funds a plan, not a result: the money expands testing and sales work, but it does not prove the designed enzymes work at industrial scale."
     },
     {
+      "company": "Google",
+      "date": "2026-11-11",
+      "id": "google-gemini-decision-1-api",
+      "region": "usa",
+      "source": "Google",
+      "summary": "Google introduced the Gemini Decisions API, powered by a new model called Gemini Decision 1, that answers up to 1,000 yes-or-no, multiple-choice, or scoring questions in a single pass instead of generating text. The company says it returns probabilities and confidence scores in 150-250 milliseconds at $0.10 per million input tokens, and it is available through the Gemini API in Google AI Studio.",
+      "title": "Google launches Gemini Decisions API, a model that answers instead of writing",
+      "type": "company",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/?ref=explainx",
+      "why": "It matters because it splits fast judgment calls out of expensive text generation, which could make AI agents cheaper and quicker at routing and checking their own work, but the speed and accuracy figures are Google's own, and the API is still in a preview version with Vertex AI support only promised, not shipped."
+    },
+    {
+      "company": "ByteDance",
+      "date": "2026-11-11",
+      "id": "bytedance-muse-like-assistant",
+      "region": "international",
+      "source": "PYMNTS",
+      "summary": "ByteDance plans to launch a personal AI assistant similar to Meta's Muse in the coming weeks, Bloomberg reported, citing people familiar with an internal meeting of the company's AI team. Co-founder Zhang Yiming told staff the company can compete with OpenAI and Anthropic at the frontier, but not before 2029 or 2030, and named its smaller training datasets as the main gap.",
+      "title": "ByteDance builds assistant to take on US AI labs",
+      "type": "company",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/bytedance-builds-assistant-rival-united-states-ai-labs/",
+      "why": "It shows the world's biggest short-video company moving into personal AI agents on top of its Doubao user base, but the product is still only a reported plan with no name, features, or launch market confirmed, and its own founder puts frontier parity years away."
+    },
+    {
+      "company": "Federal Reserve",
+      "date": "2026-11-10",
+      "id": "fed-bowman-ai-warning",
+      "region": "usa",
+      "source": "Bloomberg Law",
+      "summary": "Federal Reserve Vice Chair for Supervision Michelle Bowman warned that stock markets could face a large correction if returns on AI investment fall short of expectations, speaking at the Council on Foreign Relations on November 10. She said AI-related debt is on track to exceed $800 billion this year and that complex financing between chipmakers, cloud providers, and AI companies can make the risk harder to see.",
+      "title": "Fed's Bowman warns of stock correction if AI bets don't pan out",
+      "type": "report",
+      "url": "https://news.bloomberglaw.com/banking-law/feds-bowman-warns-of-stock-correction-if-ai-bets-dont-pan-out",
+      "why": "A senior Fed official naming AI financing as a top economic risk carries weight because markets listen to the Fed, but this is a conditional warning about what could happen, not a forecast that a crash is coming, and it does not say AI spending itself is a bubble."
+    },
+    {
       "id": "openai-control-room-kill-switch",
       "date": "2026-11-11",
       "title": "OpenAI deploys Control Room, a kill switch for its research models",
