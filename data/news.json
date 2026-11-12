@@ -3,6 +3,66 @@
   "refresh": "Manually curated; not a live feed.",
   "news": [
     {
+      "company": "United Airlines",
+      "date": "2026-11-12",
+      "id": "united-ai-agents-booking-ban",
+      "region": "usa",
+      "source": "TechCrunch",
+      "summary": "United Airlines said it will block unauthorized third-party AI assistants from booking, changing, or servicing flights on its website, app, and through travel agencies, writing the ban into its contract of carriage. The airline says handing account credentials to an AI assistant can expose customer data and lead to unwanted purchases or use of frequent-flyer miles, and that a human must complete check-in steps required by federal rules.",
+      "title": "United Airlines bars AI agents from booking its flights",
+      "type": "company",
+      "url": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
+      "why": "This is the first major US airline to draw a line at AI agents completing purchases, so it sets a precedent other travel companies may follow, but it does not stop agents from showing fares, and it does not prove AI bookings were unsafe, only that United wants control over who touches its systems."
+    },
+    {
+      "company": "Runway",
+      "date": "2026-11-11",
+      "id": "runway-praxis-1-open-weights",
+      "region": "usa",
+      "source": "Runway",
+      "summary": "Runway released Praxis-1, a 27-billion-parameter model that predicts video and robot actions together, with its weights and fine-tuning code published under the Apache 2.0 license, which allows commercial use. The company reports the model completed 46.2% of tasks on NVIDIA's RoboLab-120 benchmark of simulated tabletop manipulation.",
+      "title": "Runway releases Praxis-1 robot model with open weights",
+      "type": "company",
+      "url": "https://runway.com/news/company-news/praxis-1-is-now-available",
+      "why": "Open weights let other labs and companies build on the model without starting from zero, but the headline score is Runway's own measurement on simulated tasks, not independent proof the model works reliably on a real factory floor."
+    },
+    {
+      "company": "Alibaba",
+      "date": "2026-11-11",
+      "id": "alibaba-qwen4-max-preview",
+      "region": "international",
+      "source": "Alibaba Cloud",
+      "summary": "Alibaba Cloud opened a preview of Qwen4-Max, the flagship of its next Qwen model family, with a 1-million-token context window and text, image, and video understanding. Access runs only through its Token Plan subscription, and Alibaba says the preview model will be retired when the window ends on November 25.",
+      "title": "Alibaba opens a two-week preview of Qwen4-Max",
+      "type": "company",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/qwen4-max-preview",
+      "why": "A two-week, subscription-only preview is a controlled test, not a launch: no weights, benchmarks, or per-token price have been published, so nothing here shows how Qwen4-Max compares with rival flagship models."
+    },
+    {
+      "company": "Notion",
+      "date": "2026-11-11",
+      "id": "notion-fireworks-ai-chat-leak",
+      "region": "usa",
+      "source": "BleepingComputer",
+      "summary": "Notion said a breach at its AI provider Fireworks AI exposed Notion AI chat transcripts from fewer than 1% of its workspaces, despite a contractual promise of zero data retention. The transcripts came from data sent to Fireworks for its Insights feature, which Notion has disabled, and Notion advises affected users to rotate any passwords or keys pasted into those chats.",
+      "title": "Notion says Fireworks breach exposed AI chat transcripts",
+      "type": "report",
+      "url": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
+      "why": "This is the first named customer impact from the Fireworks breach, and it shows a zero-retention promise can fail downstream, but it affects a small slice of workspaces, and most of the exposed transcripts were not labeled with their author or workspace."
+    },
+    {
+      "company": "United States",
+      "date": "2026-11-10",
+      "id": "us-china-ai-dialogue-bessent",
+      "region": "usa",
+      "source": "Reuters",
+      "summary": "Treasury Secretary Scott Bessent said the United States and China will advance a new bilateral dialogue on advanced AI when Presidents Trump and Xi meet in Shenzhen next week, exchanging practices for testing models before release and keeping human judgment in control. The two sides have also agreed to a direct channel for alerting each other to serious AI incidents.",
+      "title": "US and China to advance a new AI dialogue at the APEC summit",
+      "type": "report",
+      "url": "https://hot96.com/2026/11/10/us-and-china-should-stay-clear-eyed-on-ai-cooperation-and-competition-bessent-says/",
+      "why": "A dialogue and an incident channel are process, not agreement: they may reduce misunderstandings between the two AI powers, but they commit neither side to any shared rules or limits on model development."
+    },
+    {
       "company": "NVIDIA",
       "date": "2026-11-12",
       "id": "nvidia-board-jensen-huang-fate",
