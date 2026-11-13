@@ -3,6 +3,30 @@
   "refresh": "Manually curated; not a live feed.",
   "news": [
     {
+      "company": "SpaceX",
+      "date": "2026-11-12",
+      "id": "spacex-ai-campuses-74b",
+      "region": "usa",
+      "source": "Unite.AI",
+      "summary": "SpaceX announced plans for two AI supercomputing campuses worth more than $74 billion: up to $24 billion at its Starbase site in Texas and roughly $50 billion in Cochise County, Arizona, where the campus could eventually draw up to 6 gigawatts. The Texas facility would generate its own electricity, while the Arizona campus would work with local electric cooperatives.",
+      "title": "SpaceX plans more than $74 billion of AI supercomputing campuses in Texas and Arizona",
+      "type": "company",
+      "url": "https://www.unite.ai/spacex-unveils-two-ai-supercomputing-campus-plans-in-texas-and-arizona/",
+      "why": "A rocket company now plans to spend more on AI computing than most countries, and its AI segment already brings in over half of SpaceX's revenue — but both campuses still need local approvals, with hearings and votes scheduled for December 9, so the $74 billion is an announced plan, not a construction site."
+    },
+    {
+      "company": "Fractile",
+      "date": "2026-11-11",
+      "id": "fractile-series-c-500m",
+      "region": "international",
+      "source": "GOV.UK",
+      "summary": "British AI chip startup Fractile raised more than £500 million in a Series C round valuing the company at over £5 billion, with the UK government's Sovereign AI Venture Fund and the British Business Bank joining investors including CapitalG, Lightspeed and Redpoint. Fractile designs chips meant to run AI models faster, cheaper and more energy-efficiently, and its first chip has not shipped yet.",
+      "title": "British AI chip startup Fractile raises over £500 million at a valuation above £5 billion",
+      "type": "company",
+      "url": "https://www.gov.uk/government/news/sovereign-ai-and-british-business-bank-invest-in-british-firm-developing-the-next-generation-of-ai-hardware",
+      "why": "The round makes Fractile one of Britain's most valuable AI hardware bets, but the government's own notes say its typical cheques run £1–10 million — a small slice of a £500 million round — so the state's role is an endorsement, not the financing, and a valuation is not revenue."
+    },
+    {
       "company": "OpenAI",
       "date": "2026-11-13",
       "id": "openai-chatgpt-wallet",
