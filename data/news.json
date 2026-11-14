@@ -3,6 +3,66 @@
   "refresh": "Manually curated; not a live feed.",
   "news": [
     {
+      "company": "Google",
+      "date": "2026-11-14",
+      "id": "gemini-4-carbon-matharena",
+      "region": "usa",
+      "source": "The Decoder",
+      "summary": "Google's Gemini 4 Carbon has taken the top spot on MathArena, a benchmark for AI maths ability, pushing OpenAI's GPT-6.1 Sol off the lead; Anthropic's Fable 5.2 also passed it. The win comes at a steep price: running Carbon costs about 15 times more than the model it beat, and it ignored the test's time limit, working on problems far longer than its rivals.",
+      "title": "Gemini 4 Carbon takes the MathArena crown, but costs 15 times more than GPT-6.1 Sol",
+      "type": "report",
+      "url": "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/",
+      "why": "A benchmark crown shows where the frontier is moving, but a model that costs 15 times more and ignores time limits is not yet a practical winner for most users."
+    },
+    {
+      "company": "Anthropic",
+      "date": "2026-11-14",
+      "id": "anthropic-opus-55-prompting-guide",
+      "region": "usa",
+      "source": "The Decoder",
+      "summary": "Anthropic has made Claude Opus 5.5 the default model on all paid plans and published a guide for getting the most out of it. The main advice is to drop old habits like telling the model to 'think hard' and instead start at Medium effort, letting the model manage its own reasoning.",
+      "title": "Anthropic says outdated prompting habits are slowing down Claude Opus 5.5",
+      "type": "company",
+      "url": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/",
+      "why": "It shows the labs now expect users to unlearn prompt tricks as models get smarter, but a vendor's own guide is marketing as much as instruction, and the speed gains are Anthropic's claim, not an independent test."
+    },
+    {
+      "company": "NVIDIA",
+      "date": "2026-11-14",
+      "id": "nvidia-asian-governments-huang-exit",
+      "region": "international",
+      "source": "TechCrunch",
+      "summary": "Governments across Asia are responding to Jensen Huang's departure from Nvidia, with some moving to confirm chip supply commitments and others watching the effect on local projects or open investigations. The reactions underline how much of the region's AI plans were tied to one chief executive's personal relationships.",
+      "title": "Asian governments react to Nvidia CEO Jensen Huang's exit",
+      "type": "report",
+      "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+      "why": "It shows Huang's exit is a diplomatic and industrial event, not just a boardroom one, but government statements of reassurance are not the same as secured chip supplies."
+    },
+    {
+      "company": "NVIDIA",
+      "date": "2026-11-14",
+      "id": "musk-nvidia-critical-deals-huang",
+      "region": "usa",
+      "source": "Reuters",
+      "summary": "Elon Musk said Nvidia would lose 'critical' deals without Jensen Huang, writing on X that many of the chipmaker's supply arrangements were 'a handshake with Jensen, not a written contract.' Musk credited Huang with running Nvidia's supply chain brilliantly.",
+      "title": "Musk says Nvidia will lose 'critical' deals without Jensen Huang",
+      "type": "report",
+      "url": "https://mymixfm.com/2026/11/14/musk-says-nvidia-will-lose-critical-deals-without-jensen-huang/",
+      "why": "A claim from one of tech's most powerful voices adds weight to the idea that Nvidia's deals were personal, but it is one person's post on social media, not evidence that any deal has actually been lost."
+    },
+    {
+      "company": "Google",
+      "date": "2026-11-14",
+      "id": "chicago-schools-google-ai-protests",
+      "region": "usa",
+      "source": "The 74",
+      "summary": "About 30 parents, educators and students protested outside Google's Chicago office after the company told schools that blocking its AI tools could cost them access to Google Search. Chicago Public Schools, which has already blocked student access to generative AI tools, said it would look for other search options rather than accept AI features it did not choose.",
+      "title": "Protests in Chicago after Google warns schools about disabling AI features",
+      "type": "report",
+      "url": "https://www.the74million.org/article/protests-in-chicago-after-google-warns-schools-about-disabling-ai-feature/",
+      "why": "It is the clearest public pushback yet against AI being bundled into tools schools already use, but one district's standoff does not settle whether other schools will follow or Google will bend."
+    },
+    {
       "company": "OpenAI",
       "date": "2026-11-14",
       "id": "openai-robotics-reassigned",
