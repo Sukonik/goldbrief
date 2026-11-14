@@ -3,6 +3,18 @@
   "refresh": "Manually curated; not a live feed.",
   "news": [
     {
+      "company": "NVIDIA",
+      "date": "2026-11-14",
+      "id": "nvidia-investors-huang-return",
+      "region": "usa",
+      "source": "CNBC",
+      "summary": "Two major Nvidia investors, holding about $2.13 billion of the company's stock as of June 30, have written to Nvidia's board urging it to consider the potential return of Jensen Huang and to run a deliberate search for new leadership after his resignation.",
+      "title": "Nvidia board urged to consider 'potential return of Jensen Huang' by two major investors",
+      "type": "company",
+      "url": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html",
+      "why": "Investor pressure shows how unsettled the succession is, but a letter asking the board to consider a return is not a decision — the board has not said it will bring Huang back."
+    },
+    {
       "company": "Google",
       "date": "2026-11-14",
       "id": "gemini-4-carbon-matharena",
