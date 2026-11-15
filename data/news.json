@@ -3,6 +3,30 @@
   "refresh": "Manually curated; not a live feed.",
   "news": [
     {
+      "company": "NVIDIA",
+      "date": "2026-11-15",
+      "id": "bessent-nvidia-shakeup-outside-ceo",
+      "region": "usa",
+      "source": "CNBC",
+      "summary": "US Treasury Secretary Scott Bessent said Nvidia needs a 'dramatic shakeup' and should hire its next chief executive from outside the company. He also said the board and its outside lawyers should answer questions about export-control compliance within 10 days.",
+      "title": "Bessent calls for 'dramatic shakeup' at Nvidia, urges outside CEO",
+      "type": "company",
+      "url": "https://www.cnbc.com/2026/11/15/bessent-nvidia-ceo-lutnick-megaspeed.html",
+      "why": "A cabinet secretary publicly pressing a chipmaker's board raises the political stakes of the succession, but a call for change is not a finding that Nvidia broke export rules."
+    },
+    {
+      "company": "Anthropic",
+      "date": "2026-11-15",
+      "id": "anthropic-claude-fable-paints-images",
+      "region": "usa",
+      "source": "The Decoder",
+      "summary": "Anthropic's Claude Fable 5.2 makes images by writing code that places hundreds of thousands of simulated brushstrokes on a virtual canvas, instead of computing pixels directly. The strokes carry bristle texture and paint application, like a painter working on canvas.",
+      "title": "Anthropic's Claude Fable 5.2 doesn't generate images, it paints them",
+      "type": "company",
+      "url": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/",
+      "why": "A model that paints stroke by stroke is a different approach to image-making, but a novel technique is not proof the results beat conventional image models in practice."
+    },
+    {
       "company": "Anthropic",
       "date": "2026-11-14",
       "id": "anthropic-amodei-ipo-uncertainty",
