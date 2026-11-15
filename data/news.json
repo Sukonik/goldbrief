@@ -1,7 +1,91 @@
 {
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "refresh": "Manually curated; not a live feed.",
   "news": [
+    {
+      "company": "Anthropic",
+      "date": "2026-11-14",
+      "id": "anthropic-amodei-ipo-uncertainty",
+      "region": "usa",
+      "source": "The Decoder",
+      "summary": "Days before a planned IPO that could be the largest ever, Anthropic chief executive Dario Amodei said buying computing power is the deepest business dilemma his company faces. Anthropic's compute commitments now total nearly $901 billion, with no clear evidence yet that future revenue will cover them.",
+      "title": "Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a record IPO",
+      "type": "company",
+      "url": "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/",
+      "why": "A record-sized listing would put Anthropic's spending in public view, but a big IPO proves investors are willing to buy in, not that the compute bill will pay for itself."
+    },
+    {
+      "company": "NVIDIA",
+      "date": "2026-11-15",
+      "id": "megaspeed-nvidia-china-12b-orders",
+      "region": "usa",
+      "source": "The Decoder",
+      "summary": "Megaspeed, a firm linked to former Nvidia chief executive Jensen Huang's ex-partner Alice Huang, arranged nearly $12 billion in Nvidia chip orders for Chinese companies in 2024 and 2025, according to the Wall Street Journal. A short seller estimates Nvidia's real share of revenue from China is above 20 percent, higher than the company has reported.",
+      "title": "Firm linked to Jensen Huang's ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China",
+      "type": "company",
+      "url": "https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china/",
+      "why": "The report, if accurate, would mean Nvidia's China exposure is far larger than its filings suggest, but it is a newspaper report and a short seller's estimate, not a finding by regulators or the company."
+    },
+    {
+      "company": "Meituan",
+      "date": "2026-11-15",
+      "id": "meituan-longcat-2-5-open-weights",
+      "region": "international",
+      "source": "The Decoder",
+      "summary": "Meituan has released the weights for LongCat-2.5, a 1.6-trillion-parameter model built for AI agents and trained entirely on Chinese hardware. It scores 88.4 on Terminal Bench, just behind Claude Opus 5, and the sample deployment runs on 194 Huawei Ascend chips.",
+      "title": "Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU",
+      "type": "company",
+      "url": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/",
+      "why": "Open weights from a major Chinese company show capable agent models can be built without Nvidia hardware, but a benchmark score is not proof the model works as well in real use."
+    },
+    {
+      "company": "AI industry",
+      "date": "2026-11-15",
+      "id": "australia-rba-ai-young-workers",
+      "region": "international",
+      "source": "The Decoder",
+      "summary": "Australia's central bank says there are early signs that AI is hitting young workers first, with job postings and employment falling more sharply for 15- to 24-year-olds in software development and customer service since ChatGPT launched. The pattern is concentrated in entry-level roles most exposed to AI.",
+      "title": "Australia's central bank finds AI hitting young workers first, especially in software and customer service",
+      "type": "report",
+      "url": "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/",
+      "why": "A central bank finding is early evidence of a real labour effect, but it is a correlation over a few years, not proof that AI caused the whole drop."
+    },
+    {
+      "company": "NVIDIA",
+      "date": "2026-11-14",
+      "id": "musk-tech-execs-petition-huang",
+      "region": "usa",
+      "source": "TechCrunch",
+      "summary": "Elon Musk and other technology executives have signed a petition asking Nvidia's board to reinstate Jensen Huang as chief executive. The petition had drawn more than 115,000 signatures by Saturday afternoon.",
+      "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+      "type": "company",
+      "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+      "why": "A petition shows how much support Huang still has in the industry, but signatures are not votes: the board alone decides who runs the company."
+    },
+    {
+      "company": "NVIDIA",
+      "date": "2026-11-14",
+      "id": "nvidia-security-chief-left-august",
+      "region": "usa",
+      "source": "TechCrunch",
+      "summary": "Nvidia's security chief quietly left the company in August, months before chief executive Jensen Huang stepped down over his relationships, including one with an executive at a firm suspected of moving chips to China. A former intelligence officer told TechCrunch the episode looks like the kind of leak that travels through ordinary conversation.",
+      "title": "Where was Nvidia's security team?",
+      "type": "company",
+      "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+      "why": "The timing raises questions about what Nvidia's security team knew and when, but a departure alone does not show the company failed to act."
+    },
+    {
+      "company": "Microsoft",
+      "date": "2026-11-14",
+      "id": "microsoft-langford-quits-ai-frontiers",
+      "region": "usa",
+      "source": "Windows Latest",
+      "summary": "John Langford, a machine learning researcher who spent more than 14 years at Microsoft and co-founded its AI Frontiers lab, has quit, saying the division that absorbed his team cares about scaling models, not research. He says work that could cut AI costs in half was never seriously considered, and a similar method has since been tested at larger scale by ByteDance.",
+      "title": "John Langford quits Microsoft after 14 years, says AI research that could cut costs was ignored",
+      "type": "company",
+      "url": "https://www.windowslatest.com/2026/11/14/no-path-to-real-use-a-veteran-microsoft-ai-scientist-quits-says-research-that-could-halve-ai-costs-wasnt-even-seriously-considered/",
+      "why": "One senior researcher's exit is a warning sign about how big labs treat cost-saving research, but his cost claim is his own projection, not a measured saving."
+    },
     {
       "company": "NVIDIA",
       "date": "2026-11-14",
