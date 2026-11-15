@@ -3,6 +3,30 @@
   "refresh": "Manually curated; not a live feed.",
   "news": [
     {
+      "company": "LMSYS",
+      "date": "2026-11-12",
+      "id": "sglang-consortium-lmsys",
+      "region": "usa",
+      "source": "LMSYS Org",
+      "summary": "LMSYS Org launched the SGLang Consortium on November 12 with eight founding members — NVIDIA, AMD, Intel, Google, Meta, Cloudflare, Modal and RadixArk — to jointly steer the roadmap of SGLang, the open-source software that serves AI models to users. Each member names a technical representative and meets with the project's maintainers twice a year.",
+      "title": "NVIDIA, AMD, Intel and Google join SGLang Consortium for open AI inference",
+      "type": "company",
+      "url": "https://www.lmsys.org/blog/2026-11-12-sglang-consortium",
+      "why": "Rival chipmakers cooperating on shared inference software could make AI cheaper to run across different hardware, but the launch is a governance announcement — no new feature shipped with it, so it proves intent, not faster serving yet."
+    },
+    {
+      "company": "Philippines",
+      "date": "2026-11-14",
+      "id": "philippines-eo131-ai-council",
+      "region": "international",
+      "source": "Philippine News Agency",
+      "summary": "President Ferdinand Marcos Jr. signed Executive Order 131 on November 12, adopting a national AI governance framework and creating the National Artificial Intelligence Council to coordinate AI policy across government agencies. The council, chaired by the Executive Secretary, will report to the president every quarter.",
+      "title": "Philippines adopts national AI governance framework and creates AI council",
+      "type": "report",
+      "url": "https://www.pna.gov.ph/article/pbbm-creates-national-council-to-oversee-ai-development-governance",
+      "why": "A national framework gives the Philippines a single coordinating body for AI policy, but it is a strategy and coordination document, not a set of new rules or penalties for businesses using AI."
+    },
+    {
       "company": "NVIDIA",
       "date": "2026-11-15",
       "id": "bessent-nvidia-shakeup-outside-ceo",
