@@ -3,6 +3,42 @@
   "refresh": "Manually curated; not a live feed.",
   "news": [
     {
+      "id": "kuo-tpu-orders-openai-anthropic",
+      "date": "2026-11-16",
+      "title": "Analyst: OpenAI and Anthropic may order about 26 million Google TPUs in 2028-29",
+      "company": "Google",
+      "region": "usa",
+      "type": "report",
+      "source": "Stocktwits",
+      "url": "https://stocktwits.com/news-articles/markets/equity/more-pain-for-nvda-top-supply-chain-analyst-says-new-open-ai-anthropic-chip-orders-boost-google-s-tpu-outlook/cNb7fwwR9X7",
+      "summary": "Supply-chain analyst Ming-Chi Kuo estimates OpenAI will seek about 12 million Google TPUs and Anthropic about 14 million across 2028 and 2029, extending Google's TPU shipment visibility to 2029, ahead of Nvidia GPUs and other AI accelerators, which mostly run through 2027 or 2028.",
+      "why": "It matters because it suggests the two biggest AI labs are shifting large future chip orders toward Google's custom hardware — but these are one analyst's estimates from a survey, not company disclosures, and no order, price, or delivery schedule has been confirmed."
+    },
+    {
+      "id": "nokia-nordic-baltic-ai-gigafactory",
+      "date": "2026-11-16",
+      "title": "Nokia and partners form Nordic-Baltic AI Gigafactory consortium",
+      "company": "Nokia",
+      "region": "international",
+      "type": "company",
+      "source": "Unite.AI",
+      "url": "https://www.unite.ai/nokia-and-partners-form-nordic-baltic-ai-gigafactory-consortium/",
+      "summary": "Nokia, Nscale, Skeleton, Telia and Verda have formed AI Gigafactory Northern, a consortium planning a federated, multi-site AI infrastructure network across the Nordic and Baltic region, and intend to bid to build and operate it under a European tender.",
+      "why": "It matters because it is a concrete European bid for sovereign-scale AI infrastructure — but it is a proposal to enter a tender, not an award, and no funding or construction timeline has been confirmed."
+    },
+    {
+      "id": "dell-ai-factory-nvidia-sc26",
+      "date": "2026-11-16",
+      "title": "Dell expands AI Factory with NVIDIA at Supercomputing 2026",
+      "company": "Dell",
+      "region": "usa",
+      "type": "company",
+      "source": "Dell",
+      "url": "https://www.dell.com/en-us/newsroom/announcements/dell-technologies-delivers-the-trusted-data-and-ai-infrastructure-foundation-needed-to-scale-enterprise-ai",
+      "summary": "At Supercomputing 2026 in Chicago, Dell announced updates to the Dell AI Factory with NVIDIA, including new data-platform capabilities for preparing enterprise data for AI agents, an agentic infrastructure-management platform, and the first direct-liquid-cooled storage for rack-scale AI.",
+      "why": "It matters because it shows the AI build-out moving from models to the plumbing — data, storage and management for agents — but the headline performance claims come from Dell's own internal testing, not independent measurement, and some products only arrive in December or later."
+    },
+    {
       "company": "Alibaba",
       "date": "2026-11-16",
       "id": "alibaba-qwen4-max",
