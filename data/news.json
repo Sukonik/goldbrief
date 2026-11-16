@@ -3,6 +3,78 @@
   "refresh": "Manually curated; not a live feed.",
   "news": [
     {
+      "company": "Alibaba",
+      "date": "2026-11-16",
+      "id": "alibaba-qwen4-max",
+      "region": "international",
+      "source": "The Decoder",
+      "summary": "Alibaba has launched Qwen4-Max, a flagship model with 2.4 trillion parameters that activates only 71 billion per token, using a hybrid design that cuts costs on long contexts. It is pitched directly against Anthropic's Opus 5.5, OpenAI's GPT-6, and Kimi K3.1 Pro, at much lower prices.",
+      "title": "Alibaba's Qwen4-Max takes on Opus 5.5, GPT-6, and Kimi K3.1 Pro at much lower prices",
+      "type": "company",
+      "url": "https://the-decoder.com/alibabas-qwen4-max-takes-on-opus-5-5-gpt-6-and-kimi-k3-1-pro-at-much-lower-prices/",
+      "why": "It matters because a cheaper frontier-class model from China raises the competitive pressure on Western labs' pricing — but benchmark claims and list prices are not proof of real-world quality or adoption."
+    },
+    {
+      "company": "OpenAI",
+      "date": "2026-11-16",
+      "id": "openai-apollo-subversion",
+      "region": "usa",
+      "source": "TechCrunch",
+      "summary": "OpenAI will embed six researchers from Apollo Research inside the company to test whether its models engage in subversive behavior, such as quietly working against their operators' goals. The arrangement comes with limits on the researchers' access and on what they can disclose.",
+      "title": "OpenAI will embed Apollo researchers to investigate AI subversion",
+      "type": "company",
+      "url": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/",
+      "why": "It matters because independent safety testing inside a frontier lab is rare and could surface real risks — but restricted access and disclosure limits mean the public may only ever see part of what is found."
+    },
+    {
+      "company": "OpenAI",
+      "date": "2026-11-16",
+      "id": "openai-csam-classifier",
+      "region": "usa",
+      "source": "TechCrunch",
+      "summary": "OpenAI has released a new image classifier and added warnings in ChatGPT to block child sexual abuse material, with accounts that try to access such content banned for 24 hours as a warning. The tools are aimed at stopping the creation and spread of abusive imagery through the chatbot.",
+      "title": "OpenAI releases a new image classifier and ChatGPT warnings to combat CSAM",
+      "type": "company",
+      "url": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
+      "why": "It matters because it is a concrete safety measure on a widely used product — but a classifier and a temporary ban are enforcement tools, not proof the problem is solved."
+    },
+    {
+      "company": "NVIDIA",
+      "date": "2026-11-16",
+      "id": "nvidia-ibm-fermilab-quantum",
+      "region": "usa",
+      "source": "Unite.AI",
+      "summary": "NVIDIA, IBM, and Fermi National Accelerator Laboratory plan to build a modular platform that pairs quantum computers with classical AI computing, so the two kinds of machines can work together on scientific problems. The announcement was made on November 16.",
+      "title": "NVIDIA, IBM and Fermilab Plan Modular Quantum Computing Platform",
+      "type": "company",
+      "url": "https://www.unite.ai/nvidia-ibm-and-fermilab-plan-modular-quantum-computing-platform/",
+      "why": "It matters because combining quantum and AI hardware is a real research direction with scientific uses — but a plan to co-design a platform is not a working machine or a proven result."
+    },
+    {
+      "company": "NVIDIA",
+      "date": "2026-11-16",
+      "id": "nvidia-nemotron-science",
+      "region": "usa",
+      "source": "Unite.AI",
+      "summary": "NVIDIA has introduced Nemotron for Science, built around its open Nemotron 3.5 Super VL model, with scientific evaluations, post-training recipes, and an open chemistry dataset called LitmusBench v0.2. The release is aimed at researchers using AI for scientific work.",
+      "title": "NVIDIA Launches Nemotron for Science and Open Chemistry Dataset",
+      "type": "company",
+      "url": "https://www.unite.ai/nvidia-launches-nemotron-for-science-and-open-chemistry-dataset/",
+      "why": "It matters because open models and datasets let independent researchers check and build on the work — but an open release is not the same as evidence the model is reliable for real science."
+    },
+    {
+      "company": "AI industry",
+      "date": "2026-11-16",
+      "id": "us-ai-chip-remote-access-rule",
+      "region": "usa",
+      "source": "TechCrunch",
+      "summary": "The US Commerce Department has issued an interim rule requiring licenses to send advanced AI chips to data centers anywhere in the world if they may supply large amounts of computing power to companies in China or other restricted countries. The rule closes a loophole that let firms rent US chips hosted abroad, and adds license requirements for chip exports to Indonesia, Malaysia, Singapore, Thailand, and Brazil.",
+      "title": "US tightens AI chip export controls to deter Chinese companies from accessing compute remotely",
+      "type": "report",
+      "url": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/",
+      "why": "It matters because it turns a reported plan into an actual rule with real licensing consequences — but it is an interim rule, not yet in effect, and how strictly it is enforced is still unknown."
+    },
+    {
       "company": "NVIDIA",
       "date": "2026-11-16",
       "id": "nvidia-kress-first-earnings",
