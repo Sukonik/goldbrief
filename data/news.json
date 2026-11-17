@@ -3,6 +3,42 @@
   "refresh": "Manually curated; not a live feed.",
   "news": [
     {
+      "company": "OpenAI",
+      "date": "2026-11-17",
+      "id": "openai-gpt-6-2-astra-release",
+      "region": "usa",
+      "source": "Unite.AI",
+      "summary": "OpenAI released GPT-6.2 Astra and GPT-6.2 Sol across ChatGPT Work, Codex and its API, cutting Astra's standard token prices by 20%. Astra is the company's first externally released model rated High for AI self-improvement, meaning it can help improve AI systems themselves.",
+      "title": "OpenAI releases GPT-6.2 Astra, its first model rated High for AI self-improvement",
+      "type": "company",
+      "url": "https://www.unite.ai/openai-releases-gpt-6-2-astra-with-first-high-self-improvement-rating/",
+      "why": "It matters because a cheaper flagship model with a high self-improvement rating raises both the competitive bar and the safety stakes — but a rating is a capability label, not proof of how the model behaves in the wild, and price cuts say nothing about whether customers will switch."
+    },
+    {
+      "company": "AI industry",
+      "date": "2026-11-16",
+      "id": "fed-barr-ai-financing-3t",
+      "region": "usa",
+      "source": "Federal Reserve",
+      "summary": "Federal Reserve Governor Michael Barr said the seven largest AI firms' debt should pass $800 billion this year, while their off-balance-sheet commitments — data-center leases, energy contracts and guarantees — could exceed $3 trillion at maximum nominal value.",
+      "title": "Fed governor puts numbers on the AI buildout's financing: $800B in debt, over $3T in commitments",
+      "type": "report",
+      "url": "https://www.federalreserve.gov/newsevents/speech/files/barr20261116a.pdf",
+      "why": "It matters because it is the first official Fed estimate of how much AI infrastructure spending sits outside ordinary debt — but the $3 trillion is a maximum face value of future promises, not money already owed, and the Fed called for close monitoring, not a warning of an imminent crash."
+    },
+    {
+      "company": "Perplexity",
+      "date": "2026-11-17",
+      "id": "perplexity-multiagent",
+      "region": "usa",
+      "source": "Unite.AI",
+      "summary": "Perplexity introduced Multiagent, a setting for its Computer agent platform in which a lead agent can assign up to 16 supporting agents across several frontier models to analyse complex tasks, share evidence and cross-check their work before giving one answer.",
+      "title": "Perplexity launches Multiagent to coordinate frontier AI models",
+      "type": "company",
+      "url": "https://www.unite.ai/perplexity-launches-multiagent-to-coordinate-frontier-ai-models/",
+      "why": "It matters because it tests whether several models checking each other can be more reliable than one model working alone — but a coordination feature is not proof of better answers, and the approach is new enough that its real-world accuracy is unproven."
+    },
+    {
       "company": "Isomorphic Labs",
       "date": "2026-11-17",
       "id": "isomorphic-labs-series-c-5b",
