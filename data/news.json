@@ -3,6 +3,42 @@
   "refresh": "Manually curated; not a live feed.",
   "news": [
     {
+      "company": "NVIDIA",
+      "date": "2026-11-18",
+      "id": "jensen-huang-senate-appearance",
+      "region": "usa",
+      "source": "CNBC",
+      "summary": "Former Nvidia chief executive Jensen Huang has agreed to appear before the Senate Banking Committee, its chairman said, as lawmakers examine questions around Nvidia and China.",
+      "title": "Jensen Huang agrees to appear before Senate banking committee, chairman says",
+      "type": "report",
+      "url": "https://www.cnbc.com/2026/11/18/jensen-huang-nvidia-tim-scott-congress.html",
+      "why": "It matters because the company's former chief will face direct congressional questioning weeks after his abrupt resignation — but an agreement to appear is not testimony, and no date, format, or list of questions has been confirmed."
+    },
+    {
+      "company": "AI industry",
+      "date": "2026-11-18",
+      "id": "banks-ai-agent-liability",
+      "region": "usa",
+      "source": "TechCrunch",
+      "summary": "More banks are telling customers they are responsible if an AI agent acting on their behalf is hacked or misused, following Citi's lead in making customers liable for third-party agent activity.",
+      "title": "More banks say customers using AI agents are on their own — even if they get hacked",
+      "type": "report",
+      "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
+      "why": "It matters because it shifts the cost of agent mistakes onto ordinary customers just as banks encourage agent use — but policies differ from bank to bank, and regulators have not yet ruled on who should bear the loss."
+    },
+    {
+      "company": "OpenAI",
+      "date": "2026-11-18",
+      "id": "openai-amd-chip-optimization",
+      "region": "usa",
+      "source": "The Decoder",
+      "summary": "OpenAI says its models delivered a year's worth of chip optimization on top of AMD's own engineering work, compressing into a short period gains that would otherwise have taken AMD much longer.",
+      "title": "OpenAI says its models delivered a year's worth of chip optimization on top of AMD's own engineering",
+      "type": "report",
+      "url": "https://the-decoder.com/openai-says-its-models-delivered-a-years-worth-of-chip-optimization-on-top-of-amds-own-engineering/",
+      "why": "It matters because it suggests AI models are now improving the chips they run on, not just running on them — but the claim comes from OpenAI itself, not an independent test, and no details of the optimization have been published."
+    },
+    {
       "id": "uk-parliament-ai-safety-report",
       "date": "2026-11-18",
       "title": "UK Parliament report finds ten gaps in AI safety law and urges a new bill",
