@@ -11,10 +11,13 @@
 | First confirmed run | _fill in after the first 08:00 ET run appears in the Actions tab as `workflow_dispatch` from the token owner_ |
 | Backup triggers | five GitHub schedules in `daily.yml` (12:07, 12:37, 13:07, 13:37, 14:07 UTC) |
 
+## Known issue (2026-11-19): the external cron has not fired yet
+The Actions history shows no `workflow_dispatch` run from the cron service since setup (the only dispatch runs are manual tests). In cron-job.org open each job's **History** and read the HTTP status: 204 = delivered; 401 = token missing/expired/wrong scope; 403/404 = token lacks access to `Sukonik/goldbrief` or the URL is wrong; no history at all = the job is disabled or its schedule/time zone is not saved. Re-run "Test run" after fixing.
+
 ## Runbook: what to check when the news looks stale
 1. Open the repository **Actions** tab, workflow "GoldBrief Daily News". Is there a run today?
 2. **No run at all:** check cron-job.org's job history. A 401 means the token expired or was revoked (rotate it, below). A 404 usually means a wrong URL. Anything other than 204 is a failure.
-3. **Run exists but skipped quickly ("No new edition due"):** expected after the first success of the day, or outside the 8-10 AM ET window.
+3. **Run exists but skipped quickly ("No new edition due"):** expected after the first success of the day, or before 8 AM ET.
 4. **Run failed:** read its log. A push rejection is retried automatically; a feed outage keeps the previous edition and shows the stale notice on the site.
 5. To publish immediately: Actions -> "GoldBrief Daily News" -> Run workflow -> tick **force**.
 6. The site shows the edition date and collection time on the news pages. `data/daily.json` has `actual_run_et`.
@@ -27,7 +30,7 @@
 
 GitHub's own scheduler is best-effort and skipped the 2026-10-28 morning run. A free external cron service can call GitHub's workflow-dispatch API instead. This is a second, independent trigger: the five GitHub schedules stay in place as backups.
 
-**Why it is safe to ping more than once.** A dispatch with no inputs is *not* forced. `scripts/daily_update.py` publishes only inside the 8–10 AM America/New_York window and only once per ET day; every other ping exits in seconds without committing. To recollect on demand, dispatch with `force=true`.
+**Why it is safe to ping more than once.** A dispatch with no inputs is *not* forced. `scripts/daily_update.py` publishes on the first run on or after 8 AM America/New_York and only once per ET day; every other ping exits in seconds without committing. To recollect on demand, dispatch with `force=true`.
 
 ## 1. Create a fine-grained GitHub token (you do this; do not paste it into chat)
 GitHub → Settings → Developer settings → Personal access tokens → **Fine-grained tokens** → Generate new token.
@@ -71,7 +74,7 @@ curl -i -X POST \
   https://api.github.com/repos/Sukonik/goldbrief/actions/workflows/daily.yml/dispatches \
   -d '{"ref":"main"}'
 ```
-Expect `HTTP/2 204`. Then open the repository's **Actions** tab: a new "GoldBrief Daily News" run should appear with event *workflow_dispatch*. Outside the 8–10 AM ET window, or after today's edition exists, it finishes in seconds with "No new edition due". Inside the window with no edition yet, it publishes.
+Expect `HTTP/2 204`. Then open the repository's **Actions** tab: a new "GoldBrief Daily News" run should appear with event *workflow_dispatch*. Before 8 AM ET, or after today's edition exists, it finishes in seconds with "No new edition due". After 8 AM ET with no edition yet, it publishes.
 
 ## 4. Monitoring
 - The news pages show the edition date and a notice if today's edition has not published.

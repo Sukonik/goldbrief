@@ -3,7 +3,7 @@ on:
   schedule:
     # Target: edition live by 8:30 AM America/New_York. GitHub's scheduler is best-effort and
     # sometimes skips or delays runs, so there are four staggered attempts on off-peak minutes.
-    # scripts/daily_update.py publishes only inside the 8-10 AM ET window and only once per ET day;
+    # scripts/daily_update.py publishes the first time it runs on or after 8 AM ET each ET day (so a run GitHub starts hours late still publishes) and never twice per day;
     # attempts after the first successful one exit in seconds. Covers EDT (12:xx/13:xx UTC = 8:xx/9:xx)
     # and EST (13:xx/14:xx UTC = 8:xx/9:xx).
     - cron: "7 12 * * *"
@@ -13,7 +13,7 @@ on:
     - cron: "7 14 * * *"
   workflow_dispatch:
     # External cron (docs/EXTERNAL_CRON.md) dispatches with no inputs: it publishes only when an
-    # edition is due (8-10 AM ET window, once per ET day). Tick "force" to recollect immediately.
+    # edition is due (from 8 AM ET, once per ET day). Tick "force" to recollect immediately.
     inputs:
       force:
         description: "Force a new edition now, ignoring the time window and the once-per-day rule"

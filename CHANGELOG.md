@@ -1,6 +1,7 @@
 # Changelog
 
 ## Unreleased
+- Daily news: removed the 8-10 AM ET publish window. GitHub's scheduler was starting runs 6-10 hours late (and the external cron had never fired), so the window made every run skip and the feed stayed on the Oct 28 edition. The first run on or after 8 AM ET each day now publishes.
 - Markets: LED price panel per listing from Payout Lab data (delayed snapshot with last-updated time, dims when stale), a Fetch market data button and per-panel refresh icons; `scripts/update_quotes.py` snapshots daily.
 - Markets: Anthropic (ANT) IPO update from SEC filings (terms, dates, filing timeline) with the debut trade attributed to Morningstar; Markets page is now generated from `data/markets.json` and Visuals counts reflect the new public listing.
 - docs: external cron setup recorded with a stale-news runbook and token rotation checklist.

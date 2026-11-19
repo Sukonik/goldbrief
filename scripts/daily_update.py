@@ -70,8 +70,10 @@ def main():
     now = dt.datetime.now(dt.timezone.utc); et = now.astimezone(EASTERN)
     existing = json.loads(TARGET.read_text())
     manual = os.environ.get("GOLDBRIEF_MANUAL", "false").lower() == "true"
-    if not manual and not et.hour in (8, 9, 10):
-        print("Skipped: not the 8-10 AM ET window:", et.isoformat()); return 0
+    # GitHub's scheduler can start runs many hours late, so any run from 8 AM ET onward publishes the
+    # day's edition if it does not exist yet (stamped with the real run time); earlier runs wait.
+    if not manual and et.hour < 8:
+        print("Skipped: before 8 AM ET:", et.isoformat()); return 0
     if not manual and existing.get("local_date") == et.date().isoformat():
         print("Today's edition already exists."); return 0
     raw, failed = [], []
