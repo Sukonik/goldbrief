@@ -3,6 +3,42 @@
   "refresh": "Manually curated; not a live feed.",
   "news": [
     {
+      "company": "Meta",
+      "date": "2026-11-19",
+      "id": "meta-muse-mixes-conversations",
+      "region": "usa",
+      "source": "TechCrunch",
+      "summary": "Meta's internal AI agent Muse has mixed up conversations between employees, surfacing messages about childcare requests, career advice, product orders, and bank account balances that did not belong to the people who saw them.",
+      "title": "Meta's AI agent Muse is mixing up conversations and exposing private data, report says",
+      "type": "report",
+      "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+      "why": "It matters because an assistant that confuses one person's private information with another's is a basic trust failure — but this is a report about internal use, not a confirmed breach of outside users, and the scale of the problem is still unclear."
+    },
+    {
+      "company": "Google",
+      "date": "2026-11-19",
+      "id": "google-gemini-mac-computer-use",
+      "region": "usa",
+      "source": "TechCrunch",
+      "summary": "Google added computer use to the Gemini app for Mac, letting the assistant carry out multi-step work across local files, desktop applications, and websites after a user describes the workflow.",
+      "title": "Google gives Gemini the ability to use your Mac for you",
+      "type": "company",
+      "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+      "why": "It matters because it moves Gemini from answering questions to operating the computer itself — but an agent that clicks and types on your behalf is only as safe as its judgment, and the rollout's guardrails are still untested at scale."
+    },
+    {
+      "company": "AMD",
+      "date": "2026-11-19",
+      "id": "amd-short-seller-china-exposure",
+      "region": "usa",
+      "source": "CNBC",
+      "summary": "AMD shares fell after a short-seller alleged the company's firmware appeared at a blacklisted Chinese company. AMD said it complies with U.S. law.",
+      "title": "AMD dives on short-seller report of alleged China exposure",
+      "type": "report",
+      "url": "https://www.cnbc.com/2026/11/19/amd-falls-on-short-seller-report-of-alleged-china-exposure.html",
+      "why": "It matters because it drags a second chipmaker into the China-export question — but a short-seller's allegation is a claim from a party betting against the stock, not a finding, and nothing has been confirmed by regulators."
+    },
+    {
       "company": "Anthropic",
       "date": "2026-11-19",
       "id": "anthropic-ant-first-trade-111-50",
