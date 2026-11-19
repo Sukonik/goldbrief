@@ -105,9 +105,9 @@ def markets(s):
                '<ol class="steps-list">' + "".join(f'<li><b>{e(d)}.</b> {e(t)}</li>' for d, t in tl["steps"]) + '</ol></div></section>')
     main = ('<main id="main"><section class="hero"><div class="container"><p class="eyebrow">Markets / IPOs</p><h1 class="display">Follow the money.<br><span class=\'neon\'>Check the filings.</span></h1>'
             '<p class="lede">Company status is not a share-price feed. Rumors, filings and actual stock listings must be distinguished.</p></div></section>'
-            + ups + f'<section><div class="container"><p class="eyebrow">Reference companies</p><h2 class="section-title">Public, private and IPO-related.</h2>{bar}<div class="grid">{cards}</div>'
+            + f'<section><div class="container"><p class="eyebrow">Reference companies</p><h2 class="section-title">Public, private and IPO-related.</h2>{bar}<div class="grid">{cards}</div>'
             f'<p class="last-review">{e(markets_doc["note"])} Last compiled {e(markets_doc["updated"])}.</p></div></section>' + tls +
-            '<section><div class="container"><p class="eyebrow">Learn / IPOs</p><h2 class="section-title">Rumor is not a listing.</h2><p class="lede">A report about a possible IPO, a filed registration statement and an exchange-listed stock are three different stages. Consult <a href="https://www.sec.gov/edgar/search/" target="_blank" rel="noopener noreferrer" class="text-link">SEC EDGAR ↗</a> before acting.</p></div></section></main>')
+            '<section><div class="container"><p class="eyebrow">Learn / IPOs</p><h2 class="section-title">Rumor is not a listing.</h2><p class="lede">A report about a possible IPO, a filed registration statement and an exchange-listed stock are three different stages. Consult <a href="https://www.sec.gov/edgar/search/" target="_blank" rel="noopener noreferrer" class="text-link">SEC EDGAR ↗</a> before acting.</p></div></section>' + ups + '</main>')
     s = re.sub(r'<main id="main">.*?</main>', lambda m: main, s, count=1, flags=re.S)
     return s if 'js/ticker.js' in s else s.replace('<script defer src="js/main.js"></script>', '<script defer src="js/main.js"></script><script defer src="js/ticker.js"></script>')
 
