@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27",
+  "updated": "2026-11-19",
   "note": "Static reference, not investment advice or live pricing. Listing status must be checked with exchanges and official filings before decisions.",
   "markets": [
     {
@@ -67,12 +67,121 @@
     },
     {
       "name": "Anthropic",
-      "ticker": "—",
-      "exchange": "—",
-      "status": "IPO reports: verify SEC filings",
+      "ticker": "ANT",
+      "exchange": "Nasdaq Global Select Market",
+      "status": "Public",
       "focus": "Claude models and enterprise AI",
-      "source": "https://www.sec.gov/edgar/search/",
-      "checked": "2026-10-27"
+      "source": "https://www.sec.gov/edgar/search/#/ciks=0002130357",
+      "checked": "2026-11-19",
+      "note": "IPO priced 2026-11-18; trading from 2026-11-19"
     }
-  ]
+  ],
+  "updates": [
+    {
+      "id": "anthropic-ipo-2026-11-19",
+      "date": "2026-11-19",
+      "company": "Anthropic, PBC",
+      "ticker": "ANT",
+      "headline": "Anthropic priced its IPO at $83.00 a share and began trading on Nasdaq",
+      "facts": [
+        [
+          "Ticker / exchange",
+          "ANT · Nasdaq Global Select Market"
+        ],
+        [
+          "Price to public",
+          "$83.00 per share"
+        ],
+        [
+          "Pricing date",
+          "November 18, 2026"
+        ],
+        [
+          "Trade date",
+          "November 19, 2026"
+        ],
+        [
+          "Settlement date",
+          "November 20, 2026"
+        ],
+        [
+          "Base shares offered",
+          "980,000,000 Class A shares: 956,351,354 sold by Anthropic and 23,648,646 by selling stockholders"
+        ],
+        [
+          "Underwriters' option",
+          "Up to 147,000,000 additional shares (100% primary)"
+        ],
+        [
+          "Offering size",
+          "$81.34 billion, excluding the option (980,000,000 × $83.00)"
+        ],
+        [
+          "Concurrent private placement",
+          "$26.0 billion of Class N common stock (313,253,007 shares) at the price to public"
+        ],
+        [
+          "Lead bookrunners",
+          "Goldman Sachs & Co. LLC; Morgan Stanley & Co. LLC"
+        ],
+        [
+          "Opening trade, Nov 19",
+          "$111.50, about 34% above the offer price (reported by Morningstar; not a live quote)"
+        ]
+      ],
+      "sources": [
+        {
+          "label": "Anthropic filings on SEC EDGAR",
+          "url": "https://www.sec.gov/edgar/search/#/ciks=0002130357"
+        },
+        {
+          "label": "Final prospectus (Form 424B4), filed Nov 19",
+          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074944/anthropicpbc-424b4.htm"
+        },
+        {
+          "label": "Pricing term sheet (Form FWP), Nov 18",
+          "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026074937/anthropicpbc-fwppricing.htm"
+        },
+        {
+          "label": "Opening trade: Morningstar",
+          "url": "https://www.morningstar.com/stocks/anthropic-stock-pops-34-after-record-breaking-ipo"
+        }
+      ],
+      "verification": "Offering terms are transcribed from the pricing term sheet (Form FWP dated November 18, 2026). The final prospectus (Form 424B4) was filed on November 19 and controls if any figure differs; a person has not yet cross-checked it line by line. The opening trade is independent reporting. Prices after the open are not shown: this page is not a quote feed."
+    }
+  ],
+  "timeline": {
+    "title": "Anthropic's path to a listing, from its SEC filings",
+    "note": "Each stage is a different legal and market status. Dates are SEC filing dates unless noted.",
+    "steps": [
+      [
+        "2026-06-01",
+        "Draft registration statement submitted confidentially (Form DRS); confidential amendments followed through October 9"
+      ],
+      [
+        "2026-10-26",
+        "Public registration statement filed (Form S-1)"
+      ],
+      [
+        "2026-11-02, 11-10, 11-17",
+        "Amendments filed (Form S-1/A), including the price range on November 10 (reported by TechCrunch)"
+      ],
+      [
+        "2026-11-17",
+        "Exchange registration of the stock filed (Form 8-A12B)"
+      ],
+      [
+        "2026-11-18",
+        "Registration declared effective; offering priced at $83.00"
+      ],
+      [
+        "2026-11-19",
+        "Final prospectus filed (Form 424B4); shares began trading on Nasdaq as ANT"
+      ],
+      [
+        "2026-11-20",
+        "Settlement date per the pricing term sheet"
+      ]
+    ]
+  }
 }

@@ -1,6 +1,7 @@
 # Changelog
 
 ## Unreleased
+- Markets: Anthropic (ANT) IPO update from SEC filings (terms, dates, filing timeline) with the debut trade attributed to Morningstar; Markets page is now generated from `data/markets.json` and Visuals counts reflect the new public listing.
 - docs: external cron setup recorded with a stale-news runbook and token rotation checklist.
 - Daily workflow: manual/API dispatch is no longer forced by default (new `force` input), so an external cron can ping it safely; added `docs/EXTERNAL_CRON.md` with cron-job.org setup.
 - Daily news: five staggered scheduled attempts (the single 8:30 slot was skipped by GitHub on 2026-10-28), fast exit when no edition is due, wider ET window, and a visible edition/status line with a stale-edition notice.
