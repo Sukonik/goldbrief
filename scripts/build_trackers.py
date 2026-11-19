@@ -5,9 +5,10 @@ Run after editing data/companies.json, data/news.json or data/markets.json:
     python3 scripts/build_trackers.py
 Only counts that can be derived from the datasets are produced; nothing is estimated.
 """
-import html, json, re
+import datetime as dt, html, json, re
 from collections import Counter
 from pathlib import Path
+from zoneinfo import ZoneInfo
 ROOT = Path(__file__).resolve().parents[1]
 load = lambda n: json.loads((ROOT / "data" / f"{n}.json").read_text(encoding="utf-8"))
 e = html.escape
@@ -58,12 +59,39 @@ def visuals(s):
                 f'<p class="last-review">Counts of curated stories only, not of all AI news. Planned: usage, funding and valuation charts once reliable, dated datasets exist.</p></div></section>')
     return re.sub(r'<section><div class="container"><p class="eyebrow">Coverage breakdown</p>.*?(?=</main>)', lambda m: sections, s, count=1, flags=re.S)
 
+REFRESH_ICON = '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M20 12a8 8 0 1 1-2.34-5.66M20 4v5h-5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>'
+
+def et(iso):
+    t = dt.datetime.fromisoformat(iso.replace("Z", "+00:00")).astimezone(ZoneInfo("America/New_York"))
+    return t.strftime("%b %-d, %-I:%M %p") + " ET"
+
+def led(m, quotes):
+    t = m.get("quote_ticker")
+    if not t:
+        return '<p class="led-note">Private company: no public share price.</p>'
+    q = quotes.get(t)
+    if q:
+        val = f'${q["price"]:,.2f}'; ghost = re.sub(r"\d", "8", val)
+        attrs = f'data-price="{q["price"]}" data-updated="{e(q["updated"])}" data-source="{e(q["source"])}"'
+        asof = f'<span class="led__asof">Updated {et(q["updated"])}</span>'; src = f'{e(q["source"])} via Payout Lab · delayed, not live'
+    else:
+        val, ghost, attrs = "– – –", "$888.88", 'data-price="" data-updated="" data-source=""'
+        asof = '<span class="led__asof">Not in Payout Lab data yet</span>'; src = "No delayed price available"
+    return (f'<div class="led" data-ticker="{e(t)}" {attrs}><div class="led__top"><span class="led__sym">{e(t)}</span>'
+            f'<button type="button" class="led__refresh" aria-label="Refresh price for {e(t)}" title="Refresh {e(t)}">{REFRESH_ICON}</button></div>'
+            f'<div class="led__display"><span class="led__ghost" aria-hidden="true">{ghost}</span><span class="led__value">{val}</span></div>'
+            f'<p class="led__meta">{asof} <span class="led__age"></span></p><p class="led__src">{src}</p></div>')
+
 def markets(s):
     ms = markets_doc["markets"]
+    qdoc = json.loads((ROOT / "data" / "quotes.json").read_text(encoding="utf-8")) if (ROOT / "data" / "quotes.json").exists() else {"quotes": {}}
     cards = "".join(
         f'<article class="card"><p class="card__meta">{e(m["status"])}' + (f' · {e(m["note"])}' if m.get("note") else "") + f'</p><h3>{e(m["name"])}</h3>'
-        f'<p>{e(m["ticker"])} · {e(m["exchange"])}</p><p>{e(m["focus"])}</p><p class="last-review">Checked {e(m["checked"])}</p>'
+        f'<p>{e(m["ticker"])} · {e(m["exchange"])}</p><p>{e(m["focus"])}</p>{led(m, qdoc["quotes"])}<p class="last-review">Status checked {e(m["checked"])}</p>'
         f'<p class="card__foot"><a href="{e(m["source"])}" target="_blank" rel="noopener noreferrer" class="text-link">Official source ↗</a></p></article>' for m in ms)
+    bar = ('<div class="ticker-bar"><button type="button" class="btn" data-variant="solid" id="fetch-quotes">' + REFRESH_ICON + '<span>Fetch market data</span></button>'
+           '<p id="quote-status" class="ticker-bar__status" role="status" aria-live="polite">Prices are delayed snapshots from <a class="text-link" href="https://github.com/Sukonik/payout-lab" target="_blank" rel="noopener noreferrer">Payout Lab</a> '
+           '(unofficial Yahoo Finance data), not live quotes. Each price shows when it was last updated; press the button for the newest file.</p></div>')
     ups = ""
     for u in markets_doc.get("updates", []):
         ups += (f'<section><div class="container"><p class="eyebrow">Market update · {e(u["date"])}</p><h2 class="section-title">{e(u["headline"])}.</h2>'
@@ -77,10 +105,11 @@ def markets(s):
                '<ol class="steps-list">' + "".join(f'<li><b>{e(d)}.</b> {e(t)}</li>' for d, t in tl["steps"]) + '</ol></div></section>')
     main = ('<main id="main"><section class="hero"><div class="container"><p class="eyebrow">Markets / IPOs</p><h1 class="display">Follow the money.<br><span class=\'neon\'>Check the filings.</span></h1>'
             '<p class="lede">Company status is not a share-price feed. Rumors, filings and actual stock listings must be distinguished.</p></div></section>'
-            + ups + f'<section><div class="container"><p class="eyebrow">Reference companies</p><h2 class="section-title">Public, private and IPO-related.</h2><div class="grid">{cards}</div>'
+            + ups + f'<section><div class="container"><p class="eyebrow">Reference companies</p><h2 class="section-title">Public, private and IPO-related.</h2>{bar}<div class="grid">{cards}</div>'
             f'<p class="last-review">{e(markets_doc["note"])} Last compiled {e(markets_doc["updated"])}.</p></div></section>' + tls +
             '<section><div class="container"><p class="eyebrow">Learn / IPOs</p><h2 class="section-title">Rumor is not a listing.</h2><p class="lede">A report about a possible IPO, a filed registration statement and an exchange-listed stock are three different stages. Consult <a href="https://www.sec.gov/edgar/search/" target="_blank" rel="noopener noreferrer" class="text-link">SEC EDGAR ↗</a> before acting.</p></div></section></main>')
-    return re.sub(r'<main id="main">.*?</main>', lambda m: main, s, count=1, flags=re.S)
+    s = re.sub(r'<main id="main">.*?</main>', lambda m: main, s, count=1, flags=re.S)
+    return s if 'js/ticker.js' in s else s.replace('<script defer src="js/main.js"></script>', '<script defer src="js/main.js"></script><script defer src="js/ticker.js"></script>')
 
 grid("usa"); grid("international"); patch("visuals.html", visuals); patch("markets.html", markets)
 print(f"Rebuilt trackers: {len(companies)} organizations, {len(news_doc['news'])} stories")

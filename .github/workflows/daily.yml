@@ -40,6 +40,8 @@ jobs:
           GOLDBRIEF_MANUAL: ${{ github.event_name == 'workflow_dispatch' && inputs.force == true }}
         run: |
           python3 scripts/daily_update.py
+          python3 scripts/update_quotes.py
+          python3 scripts/build_trackers.py
           if git diff --quiet data/daily.json && [ "$GOLDBRIEF_MANUAL" != "true" ]; then
             echo "due=false" >> "$GITHUB_OUTPUT"; echo "No new edition due; skipping QA and commit."
           else
@@ -69,7 +71,7 @@ jobs:
         run: |
           git config user.name "goldbrief-daily[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/daily.json reports/daily-site-check.json
+          git add data/daily.json data/quotes.json markets.html visuals.html usa.html international.html reports/daily-site-check.json
           if ! git diff --cached --quiet; then
             git commit -m "chore(daily): update sourced headlines and site review report"
             # main may have moved during the run (e.g. a merged PR); rebase and retry.

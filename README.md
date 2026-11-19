@@ -31,6 +31,9 @@ Make AI easier to understand and more useful to everyday people, reduce fear and
 ## 📈 Markets and visualizations
 [markets.html](https://sukonik.github.io/goldbrief/markets.html) is a watchlist of public companies and IPO status with links to filings, not live prices. [visuals.html](https://sukonik.github.io/goldbrief/visuals.html) shows only counts derived from our datasets (region, focus, listing status, curated stories by month and label). Usage growth, funding and valuation charts are **planned** until reliable dated data exists.
 
+## 💡 Market price panels
+The Markets page shows an LED-style price panel for each listed company, copied from [Payout Lab](https://github.com/Sukonik/payout-lab)'s published `data.json` (unofficial Yahoo Finance / Tiingo data) into `data/quotes.json` by `scripts/update_quotes.py`. These are **delayed snapshots, not live quotes**: every price shows when it was last updated and dims after 24 hours. A **Fetch market data** button (and a refresh icon on each panel) asks Payout Lab for its newest file from the browser. A listing missing from Payout Lab (currently ANT) shows dashes. Replace the source with a licensed feed before relying on it commercially.
+
 ## 📚 Education & resources
 [Glossary](https://sukonik.github.io/goldbrief/glossary.html), [Encyclopedia](https://sukonik.github.io/goldbrief/encyclopedia.html), **[Tools](https://sukonik.github.io/goldbrief/resources.html)** (skills directories such as skills.sh, courses, data and safety sources) and **[UI/UX](https://sukonik.github.io/goldbrief/ui-ux.html)** (the most-starred UI component projects on GitHub's ui-components topic, with a guide to building and improving interfaces with AI; public design-system repositories we learn from; check each license before reusing code).
 

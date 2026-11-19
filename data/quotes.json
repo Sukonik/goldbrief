@@ -1,0 +1,43 @@
+{
+  "generated_at": "2026-11-19T20:03:41+00:00",
+  "source": "Payout Lab",
+  "source_url": "https://sukonik.github.io/payout-lab/data.json",
+  "payout_lab_updated": "2026-11-19T12:14:39.305Z",
+  "currency": "USD",
+  "note": "Delayed snapshot of unofficial Yahoo Finance / Tiingo data via Payout Lab. Not a live feed; each ticker has its own refresh time.",
+  "quotes": {
+    "ADBE": {
+      "price": 243.08,
+      "updated": "2026-11-16T12:07:52.975Z",
+      "source": "Yahoo Finance"
+    },
+    "AMZN": {
+      "price": 257.75,
+      "updated": "2026-11-17T02:38:30.233Z",
+      "source": "Yahoo Finance"
+    },
+    "GOOGL": {
+      "price": 295.77,
+      "updated": "2026-11-16T12:07:27.400Z",
+      "source": "Yahoo Finance"
+    },
+    "META": {
+      "price": 641.69,
+      "updated": "2026-11-16T12:07:27.773Z",
+      "source": "Yahoo Finance"
+    },
+    "MSFT": {
+      "price": 523.88,
+      "updated": "2026-11-16T12:07:26.598Z",
+      "source": "Yahoo Finance"
+    },
+    "NVDA": {
+      "price": 155.46,
+      "updated": "2026-11-18T12:21:00.481Z",
+      "source": "Yahoo Finance"
+    }
+  },
+  "missing": [
+    "ANT"
+  ]
+}
