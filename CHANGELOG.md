@@ -1,6 +1,7 @@
 # Changelog
 
 ## Unreleased
+- Markets: LED price panel per listing from Payout Lab data (delayed snapshot with last-updated time, dims when stale), a Fetch market data button and per-panel refresh icons; `scripts/update_quotes.py` snapshots daily.
 - Markets: Anthropic (ANT) IPO update from SEC filings (terms, dates, filing timeline) with the debut trade attributed to Morningstar; Markets page is now generated from `data/markets.json` and Visuals counts reflect the new public listing.
 - docs: external cron setup recorded with a stale-news runbook and token rotation checklist.
 - Daily workflow: manual/API dispatch is no longer forced by default (new `force` input), so an external cron can ping it safely; added `docs/EXTERNAL_CRON.md` with cron-job.org setup.

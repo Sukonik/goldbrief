@@ -9,7 +9,8 @@
       "status": "Public",
       "focus": "AI hardware and computing infrastructure",
       "source": "https://investor.nvidia.com/",
-      "checked": "2026-10-27"
+      "checked": "2026-10-27",
+      "quote_ticker": "NVDA"
     },
     {
       "name": "Microsoft",
@@ -18,7 +19,8 @@
       "status": "Public",
       "focus": "Cloud AI and productivity applications",
       "source": "https://www.microsoft.com/en-us/investor",
-      "checked": "2026-10-27"
+      "checked": "2026-10-27",
+      "quote_ticker": "MSFT"
     },
     {
       "name": "Alphabet",
@@ -27,7 +29,8 @@
       "status": "Public",
       "focus": "Google, DeepMind and Gemini services",
       "source": "https://abc.xyz/investor/",
-      "checked": "2026-10-27"
+      "checked": "2026-10-27",
+      "quote_ticker": "GOOGL"
     },
     {
       "name": "Meta Platforms",
@@ -36,7 +39,8 @@
       "status": "Public",
       "focus": "Consumer AI products and model research",
       "source": "https://investor.atmeta.com/",
-      "checked": "2026-10-27"
+      "checked": "2026-10-27",
+      "quote_ticker": "META"
     },
     {
       "name": "Amazon",
@@ -45,7 +49,8 @@
       "status": "Public",
       "focus": "AWS AI infrastructure and services",
       "source": "https://ir.aboutamazon.com/",
-      "checked": "2026-10-27"
+      "checked": "2026-10-27",
+      "quote_ticker": "AMZN"
     },
     {
       "name": "Adobe",
@@ -54,7 +59,8 @@
       "status": "Public",
       "focus": "Creative technology and Firefly",
       "source": "https://www.adobe.com/investor-relations.html",
-      "checked": "2026-10-27"
+      "checked": "2026-10-27",
+      "quote_ticker": "ADBE"
     },
     {
       "name": "OpenAI",
@@ -63,7 +69,8 @@
       "status": "Private / status review",
       "focus": "AI research and ChatGPT products",
       "source": "https://openai.com/",
-      "checked": "2026-10-27"
+      "checked": "2026-10-27",
+      "quote_ticker": null
     },
     {
       "name": "Anthropic",
@@ -73,7 +80,8 @@
       "focus": "Claude models and enterprise AI",
       "source": "https://www.sec.gov/edgar/search/#/ciks=0002130357",
       "checked": "2026-11-19",
-      "note": "IPO priced 2026-11-18; trading from 2026-11-19"
+      "note": "IPO priced 2026-11-18; trading from 2026-11-19",
+      "quote_ticker": "ANT"
     }
   ],
   "updates": [
