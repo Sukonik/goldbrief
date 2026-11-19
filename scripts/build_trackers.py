@@ -53,10 +53,34 @@ def visuals(s):
                 f'<p class="last-review">Counts cover included organizations only. Counts of tracked organizations are not a measure of market size.</p></div></section>'
                 f'<section><div class="container"><p class="eyebrow">Tracked organizations</p><h2 class="section-title">By region and by listing status.</h2><div class="surface-panel">'
                 f'{bars(Counter({"U.S.-based": usa, "International": intl}))}</div><div class="surface-panel">{bars(kinds)}</div>'
-                f'<p class="last-review">Listing status is from the Markets page watchlist ({len(markets_doc["markets"])} entries), checked {markets_doc["updated"]}. Verify against exchanges and SEC filings.</p></div></section>'
+                f'<p class="last-review">Listing status is from the Markets page watchlist ({len(markets_doc["markets"])} entries), last checked {max(m["checked"] for m in markets_doc["markets"])} (oldest entry {min(m["checked"] for m in markets_doc["markets"])}). Verify against exchanges and SEC filings.</p></div></section>'
                 f'<section><div class="container"><p class="eyebrow">News coverage</p><h2 class="section-title">Curated stories by month and label.</h2><div class="surface-panel">{bars(by_month)}</div><div class="surface-panel">{bars(by_type)}</div>'
                 f'<p class="last-review">Counts of curated stories only, not of all AI news. Planned: usage, funding and valuation charts once reliable, dated datasets exist.</p></div></section>')
     return re.sub(r'<section><div class="container"><p class="eyebrow">Coverage breakdown</p>.*?(?=</main>)', lambda m: sections, s, count=1, flags=re.S)
 
-grid("usa"); grid("international"); patch("visuals.html", visuals)
+def markets(s):
+    ms = markets_doc["markets"]
+    cards = "".join(
+        f'<article class="card"><p class="card__meta">{e(m["status"])}' + (f' · {e(m["note"])}' if m.get("note") else "") + f'</p><h3>{e(m["name"])}</h3>'
+        f'<p>{e(m["ticker"])} · {e(m["exchange"])}</p><p>{e(m["focus"])}</p><p class="last-review">Checked {e(m["checked"])}</p>'
+        f'<p class="card__foot"><a href="{e(m["source"])}" target="_blank" rel="noopener noreferrer" class="text-link">Official source ↗</a></p></article>' for m in ms)
+    ups = ""
+    for u in markets_doc.get("updates", []):
+        ups += (f'<section><div class="container"><p class="eyebrow">Market update · {e(u["date"])}</p><h2 class="section-title">{e(u["headline"])}.</h2>'
+                f'<div class="surface-panel"><dl class="facts">' + "".join(f'<div class="facts__row"><dt>{e(k)}</dt><dd>{e(v)}</dd></div>' for k, v in u["facts"]) + '</dl></div>'
+                f'<p class="last-review"><b>Sources:</b> ' + " · ".join(f'<a class="text-link" href="{e(x["url"])}" target="_blank" rel="noopener noreferrer">{e(x["label"])} ↗</a>' for x in u["sources"]) + '</p>'
+                f'<p class="last-review">{e(u["verification"])}</p></div></section>')
+    tl = markets_doc.get("timeline")
+    tls = ""
+    if tl:
+        tls = (f'<section><div class="container"><p class="eyebrow">Learn / IPOs</p><h2 class="section-title">{e(tl["title"])}.</h2><p class="lede">{e(tl["note"])}</p>'
+               '<ol class="steps-list">' + "".join(f'<li><b>{e(d)}.</b> {e(t)}</li>' for d, t in tl["steps"]) + '</ol></div></section>')
+    main = ('<main id="main"><section class="hero"><div class="container"><p class="eyebrow">Markets / IPOs</p><h1 class="display">Follow the money.<br><span class=\'neon\'>Check the filings.</span></h1>'
+            '<p class="lede">Company status is not a share-price feed. Rumors, filings and actual stock listings must be distinguished.</p></div></section>'
+            + ups + f'<section><div class="container"><p class="eyebrow">Reference companies</p><h2 class="section-title">Public, private and IPO-related.</h2><div class="grid">{cards}</div>'
+            f'<p class="last-review">{e(markets_doc["note"])} Last compiled {e(markets_doc["updated"])}.</p></div></section>' + tls +
+            '<section><div class="container"><p class="eyebrow">Learn / IPOs</p><h2 class="section-title">Rumor is not a listing.</h2><p class="lede">A report about a possible IPO, a filed registration statement and an exchange-listed stock are three different stages. Consult <a href="https://www.sec.gov/edgar/search/" target="_blank" rel="noopener noreferrer" class="text-link">SEC EDGAR ↗</a> before acting.</p></div></section></main>')
+    return re.sub(r'<main id="main">.*?</main>', lambda m: main, s, count=1, flags=re.S)
+
+grid("usa"); grid("international"); patch("visuals.html", visuals); patch("markets.html", markets)
 print(f"Rebuilt trackers: {len(companies)} organizations, {len(news_doc['news'])} stories")
