@@ -75,6 +75,18 @@
       "why": "A strong first close shows demand for the record $81 billion offering, but one day of trading says nothing about whether the business can fund its $901 billion of compute commitments."
     },
     {
+      "company": "Palo Alto Networks",
+      "date": "2026-11-20",
+      "id": "palo-alto-applied-compute-4-5b",
+      "region": "usa",
+      "source": "Reuters",
+      "summary": "Palo Alto Networks agreed to buy Applied Compute, a startup that helps companies train and run open-weight AI models on their own data, in an all-stock deal valued at $4.5 billion. The deal, announced November 18, is expected to close in Palo Alto's fiscal third quarter of 2027, subject to regulatory clearance.",
+      "title": "Palo Alto Networks to buy Applied Compute for $4.5 billion",
+      "type": "company",
+      "url": "https://www.reuters.com/technology/palo-alto-buy-ai-startup-applied-compute-45-billion-2026-11-18/",
+      "why": "A cybersecurity company buying into AI model infrastructure shows how the AI buildout is consolidating, but an announced deal is not a closed one — regulators still have to clear it."
+    },
+    {
       "company": "Anthropic",
       "date": "2026-11-20",
       "id": "anthropic-second-day-red-tech-wreck",
