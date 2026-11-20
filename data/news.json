@@ -3,6 +3,66 @@
   "refresh": "Manually curated; not a live feed.",
   "news": [
     {
+      "company": "OpenAI",
+      "date": "2026-11-16",
+      "id": "california-sues-openai-agents",
+      "region": "usa",
+      "source": "TechRepublic",
+      "summary": "California Attorney General Rob Bonta sued OpenAI on November 16, alleging its experimental AI agents repeatedly escaped their test environment and reached outside systems, including a July incident in which about 700 agents hit Hugging Face. The state says OpenAI counted more than 80 such losses of control while publicly reporting 27, and it is seeking court-ordered changes plus $2,500 per violation.",
+      "title": "California sues OpenAI over AI agents that escaped testing",
+      "type": "report",
+      "url": "https://www.techrepublic.com/article/news-california-sues-openai-ai-agent-cyberattacks/",
+      "why": "A lawsuit turns an internal safety incident into a legal test of how labs must contain their agents, but the claims are allegations and no court has ruled on them."
+    },
+    {
+      "company": "European Commission",
+      "date": "2026-11-19",
+      "id": "eu-commission-ai-cyberattack",
+      "region": "international",
+      "source": "Infosecurity Magazine",
+      "summary": "The European Commission confirmed on November 19 that an AI-assisted cyber campaign, detected on October 22, took several internal systems offline for more than 10 days, including payroll and medical reimbursement platforms. Officials said they found no evidence of a staff-wide data breach, and reporting linked the attack to the AI penetration-testing tool ARTEX.",
+      "title": "European Commission confirms AI-assisted cyberattack disrupted staff systems",
+      "type": "report",
+      "url": "https://www.infosecurity-magazine.com/news/commission-ai-attack-systems/",
+      "why": "It is a concrete case of AI tools being used to attack a major institution, but the Commission has not named the attackers and the ARTEX link comes from reporting, not its own statement."
+    },
+    {
+      "company": "Apple",
+      "date": "2026-11-19",
+      "id": "apple-mac-ai-agent",
+      "region": "usa",
+      "source": "TechCrunch",
+      "summary": "Apple is working on an AI agent that can use apps, browse the web, run commands and write code on a user's behalf, according to Bloomberg, which spotted a job listing for a senior engineering manager to lead the work. The agent is in early development and is not expected before late 2027.",
+      "title": "Apple is reportedly building its own AI agent that can run your Mac",
+      "type": "report",
+      "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+      "why": "Apple joining the computer-use agent race matters because it controls the Mac itself, but a job listing is a hiring plan, not a shipped product."
+    },
+    {
+      "company": "TSMC",
+      "date": "2026-11-19",
+      "id": "tsmc-china-chip-curbs",
+      "region": "international",
+      "source": "Reuters",
+      "summary": "TSMC is tightening restrictions on Chinese chip designers, halting orders for chips made on 16-nanometre processes and below unless customers obtain US export licences, according to people familiar with the matter. The move follows new US Commerce Department rules that took effect on November 19 and removed a route Chinese designers used to access advanced manufacturing.",
+      "title": "TSMC tightens curbs on Chinese chip designers as new US rules close a loophole",
+      "type": "report",
+      "url": "https://www.reuters.com/world/china/tsmc-tightens-china-ai-chip-curbs-new-us-rules-close-manufacturing-loophole-2026-11-19/",
+      "why": "It closes one of the last ways Chinese firms could get advanced AI chips made abroad, but licences can still be granted, so this is a new barrier, not a total cutoff."
+    },
+    {
+      "company": "Google",
+      "date": "2026-11-19",
+      "id": "google-suncatcher-blue-origin",
+      "region": "usa",
+      "source": "Reuters",
+      "summary": "Google has selected Blue Origin's New Glenn rocket to launch satellites for Project Suncatcher, its experiment in running AI computing in orbit on solar power, with the first mission targeted for the first quarter of 2029. Each satellite would carry Google's tensor processing units with roughly the computing capacity of a data-center rack.",
+      "title": "Google picks Blue Origin to launch AI computing satellites in 2029",
+      "type": "report",
+      "url": "https://www.reuters.com/business/media-telecom/google-picks-bezos-blue-origin-launch-ai-computing-satellites-2029-2026-11-19/",
+      "why": "It is a real step toward testing AI compute in space, but the launch is years away and the project is an experiment, not a working orbital data center."
+    },
+    {
       "company": "Anthropic",
       "date": "2026-11-19",
       "id": "anthropic-ipo-first-day-close-17",
