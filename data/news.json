@@ -3,6 +3,66 @@
   "refresh": "Manually curated; not a live feed.",
   "news": [
     {
+      "id": "tencent-hy4-open-weights",
+      "date": "2026-11-20",
+      "title": "Tencent releases the weights for Hy4, its 770-billion-parameter flagship model",
+      "company": "Tencent",
+      "region": "international",
+      "type": "company",
+      "source": "TechNode",
+      "url": "https://technode.com/2026/11/20/tencent-releases-hy4-model-weights-with-million-token-context/",
+      "summary": "Tencent published downloadable weights for Hy4, its flagship model with 770 billion parameters and a context window of about one million tokens, weeks after launching it as a paid cloud service. The release includes the instruction-tuned model, a smaller FP8 version, and the pretrained base model.",
+      "why": "Downloadable weights let other teams run and study a frontier-scale model themselves, but a download is not a product — teams still need the hardware and skill to run it."
+    },
+    {
+      "id": "house-ai-chip-licenses-china",
+      "date": "2026-11-20",
+      "title": "House panel discloses US approval of nearly 880,000 AI chips for Chinese buyers",
+      "company": "US Government",
+      "region": "usa",
+      "type": "report",
+      "source": "The Register",
+      "url": "https://www.theregister.com/legal/2026/11/20/us-let-nvidia-and-amd-sell-bucketloads-of-chips-to-military-linked-chinese-companies/5311200",
+      "summary": "The House Foreign Affairs Committee released Commerce Department records showing the US approved exports of 879,868 Nvidia and AMD AI chips to Chinese buyers, including companies the Pentagon lists as Chinese military companies. The applications covered more than 3.4 million chips, and the records do not show how many approved chips were actually shipped.",
+      "why": "The disclosure puts hard numbers on a policy debate, but an approved license is not a shipment — the records do not say how many chips actually reached China."
+    },
+    {
+      "id": "openai-medchembench-drug-discovery",
+      "date": "2026-11-20",
+      "title": "OpenAI releases MedChemBench, a test of AI reasoning on drug-discovery problems",
+      "company": "OpenAI",
+      "region": "usa",
+      "type": "company",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/introducing-medchembench/",
+      "summary": "OpenAI introduced MedChemBench, a 99-problem benchmark that tests whether AI models can connect molecular structures with experimental evidence to explain results, compare compounds, and predict their properties. Its GPT-6.2 Astra scored 84.5% of available credit, ahead of earlier GPT models, but only about half the credit on picking compounds and predicting properties.",
+      "why": "The benchmark shows where models are strong at reading chemistry and where they still struggle with the judgments that matter, and OpenAI itself says the results do not show models can discover new drugs."
+    },
+    {
+      "id": "riken-fugaku-breach-second-report",
+      "date": "2026-11-20",
+      "title": "RIKEN confirms data taken in Fugaku supercomputer breach, including 430 outside-system keys",
+      "company": "RIKEN",
+      "region": "international",
+      "type": "report",
+      "source": "Japan Cyber Watch",
+      "url": "https://japancyberwatch.com/articles/fugaku-supercomputer-unauthorized-access-ssh-keys-2026",
+      "summary": "RIKEN's second report on the breach of its Fugaku supercomputer confirmed that intruders took user data, including 430 credentials for outside systems such as SSH private keys found in users' home directories, 233 of them without passphrases. Fugaku was shut down on November 14 and will restart only after its public services are separated from its management network.",
+      "why": "A flagship research machine taken offline by a breach through its public status page shows how thin the line is between public-facing systems and core infrastructure, but RIKEN has not named the attackers or the vulnerability, so the cause is still unknown."
+    },
+    {
+      "id": "microsoft-agent-framework-pypi-attack",
+      "date": "2026-11-17",
+      "title": "Malicious versions of Microsoft's agent-framework package stole credentials from PyPI",
+      "company": "Microsoft",
+      "region": "usa",
+      "type": "report",
+      "source": "JFrog Security Research",
+      "url": "https://research.jfrog.com/post/agent-framework-hijack/",
+      "summary": "Attackers published two malicious versions of Microsoft's agent-framework package on PyPI on November 17, adding a startup hook that ran a credential stealer every time Python launched, even if the package was never imported. The packages targeted Azure and GitHub credentials, and PyPI removed both versions within the hour.",
+      "why": "The attack shows a supply-chain risk in the tools developers use to build AI agents, but the malicious code lived in the packaging, not in Microsoft's framework itself, and only environments that installed the two versions in a short window are affected."
+    },
+    {
       "company": "Anthropic",
       "date": "2026-11-21",
       "id": "anthropic-claude-riemann-hypothesis-claim",
