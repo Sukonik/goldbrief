@@ -123,6 +123,30 @@
       "why": "Funding secured answers one of the biggest questions hanging over the AI buildout, but 'fully funded' is Oracle's own claim — the spending still has to be delivered."
     },
     {
+      "id": "cairn-ai-agents-monai-zero-day",
+      "date": "2026-11-20",
+      "title": "AI agents found a zero-day in medical-imaging software and gained root access, Amazon reports",
+      "company": "Cairn",
+      "region": "usa",
+      "type": "report",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+      "summary": "Amazon Threat Intelligence said suspected China-linked attackers used the open-source Cairn framework to run autonomous AI agents that found a previously unknown flaw in MONAI Label, a medical-imaging server, and gained root access to a university server. Given only the instruction to obtain shell access, the agents went from mapping the software to writing files outside its storage folder in about 11 minutes.",
+      "why": "It is one of the clearest cases yet of AI agents finding and exploiting a real vulnerability on their own, but Amazon's account is its own reconstruction — and the fix exists only in source code, with no patched release to install yet."
+    },
+    {
+      "id": "oregon-sues-openai-teen-safety",
+      "date": "2026-11-17",
+      "title": "Oregon sues OpenAI for $2.035 billion over ChatGPT teen safety",
+      "company": "OpenAI",
+      "region": "usa",
+      "type": "report",
+      "source": "TechRepublic",
+      "url": "https://www.techrepublic.com/article/news-oregon-openai-chatgpt-teen-safety-lawsuit/",
+      "summary": "Oregon Attorney General Dan Rayfield sued OpenAI on November 17, seeking at least $2.035 billion and court-ordered safety changes, alleging ChatGPT was marketed to minors as safe while its age checks and parental alerts repeatedly failed. The complaint cites testing that found missing or delayed parental alerts during conversations about self-harm and eating disorders.",
+      "why": "A state attorney general putting a multibillion-dollar price on teen-safety claims raises the legal stakes for every chatbot maker, but the filing is a set of allegations — no court has ruled on them."
+    },
+    {
       "company": "Cognition AI",
       "date": "2026-11-20",
       "id": "cognition-ai-75b-valuation-round",
