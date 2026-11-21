@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-20T19:57:44+00:00",
+  "generated_at": "2026-11-21T19:03:42+00:00",
   "source": "Payout Lab",
   "source_url": "https://sukonik.github.io/payout-lab/data.json",
-  "payout_lab_updated": "2026-11-20T01:28:56.613Z",
+  "payout_lab_updated": "2026-11-21T01:00:09.333Z",
   "currency": "USD",
   "note": "Delayed snapshot of unofficial Yahoo Finance / Tiingo data via Payout Lab. Not a live feed; each ticker has its own refresh time.",
   "quotes": {
