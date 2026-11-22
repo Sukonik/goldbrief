@@ -1,7 +1,43 @@
 {
-  "updated": "2026-11-21",
+  "updated": "2026-11-22",
   "refresh": "Manually curated; not a live feed.",
   "news": [
+    {
+      "id": "openai-gpt-6-2-prompting-guide",
+      "date": "2026-11-21",
+      "title": "OpenAI publishes prompting tips for GPT-6.2 after early users hit terse answers and stalled tasks",
+      "company": "OpenAI",
+      "region": "usa",
+      "type": "company",
+      "source": "The Decoder",
+      "url": "https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions/",
+      "summary": "OpenAI published new prompting guidance for GPT-6.2 Astra and Sol, days after the models launched, with copy-ready prompts for writing style, initiative, and coding. The guide also warns that editing earlier conversation history can cause the API to drop the model's reasoning, which can lower answer quality.",
+      "why": "It matters because the new models behave differently enough that old prompts can backfire — but vendor tips are a starting point, not proof the models will behave that way in your own app."
+    },
+    {
+      "id": "openai-gpt-live-1-1",
+      "date": "2026-11-20",
+      "title": "OpenAI ships GPT-Live-1.1 for voice agents, with a cheaper rate for idle time",
+      "company": "OpenAI",
+      "region": "usa",
+      "type": "company",
+      "source": "MarkTechPost",
+      "url": "https://www.marktechpost.com/2026/11/21/openai-gpt-live-1-1-api-standby-mode/",
+      "summary": "OpenAI made GPT-Live-1.1 available through its API, an updated full-duplex voice model that listens while it speaks. A new standby mode bills idle WebRTC sessions at $0.02 a minute instead of $0.05, pausing inference while the connection stays open until someone speaks again.",
+      "why": "It matters because cheaper idle time makes always-on voice agents less expensive to run — but the saving applies only to silence, and the model is an incremental update, not a new capability."
+    },
+    {
+      "id": "baseten-bison-1-groundhog-1",
+      "date": "2026-11-20",
+      "title": "Baseten releases two open-weight decision models built on Google's Gemma 4",
+      "company": "Baseten",
+      "region": "usa",
+      "type": "company",
+      "source": "Baseten",
+      "url": "https://www.baseten.co/blog/meet-bison-1-and-groundhog-1/",
+      "summary": "Baseten released bison-1 and groundhog-1, two open-weight models that return calibrated probabilities for predefined decisions instead of generating text. Both are built on Google's Gemma 4, support 128,000-token context and image input, and bison-1 ranks first among 19 models on the Artificial Analysis Decision Index.",
+      "why": "It matters because open weights plus a top benchmark score give teams usable building blocks for models that choose rather than chat — but a ranking on one index is not the same as reliability in production."
+    },
     {
       "id": "tencent-hy4-open-weights",
       "date": "2026-11-20",
