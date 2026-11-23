@@ -1,7 +1,43 @@
 {
-  "updated": "2026-11-22",
+  "updated": "2026-11-23",
   "refresh": "Manually curated; not a live feed.",
   "news": [
+    {
+      "id": "nvidia-reinstates-jensen-huang-ceo",
+      "date": "2026-11-23",
+      "title": "Nvidia reinstates Jensen Huang as CEO, 11 days after his resignation",
+      "company": "NVIDIA",
+      "region": "usa",
+      "type": "company",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/technology/nvidia-reinstates-jensen-huang-ceo-2026-11-23/",
+      "summary": "Nvidia's board voted unanimously to reinstate Jensen Huang as president and chief executive, effective immediately, 11 days after he resigned following revelations of extramarital affairs, including one with a woman said to be linked to Chinese intelligence. The board said a series of meetings left it satisfied with Huang's candor and leadership, and that input from senior US government officials left it confident his return poses no national security risk. Colette Kress, who served as interim chief executive, remains chief financial officer.",
+      "why": "It matters because the reversal ends a leadership crisis at Nvidia just as the AI chip market is under strain — but a reinstatement is not a clean resolution: Nvidia's investigation into reports that Huang was targeted by a foreign intelligence effort continues, and Huang is still due to testify before Congress."
+    },
+    {
+      "id": "sierra-series-f-30b-valuation",
+      "date": "2026-11-23",
+      "title": "Sierra doubles its valuation to $30 billion with a $1.75 billion Series F",
+      "company": "Sierra",
+      "region": "usa",
+      "type": "company",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
+      "summary": "Customer-experience AI company Sierra raised $1.75 billion in a Series F round led by Greenoaks and Lightspeed Venture Partners, doubling its valuation to $30 billion within six months of its previous round. Sierra, co-founded by former Salesforce co-CEO Bret Taylor, says it passed $400 million in annual recurring revenue and charges customers for completed outcomes rather than for AI usage.",
+      "why": "It matters because a valuation doubling in six months shows investors still pay up for AI companies with real revenue — but a valuation is a price investors agreed to, not a business result, and Sierra's revenue figures are the company's own, not independently audited."
+    },
+    {
+      "id": "openai-pachocki-perplexity-limits",
+      "date": "2026-11-22",
+      "title": "OpenAI's chief scientist proposes a shared speed limit for frontier AI",
+      "company": "OpenAI",
+      "region": "usa",
+      "type": "report",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/openai-pachocki-perplexity-ai-benchmark/",
+      "summary": "OpenAI chief scientist Jakub Pachocki published an essay, 'Perplexity and Intelligence,' sharing the company's internal log-perplexity scores — about 0.99 for GPT-3.5, about 0.91 for GPT-4, and below 0.8 for recent models — and proposing that frontier labs agree on shared development limits tied to that measure. He flags the 0.68–0.70 range as where the next jump in capabilities is expected, and argues labs should not cross it until safety monitoring catches up.",
+      "why": "It matters because it is the first time OpenAI has published its own pretraining numbers and proposed a common yardstick for slowing down — but a proposal is not an agreement, and the scores were measured on OpenAI's own held-out data, so other labs would need to measure the same way for the limit to mean anything."
+    },
     {
       "id": "openrouter-drops-providers-prompt-theft",
       "date": "2026-11-22",
