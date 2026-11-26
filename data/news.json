@@ -75,18 +75,6 @@
       "why": "It matters because pairing AI-generated results with machine-checked proofs guards against hallucinated science — but these are resource estimates, not demonstrations on real quantum hardware, and the circuits still exceed what early error-corrected machines can run."
     },
     {
-      "id": "deepseek-15b-round-86b-valuation",
-      "date": "2026-11-19",
-      "title": "DeepSeek closes about $15 billion round at an $86 billion valuation, eyes Shanghai IPO",
-      "company": "DeepSeek",
-      "region": "international",
-      "type": "report",
-      "source": "Crypto Briefing",
-      "url": "https://cryptobriefing.com/deepseek-founder-wealth-55-billion/",
-      "summary": "DeepSeek closed a second external funding round of about 100 billion yuan, roughly $15 billion, at a post-money valuation of about $86 billion, according to Chinese registry filings and reporting by Caixin and The Information. Investors include Tencent and CATL, and the company has hired CITIC Securities to prepare a listing on Shanghai's STAR Market.",
-      "why": "It matters because China's leading open-model lab is now funded at a scale rivaling US giants — but the figures are reported, not confirmed by DeepSeek, and a valuation is what investors agreed to pay, not a measure of revenue."
-    },
-    {
       "id": "nvidia-reinstates-jensen-huang-ceo",
       "date": "2026-11-23",
       "title": "Nvidia reinstates Jensen Huang as CEO, 11 days after his resignation",
