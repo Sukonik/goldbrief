@@ -1,7 +1,91 @@
 {
-  "updated": "2026-11-23",
+  "updated": "2026-11-26",
   "refresh": "Manually curated; not a live feed.",
   "news": [
+    {
+      "id": "openai-gpt-6-protein-design",
+      "date": "2026-11-24",
+      "title": "OpenAI says GPT-6 can design proteins that bind in lab tests",
+      "company": "OpenAI",
+      "region": "usa",
+      "type": "company",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+      "summary": "OpenAI said its GPT-6 models can design new protein shapes and sequences using reasoning and code, without relying on specialist biology models for the designs. In lab tests with research partner Onava, proteins based on GPT-6.2 designs showed evidence of binding to all five targets tested, with 35 of 322 tested designs binding.",
+      "why": "It matters because a general-purpose model showing real lab results in protein design widens what one model can do — but binding in a lab assay is not a drug, and OpenAI says the work still relied on specialist models for sequences and candidate selection."
+    },
+    {
+      "id": "anthropic-claude-artifacts-desktop-apps",
+      "date": "2026-11-24",
+      "title": "Claude artifacts can now install as Mac and Windows desktop apps",
+      "company": "Anthropic",
+      "region": "usa",
+      "type": "company",
+      "source": "Anthropic",
+      "url": "https://claude.com/resources/articles/install-as-app",
+      "summary": "Anthropic added an “Install as app” beta that turns a Claude artifact into a standalone Mac or Windows desktop app with its own icon and window. Installed apps can use Claude and connected services, update automatically when the artifact is edited, and ask for permissions up to full access to the computer.",
+      "why": "It matters because tools built in a chat can now live on the desktop like real software — but Anthropic does not review these apps before install, so full computer access should go only to apps you trust."
+    },
+    {
+      "id": "anthropic-xai-compute-rental",
+      "date": "2026-11-24",
+      "title": "Anthropic pays xAI about $3.1 billion a month for compute, NYT reports",
+      "company": "Anthropic",
+      "region": "usa",
+      "type": "report",
+      "source": "The Decoder",
+      "url": "https://the-decoder.com/anthropics-appetite-for-compute-is-pushing-xai-toward-a-rent-over-build-strategy/",
+      "summary": "The New York Times reports that Anthropic has become xAI's largest customer, paying about $3.1 billion a month to rent GPU capacity, and that the contract now supplies more than half of xAI's revenue. Google also pays about $800 million a month for the same service, and both deals can be cancelled on 90 days' notice.",
+      "why": "It matters because the AI race is increasingly a compute-rental business, with rivals paying each other billions — but a contract either side can cancel on 90 days' notice is not a stable revenue base, and the revenue-share figure comes from reporting, not from either company confirming it."
+    },
+    {
+      "id": "openai-gpt-6-2-sol-chat-rollout",
+      "date": "2026-11-23",
+      "title": "OpenAI rolls GPT-6.2 Sol into ChatGPT chat and sets GPT-5.6 retirement for December 23",
+      "company": "OpenAI",
+      "region": "usa",
+      "type": "company",
+      "source": "9to5Mac",
+      "url": "https://9to5mac.com/2026/11/23/chatgpt-expands-gpt-6-2-sol-as-openai-sets-retirement-date-for-two-models/",
+      "summary": "OpenAI began rolling a chat-tuned version of GPT-6.2 Sol into ChatGPT's Chat tab for Plus, Pro, Business and Enterprise users, tuned for everyday conversation. The company also set December 23 as the retirement date for GPT-5.6 Sol and GPT-5.6 Terra.",
+      "why": "It matters because paying ChatGPT users get the newer model for everyday chats — but a retirement date is a plan, not a guarantee, and free users are not included in this rollout."
+    },
+    {
+      "id": "anthropic-claude-ship-beta",
+      "date": "2026-11-23",
+      "title": "Anthropic launches Claude Ship, agents that review, fix and approve pull requests",
+      "company": "Anthropic",
+      "region": "usa",
+      "type": "company",
+      "source": "AI Weekly",
+      "url": "https://aiweekly.co/alerts/anthropics-claude-ship-lets-claude-approve-pull-requests-by-policy",
+      "summary": "Anthropic launched Claude Ship in beta, a set of three agents that review GitHub pull requests, fix failing checks and merge conflicts, and approve routine changes under a policy the team writes. It is available to Team and Enterprise customers, with a /ship command in Claude Code for individual developers.",
+      "why": "It matters because AI agents are moving from writing code to deciding what code ships — but an approval is only as good as the policy file behind it, and Anthropic itself recommends starting in observe-only mode."
+    },
+    {
+      "id": "google-deepmind-quantum-agents-lean",
+      "date": "2026-11-23",
+      "title": "DeepMind's Gemini 4 agent teams cut quantum algorithm costs up to 290 times, proved in Lean",
+      "company": "Google DeepMind",
+      "region": "usa",
+      "type": "company",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+      "summary": "Google DeepMind and Google Quantum AI used teams of Gemini 4 agents to find cheaper versions of known quantum algorithms, cutting estimated costs by up to 290 times for one arithmetic routine and 11.8 times for a fusion simulation. Each result was proved correct with the Lean theorem prover, and the team open-sourced its Lean library.",
+      "why": "It matters because pairing AI-generated results with machine-checked proofs guards against hallucinated science — but these are resource estimates, not demonstrations on real quantum hardware, and the circuits still exceed what early error-corrected machines can run."
+    },
+    {
+      "id": "deepseek-15b-round-86b-valuation",
+      "date": "2026-11-19",
+      "title": "DeepSeek closes about $15 billion round at an $86 billion valuation, eyes Shanghai IPO",
+      "company": "DeepSeek",
+      "region": "international",
+      "type": "report",
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/deepseek-founder-wealth-55-billion/",
+      "summary": "DeepSeek closed a second external funding round of about 100 billion yuan, roughly $15 billion, at a post-money valuation of about $86 billion, according to Chinese registry filings and reporting by Caixin and The Information. Investors include Tencent and CATL, and the company has hired CITIC Securities to prepare a listing on Shanghai's STAR Market.",
+      "why": "It matters because China's leading open-model lab is now funded at a scale rivaling US giants — but the figures are reported, not confirmed by DeepSeek, and a valuation is what investors agreed to pay, not a measure of revenue."
+    },
     {
       "id": "nvidia-reinstates-jensen-huang-ceo",
       "date": "2026-11-23",
