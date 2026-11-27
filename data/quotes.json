@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-26T21:22:31+00:00",
+  "generated_at": "2026-11-27T21:02:13+00:00",
   "source": "Payout Lab",
   "source_url": "https://sukonik.github.io/payout-lab/data.json",
-  "payout_lab_updated": "2026-11-26T02:31:06.211Z",
+  "payout_lab_updated": "2026-11-27T02:27:23.136Z",
   "currency": "USD",
   "note": "Delayed snapshot of unofficial Yahoo Finance / Tiingo data via Payout Lab. Not a live feed; each ticker has its own refresh time.",
   "quotes": {
@@ -22,18 +22,18 @@
       "source": "Yahoo Finance"
     },
     "GOOGL": {
-      "price": 265.29,
-      "updated": "2026-11-23T00:30:06.823Z",
+      "price": 273.1,
+      "updated": "2026-11-27T02:27:20.780Z",
       "source": "Yahoo Finance"
     },
     "META": {
-      "price": 560.84,
-      "updated": "2026-11-23T00:30:07.186Z",
+      "price": 609.89,
+      "updated": "2026-11-27T02:27:21.128Z",
       "source": "Yahoo Finance"
     },
     "MSFT": {
-      "price": 484.52,
-      "updated": "2026-11-23T00:30:06.027Z",
+      "price": 489.93,
+      "updated": "2026-11-27T02:27:20.059Z",
       "source": "Yahoo Finance"
     },
     "NVDA": {

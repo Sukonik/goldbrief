@@ -1,7 +1,7 @@
 {
   "result": "PASS",
   "browser_checks": "ran",
-  "checked_at": "2026-11-26T21:24:21+00:00",
+  "checked_at": "2026-11-27T21:04:02+00:00",
   "scope": "Structural + headless-browser checks (overflow at 320-1920px, JS errors, mobile drawer). Visual quality is not judged automatically.",
   "pages_checked": 16,
   "widths": [
